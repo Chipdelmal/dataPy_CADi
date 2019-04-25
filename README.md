@@ -1,6 +1,6 @@
 # DataPy CADi
 
-This repository contains the materials for the **Data acquisition, wrangling and exploratory analysis in Python**, three days intensive [CADi](http://sitios.itesm.mx/va/capacitacion/1_2.html) (["Cursos de Actualización en las Disciplinas"](http://sitios.itesm.mx/va/capacitacion/1_2.html)) course taught to faculty members at ["Tecnológico de Monterrey"](https://tec.mx/es) Institute.
+This repository contains the materials for the **Data acquisition, wrangling and exploratory analysis in Python**, three days intensive [CADi](http://sitios.itesm.mx/va/capacitacion/1_2.html) (["Cursos de Actualización en las Disciplinas"](http://sitios.itesm.mx/va/capacitacion/1_2.html)) for faculty members at ["Tecnológico de Monterrey"](https://tec.mx/es) Institute.
 <hr>
 
 
@@ -19,13 +19,15 @@ Given that the course is intended to be useful for several disciplines, the work
 
 1. Python
 2. Anaconda and Virtualenv
+3. Jupyter, Spyder, and Atom
+4. Github
 
 ### Day 02 (8h)
 
 
 ### Day 03 (8h)
 
-
+1. Pypi
 
 <hr>
 
@@ -38,8 +40,18 @@ Given that the course is intended to be useful for several disciplines, the work
 ### Online
 
 * [Python 3.7 documentation](https://docs.python.org/3.7/)
+* [Anaconda documentation](https://docs.anaconda.com/)
+* [Virtualenv documentation](https://virtualenv.pypa.io/en/latest/)
 
 ### Books
+
+
+* [McKinney, W. Python for Data Analysis - Data Wrangling with Pandas, Numpy and Python. (2018). ISBN-13: 1491957662](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/ref=asc_df_1491957662/?tag=hyprod-20&linkCode=df0&hvadid=312140868236&hvpos=1o1&hvnetw=g&hvrand=6431209822672155744&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032076&hvtargid=pla-396828636441&psc=1)
+* [Géron, Aurélien (2018). Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems](http://shop.oreilly.com/product/0636920052289.do)
+* [Lutz, M., & Ascher, D. (20015). Learning Python.](https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730)
+* [Lubanovic, B. (2015). Introducing python, modern computing in simple packages.](https://www.amazon.com/Introducing-Python-Modern-Computing-Packages-ebook/dp/B00PHTRLO2)
+* [Lutz, M. (2014). Python Pocket Reference.](https://www.amazon.com/Python-Pocket-Reference-Your-OReilly/dp/1449357016)
+* [Beazley, D. (2013). Python Cookbook.](https://www.amazon.com/Python-Cookbook-Third-David-Beazley/dp/1449340377)
 
 
 <hr>
