@@ -17,17 +17,21 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 ### Day 01 (8h)
 
-1. Python
+1. Python 101
 2. Anaconda and Virtualenv
 3. Jupyter, Spyder, and Atom
 4. Github
 
 ### Day 02 (8h)
 
+1. Python (Object-Oriented)
+2. Matplotlib
+3.
 
 ### Day 03 (8h)
 
 1. [Pypi](./md/pypi.md)
+2.
 
 <hr>
 
@@ -40,6 +44,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 ### Online
 
+* [dataViz CADi](https://github.com/Chipdelmal/dataViz_CADi)
 * [Python 3.7 documentation](https://docs.python.org/3.7/)
 * [Anaconda documentation](https://docs.anaconda.com/)
 * [Virtualenv documentation](https://virtualenv.pypa.io/en/latest/)
