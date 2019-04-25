@@ -13,7 +13,7 @@ This repository contains the materials for the **Data acquisition, wrangling and
 
 ## Contents
 
-Given that the course is intended to be useful for several disciplines, the workshop was created with flexibility in mind. As such, modules are fairly independent and can be taken in different order.
+This workshop was created with flexibility in mind. As such, modules are fairly independent and can be taken in different order than the one suggested here.
 
 ### Day 01 (8h)
 
@@ -27,7 +27,7 @@ Given that the course is intended to be useful for several disciplines, the work
 
 ### Day 03 (8h)
 
-1. Pypi
+1. [Pypi](./md/pypi.md)
 
 <hr>
 
@@ -36,6 +36,7 @@ Given that the course is intended to be useful for several disciplines, the work
 
 ### Tools
 
+* [repl.it](https://repl.it/languages/python3)
 
 ### Online
 
@@ -53,5 +54,15 @@ Given that the course is intended to be useful for several disciplines, the work
 * [Lutz, M. (2014). Python Pocket Reference.](https://www.amazon.com/Python-Pocket-Reference-Your-OReilly/dp/1449357016)
 * [Beazley, D. (2013). Python Cookbook.](https://www.amazon.com/Python-Cookbook-Third-David-Beazley/dp/1449340377)
 
+
+<hr>
+
+### Author: [Ph.D. Héctor Manuel Sánchez Castellanos](https://chipdelmal.github.io/)
+
+Contact: [ sanchez.hmsc@berkeley.edu | chipdelmal@gmail.com ]<br>
+My main projects: [ [MGDrivE](https://marshalllab.github.io/MGDrivE/) & [MoNeT](https://chipdelmal.github.io/MoNeT/) ]<br>
+My personal website: [ [chipdelmal.github.io](https://chipdelmal.github.io/) ]
+
+<img src="./md/media/berkeley.jpg" height="40"><img src="./md/media/ihme.png" height="40"><img src="./md/media/itesm.png" height="50"><br>
 
 <hr>
