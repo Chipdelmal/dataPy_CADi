@@ -1,3 +1,4 @@
-# dataPy CADi
+# dataPy CADi: Conda Environment
 
-Data wrangling/exploration in Python
+* Geopandas
+* Numpy
