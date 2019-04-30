@@ -1,6 +1,10 @@
 # Environments
 
+One of Python's greatest strengths is the availability of community packages to tackle a wide variety of scientific/engineering tasks. This, however, leads to an unintended problem: **What happens when some of my packages require different versions of Python or other packages?**
 
+For example, if we create our own package that requires [numpy](https://www.numpy.org/), but the developers are announcing some upcoming changes that might break the functionality of my code; how can we ensure that our package will continue to work if I update [numpy](https://www.numpy.org/) to work in another project in my computer?
+
+##  Updating pip
 
 Updating on MacOs and Linux:
 

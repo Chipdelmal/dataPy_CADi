@@ -31,7 +31,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 ### Day 03 (8h)
 
 1. [Pypi](./md/pypi.md)
-2.
+2. [GeoData](./md/geoData.md)
 
 <hr>
 
