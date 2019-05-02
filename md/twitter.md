@@ -18,6 +18,8 @@
 
 ##  Python Packages
 
+Fortunately, we don't need to worry creating our own implementation necessary for the communication with the twitter API. Several packages exist to make this common task easy and accessible for us as developers/researchers.
+
 ###  [Tweepy](https://www.tweepy.org/)
 
 Tweepy is a Python wrapper for making common tasks in the Twitter API accessible and easy to use. It is fully [documented](https://tweepy.readthedocs.io/en/latest/index.html) and it has community support that share [examples](https://stackabuse.com/accessing-the-twitter-api-with-python/) and help.
@@ -30,9 +32,10 @@ pip install tweepy
 conda deactivate
 ```
 
+Once installed, we can move on to some [exercises](../scripts/twitter.py).
 
 
-### [Other](https://stackabuse.com/accessing-the-twitter-api-with-python/)
+### [Other Python Packages](https://stackabuse.com/accessing-the-twitter-api-with-python/)
 
 * [Tweepy](https://github.com/tweepy/tweepy)
 * [Twython](https://github.com/ryanmcgrath/twython)
