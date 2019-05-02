@@ -5,9 +5,15 @@
 
 <hr>
 
+##  Installation
+
+<hr>
+
 ##  First Steps
 
-### Installation
+For the introduction to the language, let's head to either of:
+* https://www.onlinegdb.com/online_python_interpreter
+* https://repl.it/
 
 ### Hello World!
 
