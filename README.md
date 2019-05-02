@@ -6,6 +6,8 @@ This repository contains the materials for the **Data acquisition, wrangling and
 
 ## Requirements
 
+This course will be taught assuming little previous experience in programming, so no thorough background is required.
+
 * [Python 3.7](https://www.python.org/downloads/)
 * [Anaconda](https://www.anaconda.com/) or [minconda](https://docs.conda.io/en/latest/miniconda.html)
 
@@ -17,21 +19,24 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 ### Day 01 (8h)
 
-1. Python 101
-2. Anaconda and Virtualenv
-3. Jupyter, Spyder, and Atom
-4. Github
+1. [Python 101](./md/python101.md): Introduction to the programming language.
+1. [Python Environments](./md/environments.md): Using [anaconda](https://www.anaconda.com/) and [virtualenv](https://virtualenv.pypa.io/en/latest/) to avoid packages clashes.
+1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), and [Atom](https://ide.atom.io/) for python code development.
+1. [Data Wrangling](./md/dataWrangling.md):
 
 ### Day 02 (8h)
 
-1. Python (Object-Oriented)
-2. Matplotlib
-3.
+1. [Python 102](./md/python102.md): Object-oriented concepts.
+1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
+1. [Twitter](./md/twitter.md):
+1. [Google Trends](./md/googleTrends.md):
 
 ### Day 03 (8h)
 
-1. [Pypi](./md/pypi.md)
-2. [GeoData](./md/geoData.md)
+1. [Python 103](./md/python103.md): Advanced topics
+1. [Pypi](./md/pypi.md):
+1. [GeoData](./md/geoData.md):
+1. [Plotting](./md/plots.md): Using [matplotlib](https://matplotlib.org/) to generate meaningful data representations.
 
 <hr>
 
