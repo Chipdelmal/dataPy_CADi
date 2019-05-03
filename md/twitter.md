@@ -4,6 +4,8 @@
 
 ##  [Twitter API](https://developer.twitter.com/en/docs.html)
 
+Twitter's API (Application Programming Interface)
+
 [<img src="./media/twitterAPI.png" width="100%">](https://developer.twitter.com/en/docs.html)
 
 ### [Setting up the credentials](https://developer.twitter.com/en/apps/16139502)
