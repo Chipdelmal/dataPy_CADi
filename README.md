@@ -8,7 +8,9 @@ The course covers subjects include the parsing and handling of data from differe
 
 <center>
 
-  [<img src="./md/media/logoTwitter.png" height="50px">](https://developer.twitter.com/en/docs.html)[<img src="./md/media/logoTrends.jpg" height="50px">](https://trends.google.com/trends/?geo=US)[<img src="./md/media/logoJupyter.png" height="50px">](https://jupyter.org/)[<img src="./md/media/logoSpyder.png" height="50px">](https://www.spyder-ide.org/)[<img src="./md/media/logoOSM.png" height="50px">](https://www.openstreetmap.org/)[<img src="./md/media/logoPandas.png" height="50px">](hhttps://pandas.pydata.org/)[<img src="./md/media/logoNumpy.jpeg" height="50px">](https://www.numpy.org/)[<img src="./md/media/logoAtom.png" height="50px">](https://ide.atom.io/)[<img src="./md/media/logoGIS.png" height="50px">](https://www.esri.com/en-us/what-is-gis/overview)[<img src="./md/media/logoGithub.png" height="50px">](https://www.esri.com/en-us/what-is-gis/overview)
+  [<img src="./md/media/logoTwitter.png" height="50px">](https://developer.twitter.com/en/docs.html)[<img src="./md/media/logoTrends.jpg" height="50px">](https://trends.google.com/trends/?geo=US)[<img src="./md/media/logoJupyter.png" height="50px">](https://jupyter.org/)[<img src="./md/media/logoSpyder.png" height="50px">](https://www.spyder-ide.org/)[<img src="./md/media/logoOSM.png" height="50px">](https://www.openstreetmap.org/)[<img src="./md/media/logoPandas.png" height="50px">](hhttps://pandas.pydata.org/)[<img src="./md/media/logoNumpy.jpeg" height="50px">](https://www.numpy.org/)[<img src="./md/media/logoAtom.png" height="50px">](https://ide.atom.io/)[<img src="./md/media/logoGIS.png" height="50px">](https://www.esri.com/en-us/what-is-gis/overview)[<img src="./md/media/logoGithub.png" height="50px">](https://www.github.com)[<img src="./md/media/logoPypi.png" height="50px">](https://pypi.org/)
+
+
 
 </center>
 
@@ -18,14 +20,11 @@ The course covers subjects include the parsing and handling of data from differe
 
 ## Requirements
 
-This course will be taught assuming little previous experience in programming, so no thorough background is required.
-
-* [Python 3.7](https://www.python.org/downloads/)
-* [Anaconda](https://www.anaconda.com/) or [minconda](https://docs.conda.io/en/latest/miniconda.html)
+This course will be taught assuming little previous experience in programming, so no thorough background is required. We will be learning how to use the python programming language to perform common data wrangling operations, as well as how to handle, install and create packages to leverage community development.
 
 <br>
 
-[<img src="./md/media/logoPython.png" width="100%">](https://developer.twitter.com/en/docs.html)
+[<img src="./md/media/logoPython.png" width="50%">](https://developer.twitter.com/en/docs.html)
 
 
 <hr>
@@ -45,7 +44,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 1. [Python 102](./md/python102.md): Object-oriented concepts.
 1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
-1. [Twitter](./md/twitter.md):
+1. [Twitter](./md/twitter.md): Interfacing with the API to get trends,
 1. [Google Trends](./md/googleTrends.md):
 
 ### Day 03 (8h)

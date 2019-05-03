@@ -2,11 +2,7 @@ import twitter
 import json
 import yweather
 
-
-access_token = "39919145-0gMNn682hEvPluiEmIYf0M2brYLOCQpUx7pvxhykU"
-access_token_secret = "YAFqke0r5D228DQO8odr8qMqoDcSMoSZ9a5yS3DB79bGi"
-consumer_key = "FvSNSFFi4WQnofTIf38Ukuwxs"
-consumer_secret = "raHTs7TiXQkfhL78YNxxmWvb9o7lpCNCQqfHnxZKJ7z2RGGV78"
+from twitterCredentials import *
 
 auth = twitter.oauth.OAuth(
     access_token, access_token_secret,
