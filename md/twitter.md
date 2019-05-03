@@ -36,6 +36,8 @@ conda deactivate
 Once installed, we can move on to some [exercises](../scripts/twitter.py).
 
 
+### [Python Twitter Tools](https://github.com/sixohsix/twitter)
+
 ### [Other Python Packages for Twitter](https://stackabuse.com/accessing-the-twitter-api-with-python/)
 
 Some of the alternatives to tweepy are:

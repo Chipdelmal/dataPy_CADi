@@ -42,12 +42,35 @@ us_trends = twitter_api.trends.place(_id=US_WOE_ID)
 print(world_trends)
 print(json.dumps(world_trends, indent=1))
 
-###############################################################################
 # Getting trends information with auto-fetch of WOEID
-###############################################################################
 client = yweather.Client()
 id = client.fetch_woeid('Mexico')
 MX_WOE_ID = int(id)
 mx_trends = twitter_api.trends.place(_id=MX_WOE_ID)
 mxTrends = [trend['name'] for trend in mx_trends[0]["trends"]]
 print(mxTrends)
+
+
+###############################################################################
+# More operations with "Python Twitter Tools"
+###############################################################################
+from twitter import *
+t = Twitter(
+    auth=OAuth(
+        access_token, access_token_secret,
+        consumer_key, consumer_secret
+    ),
+    retry=True
+)
+t.statuses.home_timeline()
+t.statuses.home_timeline(count=5)
+
+# Twitting to my timeline
+t.statuses.update(status="10001010101110101011010010100101010010101011111")
+
+pyConTag = t.search.tweets(q="#pycon")
+pyConTag.keys()
+print(pyConTag["statuses"][0].keys())
+
+pyConTagExt = t.search.tweets(q="#pycon", tweet_mode='extended')
+pyConTagExt["statuses"]
