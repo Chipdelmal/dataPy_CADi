@@ -2,14 +2,13 @@
 
 This repository contains the materials for the **Data acquisition, wrangling and exploratory analysis in Python**, three days intensive [CADi](http://sitios.itesm.mx/va/capacitacion/1_2.html) (["Cursos de Actualización en las Disciplinas"](http://sitios.itesm.mx/va/capacitacion/1_2.html)) for faculty members at ["Tecnológico de Monterrey"](https://tec.mx/es) Institute.
 
-<br>
 
 The course covers subjects include the parsing and handling of data from different social sources, as well as the use of current frameworks for data-driven analyses.
 
 
 <center>
 
-  [<img src="./md/media/logoTwitter.png" height="30px">](https://developer.twitter.com/en/docs.html)[<img src="./md/media/logoTrends.jpg" height="30px">](https://trends.google.com/trends/?geo=US)[<img src="./md/media/logoJupyter.png" height="30px">](https://jupyter.org/)[<img src="./md/media/logoSpyder.png" height="30px">](https://www.spyder-ide.org/)[<img src="./md/media/logoOSM.png" height="30px">](https://www.openstreetmap.org/)[<img src="./md/media/logoPandas.png" height="30px">](hhttps://pandas.pydata.org/)[<img src="./md/media/logoNumpy.jpeg" height="30px">](https://www.numpy.org/)[<img src="./md/media/logoAtom.png" height="30px">](https://ide.atom.io/)
+  [<img src="./md/media/logoTwitter.png" height="50px">](https://developer.twitter.com/en/docs.html)[<img src="./md/media/logoTrends.jpg" height="50px">](https://trends.google.com/trends/?geo=US)[<img src="./md/media/logoJupyter.png" height="50px">](https://jupyter.org/)[<img src="./md/media/logoSpyder.png" height="50px">](https://www.spyder-ide.org/)[<img src="./md/media/logoOSM.png" height="50px">](https://www.openstreetmap.org/)[<img src="./md/media/logoPandas.png" height="50px">](hhttps://pandas.pydata.org/)[<img src="./md/media/logoNumpy.jpeg" height="50px">](https://www.numpy.org/)[<img src="./md/media/logoAtom.png" height="50px">](https://ide.atom.io/)[<img src="./md/media/logoGIS.png" height="50px">](https://www.esri.com/en-us/what-is-gis/overview)[<img src="./md/media/logoGithub.png" height="50px">](https://www.esri.com/en-us/what-is-gis/overview)
 
 </center>
 
@@ -23,6 +22,8 @@ This course will be taught assuming little previous experience in programming, s
 
 * [Python 3.7](https://www.python.org/downloads/)
 * [Anaconda](https://www.anaconda.com/) or [minconda](https://docs.conda.io/en/latest/miniconda.html)
+
+<br>
 
 [<img src="./md/media/logoPython.png" width="100%">](https://developer.twitter.com/en/docs.html)
 
@@ -62,6 +63,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 ### Tools
 
 * [repl.it](https://repl.it/languages/python3)
+* [onlinegdb](https://www.onlinegdb.com/online_python_interpreter)
 
 ### Online
 
