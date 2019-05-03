@@ -1,7 +1,6 @@
 # dataPy: Twitter
 
-
-
+Twitter is a very valuable source of news and information. With around 25 million users worldwide, it makes sense to try to make use of the information shared
 ##  [Twitter API](https://developer.twitter.com/en/docs.html)
 
 Twitter's API (Application Programming Interface)
@@ -37,9 +36,10 @@ conda deactivate
 Once installed, we can move on to some [exercises](../scripts/twitter.py).
 
 
-### [Other Python Packages](https://stackabuse.com/accessing-the-twitter-api-with-python/)
+### [Other Python Packages for Twitter](https://stackabuse.com/accessing-the-twitter-api-with-python/)
 
-* [Tweepy](https://github.com/tweepy/tweepy)
+Some of the alternatives to tweepy are:
+
 * [Twython](https://github.com/ryanmcgrath/twython)
 * [Python-twitter](https://github.com/bear/python-twitter)
 * [Python Twitter Tools](https://github.com/bear/python-twitter)

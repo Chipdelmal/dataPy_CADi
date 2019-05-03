@@ -1,13 +1,31 @@
 # DataPy CADi
 
 This repository contains the materials for the **Data acquisition, wrangling and exploratory analysis in Python**, three days intensive [CADi](http://sitios.itesm.mx/va/capacitacion/1_2.html) (["Cursos de Actualización en las Disciplinas"](http://sitios.itesm.mx/va/capacitacion/1_2.html)) for faculty members at ["Tecnológico de Monterrey"](https://tec.mx/es) Institute.
+
+
+The course covers subjects include the parsing and handling of data from different social sources, as well as the use of current frameworks for data-driven analyses.
+
+
+<center>
+
+  [<img src="./md/media/logoTwitter.png" height="50px">](https://developer.twitter.com/en/docs.html)[<img src="./md/media/logoTrends.jpg" height="50px">](https://trends.google.com/trends/?geo=US)[<img src="./md/media/logoJupyter.png" height="50px">](https://jupyter.org/)[<img src="./md/media/logoSpyder.png" height="50px">](https://www.spyder-ide.org/)[<img src="./md/media/logoOSM.png" height="50px">](https://www.openstreetmap.org/)[<img src="./md/media/logoPandas.png" height="50px">](hhttps://pandas.pydata.org/)[<img src="./md/media/logoNumpy.jpeg" height="50px">](https://www.numpy.org/)[<img src="./md/media/logoAtom.png" height="50px">](https://ide.atom.io/)[<img src="./md/media/logoGIS.png" height="50px">](https://www.esri.com/en-us/what-is-gis/overview)[<img src="./md/media/logoGithub.png" height="50px">](https://www.github.com)[<img src="./md/media/logoPypi.png" height="50px">](https://pypi.org/)
+
+
+
+</center>
+
+
 <hr>
 
 
 ## Requirements
 
-* [Python 3.7](https://www.python.org/downloads/)
-* [Anaconda](https://www.anaconda.com/) or [minconda](https://docs.conda.io/en/latest/miniconda.html)
+This course will be taught assuming little previous experience in programming, so no thorough background is required. We will be learning how to use the python programming language to perform common data wrangling operations, as well as how to handle, install and create packages to leverage community development.
+
+<br>
+
+[<img src="./md/media/logoPython.png" width="50%">](https://developer.twitter.com/en/docs.html)
+
 
 <hr>
 
@@ -17,21 +35,24 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 ### Day 01 (8h)
 
-1. Python 101
-2. Anaconda and Virtualenv
-3. Jupyter, Spyder, and Atom
-4. Github
+1. [Python 101](./md/python101.md): Introduction to the programming language.
+1. [Python Environments](./md/environments.md): Using [anaconda](https://www.anaconda.com/) and [virtualenv](https://virtualenv.pypa.io/en/latest/) to avoid packages clashes.
+1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), and [Atom](https://ide.atom.io/) for python code development.
+1. [Data Wrangling](./md/dataWrangling.md):
 
 ### Day 02 (8h)
 
-1. Python (Object-Oriented)
-2. Matplotlib
-3.
+1. [Python 102](./md/python102.md): Object-oriented concepts.
+1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
+1. [Twitter](./md/twitter.md): Interfacing with the API to get trends,
+1. [Google Trends](./md/googleTrends.md):
 
 ### Day 03 (8h)
 
-1. [Pypi](./md/pypi.md)
-2. [GeoData](./md/geoData.md)
+1. [Python 103](./md/python103.md): Advanced topics
+1. [Pypi](./md/pypi.md):
+1. [GeoData](./md/geoData.md):
+1. [Plotting](./md/plots.md): Using [matplotlib](https://matplotlib.org/) to generate meaningful data representations.
 
 <hr>
 
@@ -41,6 +62,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 ### Tools
 
 * [repl.it](https://repl.it/languages/python3)
+* [onlinegdb](https://www.onlinegdb.com/online_python_interpreter)
 
 ### Online
 
@@ -58,7 +80,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [Lubanovic, B. (2015). Introducing python, modern computing in simple packages.](https://www.amazon.com/Introducing-Python-Modern-Computing-Packages-ebook/dp/B00PHTRLO2)
 * [Lutz, M. (2014). Python Pocket Reference.](https://www.amazon.com/Python-Pocket-Reference-Your-OReilly/dp/1449357016)
 * [Beazley, D. (2013). Python Cookbook.](https://www.amazon.com/Python-Cookbook-Third-David-Beazley/dp/1449340377)
-
+* [Russell Mathew A. (2013). Mining the Social Web: Data Mining Facebook, Twitter, Linkedin, Google+, Github, And More ](https://www.amazon.com/Mining-Social-Web-Facebook-LinkedIn/dp/1449367615)
 
 <hr>
 
