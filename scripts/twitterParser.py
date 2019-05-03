@@ -1,0 +1,53 @@
+import twitter
+import json
+import yweather
+import nltk
+from collections import Counter
+
+###############################################################################
+# IMPORTANT!
+###############################################################################
+# Create a file called "twitterCredentials.py" and fill it out with the
+#   following information:
+#
+# access_token =
+# access_token_secret =
+# consumer_key =
+# consumer_secret =
+###############################################################################
+
+# Authorizing the package in twitters API
+from twitterCredentials import *
+
+auth = twitter.oauth.OAuth(
+    access_token, access_token_secret,
+    consumer_key, consumer_secret
+)
+
+# Initializing an API session
+twitter_api = twitter.Twitter(auth=auth)
+print(twitter_api)
+
+###############################################################################
+# Getting the trends information from locations in the world
+#   https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place.html
+#   https://en.wikipedia.org/wiki/WOEID
+###############################################################################
+WORLD_WOE_ID = 1
+US_WOE_ID = 23424977
+
+world_trends = twitter_api.trends.place(_id=WORLD_WOE_ID)
+us_trends = twitter_api.trends.place(_id=US_WOE_ID)
+
+print(world_trends)
+print(json.dumps(world_trends, indent=1))
+
+###############################################################################
+# Getting trends information with auto-fetch of WOEID
+###############################################################################
+client = yweather.Client()
+id = client.fetch_woeid('Mexico')
+MX_WOE_ID = int(id)
+mx_trends = twitter_api.trends.place(_id=MX_WOE_ID)
+mxTrends = [trend['name'] for trend in mx_trends[0]["trends"]]
+print(mxTrends)

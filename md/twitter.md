@@ -43,3 +43,12 @@ Some of the alternatives to tweepy are:
 * [Twython](https://github.com/ryanmcgrath/twython)
 * [Python-twitter](https://github.com/bear/python-twitter)
 * [Python Twitter Tools](https://github.com/bear/python-twitter)
+
+
+## Other Sources
+
+* https://stackabuse.com/accessing-the-twitter-api-with-python/
+* https://www.pythoncentral.io/introduction-to-tweepy-twitter-for-python/
+* https://gist.github.com/vickyqian/f70e9ab3910c7c290d9d715491cde44c
+* https://gist.github.com/dev-techmoe/ef676cdd03ac47ac503e856282077bf2
+* http://docs.tweepy.org/en/v3.5.0/cursor_tutorial.html
