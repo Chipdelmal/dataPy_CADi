@@ -1,6 +1,19 @@
 # DataPy CADi
 
 This repository contains the materials for the **Data acquisition, wrangling and exploratory analysis in Python**, three days intensive [CADi](http://sitios.itesm.mx/va/capacitacion/1_2.html) (["Cursos de Actualización en las Disciplinas"](http://sitios.itesm.mx/va/capacitacion/1_2.html)) for faculty members at ["Tecnológico de Monterrey"](https://tec.mx/es) Institute.
+
+<br>
+
+The course covers subjects include the parsing and handling of data from different social sources, as well as the use of current frameworks for data-driven analyses.
+
+
+<center>
+
+  [<img src="./md/media/logoTwitter.png" height="30px">](https://developer.twitter.com/en/docs.html)[<img src="./md/media/logoTrends.jpg" height="30px">](https://trends.google.com/trends/?geo=US)[<img src="./md/media/logoJupyter.png" height="30px">](https://jupyter.org/)[<img src="./md/media/logoSpyder.png" height="30px">](https://www.spyder-ide.org/)[<img src="./md/media/logoOSM.png" height="30px">](https://www.openstreetmap.org/)[<img src="./md/media/logoPandas.png" height="30px">](hhttps://pandas.pydata.org/)[<img src="./md/media/logoNumpy.jpeg" height="30px">](https://www.numpy.org/)[<img src="./md/media/logoAtom.png" height="30px">](https://ide.atom.io/)
+
+</center>
+
+
 <hr>
 
 
@@ -10,6 +23,9 @@ This course will be taught assuming little previous experience in programming, s
 
 * [Python 3.7](https://www.python.org/downloads/)
 * [Anaconda](https://www.anaconda.com/) or [minconda](https://docs.conda.io/en/latest/miniconda.html)
+
+[<img src="./md/media/logoPython.png" width="100%">](https://developer.twitter.com/en/docs.html)
+
 
 <hr>
 
@@ -63,7 +79,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [Lubanovic, B. (2015). Introducing python, modern computing in simple packages.](https://www.amazon.com/Introducing-Python-Modern-Computing-Packages-ebook/dp/B00PHTRLO2)
 * [Lutz, M. (2014). Python Pocket Reference.](https://www.amazon.com/Python-Pocket-Reference-Your-OReilly/dp/1449357016)
 * [Beazley, D. (2013). Python Cookbook.](https://www.amazon.com/Python-Cookbook-Third-David-Beazley/dp/1449340377)
-
+* [Russell Mathew A. (2013). Mining the Social Web: Data Mining Facebook, Twitter, Linkedin, Google+, Github, And More ](https://www.amazon.com/Mining-Social-Web-Facebook-LinkedIn/dp/1449367615)
 
 <hr>
 
