@@ -1,8 +1,20 @@
 # Environments
 
-One of Python's greatest strengths is the availability of community packages to tackle a wide variety of scientific/engineering tasks. This, however, leads to an unintended problem: **What happens when some of my packages require different versions of Python or other packages?**
+Virtual environments are an important concept in several domains of programming and Python is no exception.
+
+##  Packages "Hygene"
+
+One of Python's greatest strengths is the availability of community packages to tackle a wide variety of scientific/engineering tasks. This, however, leads to an unintended problem: **What happens when some of my packages require different versions other packages? (or even different versions of Python)**
 
 For example, if we create our own package that requires [numpy](https://www.numpy.org/), but the developers are announcing some upcoming changes that might break the functionality of my code; how can we ensure that our package will continue to work if I update [numpy](https://www.numpy.org/) to work in another project in my computer?
+
+Environments solve this problem in an elegant way by providing "workspaces" within our system in which we can install/uninstall packages without affecting the dependencies of other projects we might be working on.
+
+##  Portability
+
+Another problem environments address is the "shipping" of our code. This is: **How do I share my code with collaborators and users without them having to install and figure out packages dependencies by themselves?**
+
+By creating a virtual environment, we are already
 
 ##  Updating pip
 

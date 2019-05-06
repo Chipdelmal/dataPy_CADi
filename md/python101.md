@@ -2,6 +2,22 @@
 
 ##  Introduction
 
+Python is currently one of the most widely used programming languages.
+
+### Why is Python popular?
+
+* Open source
+* Easy to learn, yet comprehensive for complex tasks
+  * Speed
+  * Productivity
+* Very powerful scripting language
+  * Ideal for making prototypes
+  * Ideal for data science
+* Good code core packages
+* Large community
+  * Wide selection of third-party packages (pip)
+  * Lots of online support for almost any kind of programming application
+
 
 <hr>
 

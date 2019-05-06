@@ -22,6 +22,9 @@ The course covers subjects include the parsing and handling of data from differe
 
 This course will be taught assuming little previous experience in programming, so no thorough background is required. We will be learning how to use the python programming language to perform common data wrangling operations, as well as how to handle, install and create packages to leverage community development.
 
+* [Twitter account](www.twitter.com)
+* Computer with: Windows, Linux, or MacOS
+
 <br>
 
 [<img src="./md/media/logoPython.png" width="50%">](https://developer.twitter.com/en/docs.html)
