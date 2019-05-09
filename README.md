@@ -36,8 +36,11 @@ This course will be taught assuming little previous experience in programming, s
 
 This workshop was created with flexibility in mind. As such, modules are fairly independent and can be taken in different order than the one suggested here.
 
+
+
 ### Day 01 (8h)
 
+1. [Introduction](./md/introduction.md):
 1. [Python 101](./md/python101.md): Introduction to the programming language.
 1. [Python Environments](./md/environments.md): Using [anaconda](https://www.anaconda.com/) and [virtualenv](https://virtualenv.pypa.io/en/latest/) to avoid packages clashes.
 1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), and [Atom](https://ide.atom.io/) for python code development.
