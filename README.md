@@ -3,31 +3,16 @@
 This repository contains the materials for the **Data acquisition, wrangling and exploratory analysis in Python**, three days intensive [CADi](http://sitios.itesm.mx/va/capacitacion/1_2.html) (["Cursos de Actualización en las Disciplinas"](http://sitios.itesm.mx/va/capacitacion/1_2.html)) for faculty members at ["Tecnológico de Monterrey"](https://tec.mx/es) Institute.
 
 
+[<img src="./md/media/logoPython.png" width="50%">](https://developer.twitter.com/en/docs.html)
+
+
 The course covers subjects include the parsing and handling of data from different social sources, as well as the use of current frameworks for data-driven analyses.
 
 
-<center>
+
 
   [<img src="./md/media/logoTwitter.png" height="50px">](https://developer.twitter.com/en/docs.html)[<img src="./md/media/logoTrends.jpg" height="50px">](https://trends.google.com/trends/?geo=US)[<img src="./md/media/logoJupyter.png" height="50px">](https://jupyter.org/)[<img src="./md/media/logoSpyder.png" height="50px">](https://www.spyder-ide.org/)[<img src="./md/media/logoOSM.png" height="50px">](https://www.openstreetmap.org/)[<img src="./md/media/logoPandas.png" height="50px">](hhttps://pandas.pydata.org/)[<img src="./md/media/logoNumpy.jpeg" height="50px">](https://www.numpy.org/)[<img src="./md/media/logoAtom.png" height="50px">](https://ide.atom.io/)[<img src="./md/media/logoGIS.png" height="50px">](https://www.esri.com/en-us/what-is-gis/overview)[<img src="./md/media/logoGithub.png" height="50px">](https://www.github.com)[<img src="./md/media/logoPypi.png" height="50px">](https://pypi.org/)
 
-
-
-</center>
-
-
-<hr>
-
-
-## Requirements
-
-This course will be taught assuming little previous experience in programming, so no thorough background is required. We will be learning how to use the python programming language to perform common data wrangling operations, as well as how to handle, install and create packages to leverage community development.
-
-* [Twitter account](www.twitter.com)
-* Computer with: Windows, Linux, or MacOS
-
-<br>
-
-[<img src="./md/media/logoPython.png" width="50%">](https://developer.twitter.com/en/docs.html)
 
 
 <hr>
@@ -40,7 +25,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 ### Day 01 (8h)
 
-1. [Introduction](./md/introduction.md):
+1. [Introduction](./md/introduction.md): Objectives, scope, requirements and expectations.
 1. [Python 101](./md/python101.md): Introduction to the programming language.
 1. [Python Environments](./md/environments.md): Using [anaconda](https://www.anaconda.com/) and [virtualenv](https://virtualenv.pypa.io/en/latest/) to avoid packages clashes.
 1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), and [Atom](https://ide.atom.io/) for python code development.
