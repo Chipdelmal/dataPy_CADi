@@ -7,7 +7,7 @@ Due to its popularity, python has several alternatives in terms of integrated de
 
 ##  Free and/or Open Source
 
-<hr>
+Python's culture is based on open-source development and sharing of code. As such, several free and open source IDEs are readily available online for a variety of applications and programming tastes.
 
 ### [IDLE](https://docs.python.org/3/library/idle.html)
 
@@ -59,7 +59,6 @@ Developed by [github](https://www-github.com), [Atom](https://atom.io/) is one o
 
 ##  Alternatives
 
-<hr>
 
 ### [PyCharm](https://www.jetbrains.com/pycharm/)
 
