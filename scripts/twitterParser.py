@@ -66,11 +66,14 @@ t.statuses.home_timeline()
 t.statuses.home_timeline(count=5)
 
 # Twitting to my timeline
-t.statuses.update(status="10001010101110101011010010100101010010101011111")
+# t.statuses.update(status="10001010101110101011010010100101010010101011111")
 
 pyConTag = t.search.tweets(q="#pycon")
 pyConTag.keys()
 print(pyConTag["statuses"][0].keys())
+
+print(pyConTag["statuses"][0]['user'])
+
 
 pyConTagExt = t.search.tweets(q="#pycon", tweet_mode='extended')
 pyConTagExt["statuses"]
