@@ -28,7 +28,7 @@ Tweepy is a Python wrapper for making common tasks in the Twitter API accessible
 Installing tweepy is extremely simple with its [pypi package](https://pypi.org/project/tweepy/):
 
 ```bash
-source activate DataPy
+source activate dataPy
 pip install tweepy
 conda deactivate
 ```
@@ -38,13 +38,18 @@ Once installed, we can move on to some [exercises](../scripts/twitter.py).
 
 ### [Python Twitter Tools](https://github.com/sixohsix/twitter)
 
+```bash
+source activate dataPy
+pip install twitter
+conda deactivate
+```
+
 ### [Other Python Packages for Twitter](https://stackabuse.com/accessing-the-twitter-api-with-python/)
 
 Some of the alternatives to tweepy are:
 
 * [Twython](https://github.com/ryanmcgrath/twython)
 * [Python-twitter](https://github.com/bear/python-twitter)
-* [Python Twitter Tools](https://github.com/bear/python-twitter)
 
 
 ## Other Sources

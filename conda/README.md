@@ -2,3 +2,5 @@
 
 * Geopandas
 * Numpy
+* Spyder
+* Tweepy

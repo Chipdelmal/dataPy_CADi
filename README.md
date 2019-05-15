@@ -19,7 +19,7 @@ The course covers subjects include the parsing and handling of data from differe
 
 ## Contents
 
-This workshop was created with flexibility in mind. As such, modules are fairly independent and can be taken in different order than the one suggested here.
+This workshop was created with flexibility in mind. As such, modules are fairly independent and can be followed in a different order than the one suggested here.
 
 
 
@@ -41,7 +41,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 ### Day 03 (8h)
 
 1. [Python 103](./md/python103.md): Advanced topics
-1. [Pypi](./md/pypi.md):
+1. [Pypi](./md/pypi.md): Installing, browsing, and creating packages in the [Pypi](https://pypi.org/)/[TestPypi](https://test.pypi.org/) indexing system.
 1. [GeoData](./md/geoData.md):
 1. [Plotting](./md/plots.md): Using [matplotlib](https://matplotlib.org/) to generate meaningful data representations.
 
@@ -50,15 +50,16 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 ## Resources
 
 
+### Tools and Packages
 
-### Tools
-
-* [repl.it](https://repl.it/languages/python3)
-* [onlinegdb](https://www.onlinegdb.com/online_python_interpreter)
+* [onlinegdb](https://www.onlinegdb.com/online_python_interpreter): Another online Python interpreter (originally developed for C and C++)
+* [repl.it](https://repl.it/languages/python3): Online Python IDE and interpreter (also supports many other languages).
+* [sympy](https://www.sympy.org/en/index.html): Symbolic calculus in Python.
 
 ### Online
 
-* [dataViz CADi](https://github.com/Chipdelmal/dataViz_CADi)
+* [dataViz CADi](https://github.com/Chipdelmal/dataViz_CADi): "Data Visualization" CADi bootcamp taught in December of 2018 with code examples in [Python](https://www.python.org/), [R](https://www.r-project.org/) and [Mathematica](https://www.wolfram.com/mathematica/).
+* [Mists of Data](http://ric70x7.github.io/blog_archive.html): [Ricardo's Andrade](http://ric70x7.github.io/) personal blog devoted to data analysis in Python with code examples.
 * [Python 3.7 documentation](https://docs.python.org/3.7/)
 * [Anaconda documentation](https://docs.anaconda.com/)
 * [Virtualenv documentation](https://virtualenv.pypa.io/en/latest/)
@@ -83,5 +84,3 @@ My main projects: [ [MGDrivE](https://marshalllab.github.io/MGDrivE/) & [MoNeT](
 My personal website: [ [chipdelmal.github.io](https://chipdelmal.github.io/) ]
 
 <img src="./md/media/berkeley.jpg" height="40"><img src="./md/media/ihme.png" height="40"><img src="./md/media/itesm.png" height="50"><br>
-
-<hr>
