@@ -49,7 +49,6 @@ To install from *yml* file:
 conda env create -f dataPy.yml
 ```
 
-
 ### Installing packages on the environment
 
 ```bash
@@ -63,4 +62,11 @@ conda deactivate
 
 ```bash
 python -m ipykernel install --user --name dataPy
+```
+
+
+### Exporting an environment to a YML file
+
+```bash
+conda env export > dataPy.yml
 ```
