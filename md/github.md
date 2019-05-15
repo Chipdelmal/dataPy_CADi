@@ -1,14 +1,33 @@
-# dataPy: [Git](https://git-scm.com/) and Github
+# dataPy: [Git](https://git-scm.com/) and [Github](https://github.com/)
 
 Git is, first and foremost, a [version control](https://en.wikipedia.org/wiki/Version_control) system. But what is a [version control](https://en.wikipedia.org/wiki/Version_control) system?
 
 We've all been in a situation in which we are working in a document/code and we make changes but we still want to keep a copy of the previous state of the file in case something goes wrong. So what do we do? We usually try to keep track of the files by adding version numbers, but it usually takes just a couple of days for this system to start showing it's deficiencies: it's difficult to standardize/enforce. Even worse, in coding we usually work with several different files at the same time, which makes the manual system impossible to maintain in the long run.
 
+[<img src="./media/phdTracking.png" width="50%">](https://twitter.com/phdcomics/status/826861642507882496?lang=en)
+
 This is why, [git](https://git-scm.com/) exists: *To make persistent copies of the history of our source files so that we can always go back to a previously working version*.
 
-##  Git
+##  [Git](https://git-scm.com/)
+
+[Git](https://git-scm.com/) is, as mentioned before, the most popular distributed version control system.
 
 ### Brief History
+
+
+### Advantages
+
+* **It's decentralized:** There is no central server where all the information is stored and "checked-out". Instead, everyone involved keeps a full copy of the
+* **It's widely supported:** All major operating systems support git (Linux and MacOS can run it from the terminal "out of the box").
+* **It has a large community:** If you find yourself ever having questions, there's always someone willing to answer it. Alternatively, there are lots of [books](https://git-scm.com/book/en/v2) and [online resources](https://swcarpentry.github.io/git-novice-es/).
+* **It's relatively simple to use:** With some practice, everyone can learn the fundamentals of git and leverage it's benefits.
+
+##  [GitHub](www.github.com)
+
+[GitHub](www.github.com) is the most popular web-based [version control](https://en.wikipedia.org/wiki/Version_control) service that uses the [git](https://git-scm.com/) protocol (it is so popular that git and github are colloquially used as synonims). It is very popular for programming projects due to its ability to provide access control, bug tracking, wikis, feature requests, amongst many other features.
+
+
+##  Exercise
 
 ### Basic Concepts
 
@@ -24,16 +43,13 @@ This is why, [git](https://git-scm.com/) exists: *To make persistent copies of t
 
 ####  Branches
 
+
 ### Common workflow
 
 
-### Advantages
 
-* It's decentralized:
-* It's widely supported:
-* It has a large community:
-* It's relatively simple to use:
+<hr><hr>
 
-##  [GitHub](www.github.com)
+## Other Resources
 
-[GitHub](www.github.com) is the most popular web-based [version control](https://en.wikipedia.org/wiki/Version_control) service that uses the [git](https://git-scm.com/) protocol. It is very popular for programming projects due to its ability to provide access control, bug tracking, wikis, feature requests, amongst many other features.
+* https://swcarpentry.github.io/git-novice-es/
