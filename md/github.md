@@ -23,6 +23,7 @@ This is why, [git](https://git-scm.com/) exists: *To make persistent copies of t
 * **It's widely supported:** All major operating systems support git (Linux and MacOS can run it from the terminal "out of the box").
 * **It has a large community:** If you find yourself ever having questions, there's always someone willing to answer it. Alternatively, there are lots of [books](https://git-scm.com/book/en/v2) and [online resources](https://swcarpentry.github.io/git-novice-es/).
 * **It's relatively simple to use:** With some practice, everyone can learn the fundamentals of git and leverage it's benefits.
+* **Colaboration:**
 
 <hr>
 
@@ -42,12 +43,21 @@ git config --global user.email "MY_EMAIL@DOMAIN.COM"
 git config --global core.editor "nano -w"
 ```
 
-###  Initializing a Git Repo
+### Creating a Github Repo
+
+<img src="./media/git01.png" width="50%">
+
+
+<img src="./media/git02.png" width="50%">
+
+
+### Linking to a [Github](https://github.com/) Repo
 
 ```bash
-mkdir helloGit
-cd helloGit
 git init
+git remote add origin https://github.com/Chipdelmal/helloGit.git
+git remote -v
+git pull origin master
 ```
 
 ### Creating a file
@@ -63,6 +73,7 @@ git status
 git add trackMe.py
 git status
 git commit -m "Created a 'Hello World' file."
+git push origin master
 ```
 
 ### Making Changes
@@ -71,6 +82,7 @@ git commit -m "Created a 'Hello World' file."
 nano trackMe.py
 git add *
 git commit -m "Repeating the message 8 times."
+git push origin master
 ```
 
 ### Ignoring Files and Folders
@@ -79,25 +91,29 @@ git commit -m "Repeating the message 8 times."
 nano .gitignore
 git add *
 git commit -m "Adding gitignore."
+git log --oneline --graph --all --decorate
 ```
 
-###  Push
+### Restoring to a previous state
 
-###  Pull
-
-###  Fetch
-
-###  Branches
+```bash
+git checkout LOG_ID trackMe.py
+git commit -m "Reverting to a previous state."
+git push origin master
+```
 
 <hr>
 
-## Common workflow
+##  A More Detailed Explanation
 
 
+<hr>
+
+##  Collaborating
 
 <hr>
 
 ## Other Resources
 
 * [Git Carpentry Workshop](https://swcarpentry.github.io/git-novice-es/)
-* [Git Book](https://git-scm.com/book/en/v2)
+* ["Pro Git" Free Download Book](https://git-scm.com/book/en/v2)
