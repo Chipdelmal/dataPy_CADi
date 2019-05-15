@@ -50,6 +50,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 ## Resources
 
 
+
 ### Tools
 
 * [repl.it](https://repl.it/languages/python3)
