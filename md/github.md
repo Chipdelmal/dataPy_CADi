@@ -8,6 +8,8 @@ We've all been in a situation in which we are working in a document/code and we 
 
 This is why, [git](https://git-scm.com/) exists: *To make persistent copies of the history of our source files so that we can always go back to a previously working version*.
 
+<hr>
+
 ##  [Git](https://git-scm.com/)
 
 [Git](https://git-scm.com/) is, as mentioned before, the most popular distributed version control system.
@@ -22,34 +24,80 @@ This is why, [git](https://git-scm.com/) exists: *To make persistent copies of t
 * **It has a large community:** If you find yourself ever having questions, there's always someone willing to answer it. Alternatively, there are lots of [books](https://git-scm.com/book/en/v2) and [online resources](https://swcarpentry.github.io/git-novice-es/).
 * **It's relatively simple to use:** With some practice, everyone can learn the fundamentals of git and leverage it's benefits.
 
+<hr>
+
 ##  [GitHub](www.github.com)
 
 [GitHub](www.github.com) is the most popular web-based [version control](https://en.wikipedia.org/wiki/Version_control) service that uses the [git](https://git-scm.com/) protocol (it is so popular that git and github are colloquially used as synonims). It is very popular for programming projects due to its ability to provide access control, bug tracking, wikis, feature requests, amongst many other features.
 
+<hr>
 
 ##  Exercise
 
-### Basic Concepts
+###  Setup
 
-####  Commit
+```bash
+git config --global user.name "MY_USERNAME"
+git config --global user.email "MY_EMAIL@DOMAIN.COM"
+git config --global core.editor "nano -w"
+```
 
-####  Staging Area
+###  Initializing a Git Repo
 
-####  Push
+```bash
+mkdir helloGit
+cd helloGit
+git init
+```
 
-####  Pull
+### Creating a file
 
-####  Fetch
+```bash
+nano trackMe.py
+```
 
-####  Branches
+### Staging and Committing
+
+```bash
+git status
+git add trackMe.py
+git status
+git commit -m "Created a 'Hello World' file."
+```
+
+### Making Changes
+
+```bash
+nano trackMe.py
+git add *
+git commit -m "Repeating the message 8 times."
+```
+
+### Ignoring Files and Folders
+
+```bash
+nano .gitignore
+git add *
+git commit -m "Adding gitignore."
+```
+
+###  Push
+
+###  Pull
+
+###  Fetch
+
+###  Branches
+
+<hr>
+
+## Common workflow
 
 
-### Common workflow
 
-
-
-<hr><hr>
+<hr>
 
 ## Other Resources
 
-* https://swcarpentry.github.io/git-novice-es/
+* [Git Carpentry Workshop](https://swcarpentry.github.io/git-novice-es/)
+* [Git Book](https://git-scm.com/book/en/v2)

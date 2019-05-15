@@ -20,6 +20,7 @@ data/extracted/
 parts/
 sdist/
 scripts/keys/
+scripts/helloGit/.git
 var/
 wheels/
 *.egg-info/
