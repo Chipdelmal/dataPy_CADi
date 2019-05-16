@@ -9,11 +9,13 @@ This repository contains the materials for the **Data acquisition, wrangling and
 The course covers subjects include the parsing and handling of data from different social sources, as well as the use of current frameworks for data-driven analyses.
 
 
-
-
   [<img src="./md/media/logoTwitter.png" height="50px">](https://developer.twitter.com/en/docs.html)[<img src="./md/media/logoTrends.jpg" height="50px">](https://trends.google.com/trends/?geo=US)[<img src="./md/media/logoJupyter.png" height="50px">](https://jupyter.org/)[<img src="./md/media/logoSpyder.png" height="50px">](https://www.spyder-ide.org/)[<img src="./md/media/logoOSM.png" height="50px">](https://www.openstreetmap.org/)[<img src="./md/media/logoPandas.png" height="50px">](hhttps://pandas.pydata.org/)[<img src="./md/media/logoNumpy.jpeg" height="50px">](https://www.numpy.org/)[<img src="./md/media/logoAtom.png" height="50px">](https://ide.atom.io/)[<img src="./md/media/logoGIS.png" height="50px">](https://www.esri.com/en-us/what-is-gis/overview)[<img src="./md/media/logoGithub.png" height="50px">](https://www.github.com)[<img src="./md/media/logoPypi.png" height="50px">](https://pypi.org/)
 
 
+
+<br>
+
+For other data-analysis related topics please take a look at the [dataViz_CADi](https://github.com/Chipdelmal/dataViz_CADi) repository. Which contains exercises on data visualization in [R](https://www.r-project.org/), [Python](https://www.python.org/) and [Mathematica](https://www.wolfram.com/mathematica/).
 
 <hr>
 
