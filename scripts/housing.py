@@ -1,15 +1,27 @@
+###############################################################################
+# "Housing data" example
+###############################################################################
+#  Source:
+#   https://github.com/ageron/handson-ml/blob/master/02_end_to_end_machine_learning_project.ipynb
+###############################################################################
+
+# -----------------------------------------------------------------------------
+# Instructions and other information
+# -----------------------------------------------------------------------------
 # Download the data from:
 #   https://github.com/ageron/handson-ml/tree/master/datasets/housing
 # Pandas API:
 #   https://pandas.pydata.org/pandas-docs/stable/reference/api/
+# -----------------------------------------------------------------------------
 
 # Import required libraries
-import matplotlib
+import matplotlib as plt
 import numpy
 import pandas
 import scipy
 import sklearn
 import pandas as pd
+#%matplotlib inline
 
 # Setup data path
 DATA_PATH = "../data/extracted/housing/"
@@ -29,4 +41,7 @@ data["ocean_proximity"]
 data["ocean_proximity"].value_counts()
 
 
+# Get some basic statistics and plots
 data.describe()
+data.hist(bins=50, figsize=(20,15))
+#plt.show()
