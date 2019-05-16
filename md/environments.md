@@ -23,7 +23,7 @@ By creating a virtual environment, we are already
 Updating on MacOs and Linux:
 
 ```bash
-pip install -U pip
+pip3 install --upgrade pip
 ```
 
 

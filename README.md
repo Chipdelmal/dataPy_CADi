@@ -70,7 +70,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 ### Books
 
 
-* [Scott Chacon and Ben Straub. Pro Git. (2019)](https://git-scm.com/book/en/v2)
+* [Scott Chacon and Ben Straub (2019). Pro Git.](https://git-scm.com/book/en/v2)
 * [McKinney, W. Python for Data Analysis - Data Wrangling with Pandas, Numpy and Python. (2018). ISBN-13: 1491957662](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/ref=asc_df_1491957662/?tag=hyprod-20&linkCode=df0&hvadid=312140868236&hvpos=1o1&hvnetw=g&hvrand=6431209822672155744&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032076&hvtargid=pla-396828636441&psc=1)
 * [Géron, Aurélien (2018). Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems](http://shop.oreilly.com/product/0636920052289.do)
 * [Lutz, M., & Ascher, D. (20015). Learning Python.](https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730)
