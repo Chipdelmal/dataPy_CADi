@@ -12,8 +12,9 @@
 # -----------------------------------------------------------------------------
 # Download the data from:
 #   https://github.com/ageron/handson-ml/tree/master/datasets/housing
-# Pandas API:
+# Pandas:
 #   https://pandas.pydata.org/pandas-docs/stable/reference/api/
+#   https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
 # CMaps:
 #   https://matplotlib.org/tutorials/colors/colormaps.html
 # -----------------------------------------------------------------------------
@@ -23,9 +24,8 @@
 import matplotlib as plt
 import matplotlib.pyplot as plt
 import numpy as np
-import scipy
-import sklearn
 import pandas as pd
+from pandas.plotting import scatter_matrix
 #%matplotlib inline
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -79,3 +79,7 @@ data.plot(
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Correlation (Pearson)
 data.corr()
+
+attr = ["median_house_value", "median_income", "total_rooms", "housing_median_age"]
+scatter_matrix(data[attr], figsize=(12,8))
+data.plot(kind="scatter", x="median_income", y="median_house_value", alpha=.025)
