@@ -6,8 +6,6 @@
 #  Source:
 #   https://github.com/ageron/handson-ml/blob/master/02_end_to_end_machine_learning_project.ipynb
 ###############################################################################
-
-# -----------------------------------------------------------------------------
 # Instructions and other information
 # -----------------------------------------------------------------------------
 # Download the data from:
@@ -17,15 +15,12 @@
 #   https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
 # CMaps:
 #   https://matplotlib.org/tutorials/colors/colormaps.html
-# -----------------------------------------------------------------------------
+###############################################################################
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Import required libraries
 import matplotlib as plt
 import matplotlib.pyplot as plt
-import numpy as np
-import scipy
-import sklearn
 import pandas as pd
 from sklearn.impute import SimpleImputer
 #%matplotlib inline
@@ -70,6 +65,12 @@ housingNum.median().values
 # Impute our dataframe (returns a numpu array)
 impArray = imputer.transform(housingNum)
 # Convert back into a dataframe
-colNames=housingNum.columns
-housingTr = pd.DataFrame(X,columns=colNames)
+colNames = housingNum.columns
+housingTr = pd.DataFrame(impArray, columns=colNames)
 housingTr
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# Categorical
+housingCat = data["ocean_proximity"]
+housingCat.head(10)
+(housingCatEncoded, housingCategories) = housingCat.factorize()

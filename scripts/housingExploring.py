@@ -6,8 +6,6 @@
 #  Source:
 #   https://github.com/ageron/handson-ml/blob/master/02_end_to_end_machine_learning_project.ipynb
 ###############################################################################
-
-# -----------------------------------------------------------------------------
 # Instructions and other information
 # -----------------------------------------------------------------------------
 # Download the data from:
@@ -17,7 +15,7 @@
 #   https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
 # CMaps:
 #   https://matplotlib.org/tutorials/colors/colormaps.html
-# -----------------------------------------------------------------------------
+###############################################################################
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Import required libraries
@@ -72,9 +70,11 @@ data.plot(kind="scatter", x="longitude", y="latitude")
 data.plot(kind="scatter", x="longitude", y="latitude", alpha=.2)
 data.plot(
     kind="scatter", x="longitude", y="latitude",
-    alpha=.15, s=data["population"]/100, figsize=(10,7), label="population",
+    alpha=.15, s=data["population"]/100, figsize=(10,7),
     c="median_house_value", cmap=plt.get_cmap("RdPu"), colorbar=True
 )
+plt.savefig('california.png',dpi=500)
+
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Correlation (Pearson)
