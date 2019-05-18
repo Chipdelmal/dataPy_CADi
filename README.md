@@ -54,8 +54,13 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 ### Tools and Packages
 
-* [onlinegdb](https://www.onlinegdb.com/online_python_interpreter): Another online Python interpreter (originally developed for C and C++)
+* [matplotlib](https://matplotlib.org/):
+* [numpy](https://www.numpy.org/):
+* [pandas](https://pandas.pydata.org/):
+* [plotly](https://plot.ly/):
+* [onlinegdb](https://www.onlinegdb.com/online_python_interpreter): Online Python interpreter (originally developed for C and C++)
 * [repl.it](https://repl.it/languages/python3): Online Python IDE and interpreter (also supports many other languages).
+* [scikit-learn](https://scikit-learn.org/stable/)
 * [sympy](https://www.sympy.org/en/index.html): Symbolic calculus in Python.
 
 ### Online

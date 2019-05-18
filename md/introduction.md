@@ -5,23 +5,32 @@
 ##  My background
 
 
-### Education
+### [Education](https://www.researchgate.net/profile/Hector_Sanchez_Castellanos)
 
 * BSc in Mechatronics Engineering
 * PhD in Computer Science
 
 ### Research
 
-####  [MGDrivE](https://pypi.org/project/MoNeT-MGDrivE/): Mosquito Gene Drive Explorer
+####  [MGDrivE](https://marshalllab.github.io/MGDrivE/): Mosquito Gene Drive Explorer
 
-Core dev team: One Postdoc (Computer Science) + Two PhD Students (Computational Biology & Biophysics/Biostatistics)
+*Dev team: One Postdoc (Computer Science) + Two PhD Students (Computational Biology & Biophysics/Biostatistics)*
 
 
-####  [MoNeT](https://pypi.org/project/MoNeT-MGDrivE/): Mosquito Networks Taskforce
+[<img src="./media/crispr.jpg" width="100%">](https://marshalllab.github.io/MGDrivE/)
+[<img src="./media/threshold.jpg" width="100%">](https://www.youtube.com/watch?v=lNcIHcJYI_0&list=PLRzY6w7pvIWqFJi94ZfhPkSVnazlUylpN&index=2&t=0s)
 
-Secondary dev team: Four undergraduate students (3 Computer Science + 1 Statistics)
 
-####  [MASH]():
+####  [MoNeT](https://chipdelmal.github.io/MoNeT/): Mosquito Networks Taskforce
+
+*Dev team: Four undergraduate students (3 Computer Science + 1 Statistics)*
+
+[<img src="./media/aggregation.jpg" width="100%">](https://chipdelmal.github.io/MoNeT/)
+[<img src="./media/eracr.jpg" width="100%">](https://chipdelmal.github.io/MoNeT/)
+
+####  [MASH](https://smitdave.github.io/MASH-Main/): Modular Analysis & Simulation for Health
+
+[<img src="./media/network.jpg" width="100%">](https://smitdave.github.io/MASH-Main/)
 
 ### Teaching
 
@@ -59,7 +68,7 @@ This is an intensive bootcamp designed to teach the fundamentals and tools used 
 
 * **... an in-depth Python course**: This three-day workshop is not intended to be a thorough Python course. Python is a very rich and deep programming language. It's flexibility and...
 * **... a course on Data Analysis**: Data analysis is a rich and dynamic topic which is rapidly becoming a subject of study on its own. As such, it is impossible to cover...
-* **... a course on Data Visualization**: Similar to data analysis,
+* **... a course on Data Visualization**: Similar to data analysis, this is a very complex subject that should be covered in a different bootcamp. However, you can have a look at the [dataViz CADi repository](https://github.com/Chipdelmal/dataViz_CADi) for some ideas, scripts, and general information.
 
 ##  Getting started
 
