@@ -6,6 +6,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.pipeline import FeatureUnion
+from sklearn.compose import ColumnTransformer
 
 rooms_ix, bedrooms_ix, population_ix, household_ix = 3, 4, 5, 6
 
@@ -69,7 +70,7 @@ housingNumTransformed
 
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-# Pipeline
+# Unified Pipeline
 num_attributes = list(housingNum)
 cat_attributes = ["ocean_proximity"]
 
@@ -91,4 +92,19 @@ full_pipeline = FeatureUnion(transformer_list=[
 ])
 
 housingPrepared = full_pipeline.fit_transform(data)
+housingPrepared.shape
+
+
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# Unified Pipeline (Newest alternative)
+num_attribs = list(housingNum)
+cat_attribs = ["ocean_proximity"]
+
+full_pipeline = ColumnTransformer([
+        ("num", num_pipeline, num_attribs),
+        ("cat", OneHotEncoder(), cat_attribs),
+    ])
+
+housing_prepared = full_pipeline.fit_transform(data)
 housingPrepared.shape

@@ -11,12 +11,18 @@ Because of its relevance in machine learning applications, it is important to ta
 * Subsetting
 * Dealing with categorical data
 
-## [Exercise 1: California Housing (Exploration)](../scripts/housingExploring.py)
+##  [Exercise 1: California Housing (Exploration)](../scripts/housingExploring.py)
 
 In this exercise, we will focus on loading a dataset into a [pandas](./pandas.md) dataframe, and performing an initial exploration through basic [matplotlib plots](./matplotlib.md).
 
 <img src="./media/california.jpg" width="50%">
 
-## [Exercise 2: California Housing (Cleaning)](../scripts/housingCleaning.py)
+##  [Exercise 2: Titanic (Encoding)](../scripts/titanic.py)
+
+##  [Exercise 3: California Housing (Cleaning)](../scripts/housingCleaning.py)
 
 The second part of the exercise involves the use of [scikit-learn](./scikitLearn.md) to impute data and pre process it for machine learning applications.
+
+##  [Exercise 4: California Housing (Pipelines)](../scripts/housingTransforming.py)
+
+The last part of this exercise is to use more advanced features of [scikit-learn](./scikitLearn.md) to create streamlined data-manipulation techniques so that they can be used for model training.
