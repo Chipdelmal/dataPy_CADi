@@ -15,14 +15,17 @@
 #   https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
 # CMaps:
 #   https://matplotlib.org/tutorials/colors/colormaps.html
+# Category Encoders:
+#   http://contrib.scikit-learn.org/categorical-encoding/
 ###############################################################################
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Import required libraries
 import matplotlib as plt
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import OneHotEncoder
 #%matplotlib inline
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -73,4 +76,11 @@ housingTr
 # Categorical
 housingCat = data["ocean_proximity"]
 housingCat.head(10)
-(housingCatEncoded, housingCategories) = housingCat.factorize()
+(housingCatEncoded, housingCatCategories) = housingCat.factorize()
+housingCatCategories
+
+encoder = OneHotEncoder(categories="auto", sparse=False)
+housingCatT = housingCat.values.reshape(-1,1)
+housingCatOne = encoder.fit_transform(housingCatT)
+housingCatOne
+encoder.categories_
