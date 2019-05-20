@@ -17,15 +17,13 @@
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Import required libraries
-import datetime
-import pandas as pd
-import matplotlib as plt
-import matplotlib.pyplot as plt
-import pytrends
 from pytrends.request import TrendReq
+from matplotlib import rcParams
+rcParams.update({'figure.autolayout': True})
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Defining the trends request
+#   https://trends.google.com/trends/explore?q=blockchain&geo=US
 kw_list = ["Blockchain"]
 pytrends = TrendReq(hl='en-US', tz=360)
 pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
@@ -41,6 +39,9 @@ print(interest_over_time_df.head())
 interest_by_region_df = pytrends.interest_by_region()
 interest_by_region_df.sort_values(by=["Blockchain"], ascending=False, inplace=True)
 interest_by_region_df.iloc[:20].plot.bar()
+# fig = interest_by_region_df.iloc[:20].plot.bar()
+# fig.get_figure().savefig('trends.png',dpi=500)
+
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Related Queries, returns a dictionary of dataframes

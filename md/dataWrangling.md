@@ -26,3 +26,7 @@ The second part of the exercise involves the use of [scikit-learn](./scikitLearn
 ##  [Exercise 4: California Housing (Pipelines)](../scripts/housingTransforming.py)
 
 The last part of this exercise is to use more advanced features of [scikit-learn](./scikitLearn.md) to create streamlined data-manipulation techniques so that they can be used for model training.
+
+<hr>
+
+##  Other Resources
