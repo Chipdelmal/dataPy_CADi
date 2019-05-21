@@ -45,7 +45,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Python 103](./md/python103.md): Advanced topics (code efficiency and scopes).
 1. [Pypi](./md/pypi.md): Installing, browsing, and creating packages in the [Pypi](https://pypi.org/)/[TestPypi](https://test.pypi.org/) indexing system.
 1. [GeoData](./md/geoData.md):
-1. [Plotting](./md/plots.md): Using [matplotlib](https://matplotlib.org/) to generate meaningful data representations.
+1. [Plotting](./md/plots.md): Using [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) to generate meaningful data representations.
 
 <hr>
 
