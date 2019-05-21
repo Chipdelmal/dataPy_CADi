@@ -16,11 +16,11 @@ This package is an unofficial [google Trends](https://trends.google.com/trends/)
 
 ### [Exercise 1: Using pytrends](../scripts/pyTrends.py)
 
-<img src="./media/blockchain.jpg" width="75%">
+<img src="./media/blockchain.jpg" width="50%">
 
 ### [Exercise 2: "How to Breakup"](../scripts/pyTrends.py)
 
-<img src="./media/break.jpg" width="75%">
+<img src="./media/break.jpg" width="50%">
 
 <hr>
 

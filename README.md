@@ -31,7 +31,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Python 101](./md/python101.md): Introduction to the programming language.
 1. [Python Environments](./md/environments.md): Using [anaconda](https://www.anaconda.com/) and [virtualenv](https://virtualenv.pypa.io/en/latest/) to avoid packages clashes.
 1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), and [Atom](https://ide.atom.io/) for python code development.
-1. [Data Wrangling](./md/dataWrangling.md):
+1. [Data Wrangling](./md/dataWrangling.md): Using [pandas](./pandas.md), [matplotlib plots](./matplotlib.md), and [scikit-learn](./scikitLearn.md) to
 
 ### Day 02 (8h)
 
@@ -42,7 +42,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 ### Day 03 (8h)
 
-1. [Python 103](./md/python103.md): Advanced topics
+1. [Python 103](./md/python103.md): Advanced topics (code efficiency and scopes).
 1. [Pypi](./md/pypi.md): Installing, browsing, and creating packages in the [Pypi](https://pypi.org/)/[TestPypi](https://test.pypi.org/) indexing system.
 1. [GeoData](./md/geoData.md):
 1. [Plotting](./md/plots.md): Using [matplotlib](https://matplotlib.org/) to generate meaningful data representations.
@@ -54,26 +54,29 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 ### Tools and Packages
 
-* [matplotlib](https://matplotlib.org/):
-* [numpy](https://www.numpy.org/):
-* [pandas](https://pandas.pydata.org/):
-* [plotly](https://plot.ly/):
-* [onlinegdb](https://www.onlinegdb.com/online_python_interpreter): Online Python interpreter (originally developed for C and C++)
+* [anaconda](https://www.anaconda.com/): DataScience/Package manager platform for python and R.
+* [atom](https://atom.io/): Versatile IDE for R, Python, Markdown, Javascript, amongst others.
+* [matplotlib](https://matplotlib.org/): Python's most popular package to plot data.
+* [numpy](https://www.numpy.org/): Highly efficient array manipulation in Python.
+* [pandas](https://pandas.pydata.org/): Popular dataframe manipulation in Python.
+* [plotly](https://plot.ly/): A good alternative for interactive plots in Python (similar to [Shiny](https://shiny.rstudio.com/) in [R](https://www.r-project.org/)).
+* [onlinegdb](https://www.onlinegdb.com/online_python_interpreter): Online Python interpreter (originally developed for C and C++).
 * [repl.it](https://repl.it/languages/python3): Online Python IDE and interpreter (also supports many other languages).
-* [scikit-learn](https://scikit-learn.org/stable/)
+* [scikit-learn](https://scikit-learn.org/stable/): Data analysis and machine learning platform for python.
 * [sympy](https://www.sympy.org/en/index.html): Symbolic calculus in Python.
 
 ### Online
 
 * [dataViz CADi](https://github.com/Chipdelmal/dataViz_CADi): "Data Visualization" CADi bootcamp taught in December of 2018 with code examples in [Python](https://www.python.org/), [R](https://www.r-project.org/) and [Mathematica](https://www.wolfram.com/mathematica/).
-* [Git Carpentry Workshop](https://swcarpentry.github.io/git-novice-es/): A good git/github introduction for Spanish-speaking people. With lots of examples and explanations.
+* [Git Carpentry Workshop](https://swcarpentry.github.io/git-novice-es/): A good git/github introduction for Spanish-speaking audiences (with lots of examples and explanations).
 * [Mists of Data](http://ric70x7.github.io/blog_archive.html): [Ricardo's Andrade](http://ric70x7.github.io/) personal blog devoted to data analysis in Python with code examples.
 * [Python 3.7 documentation](https://docs.python.org/3.7/)
 * [Anaconda documentation](https://docs.anaconda.com/)
 * [Virtualenv documentation](https://virtualenv.pypa.io/en/latest/)
 
-### Books
 
+
+### Books
 
 * [Scott Chacon and Ben Straub (2019). Pro Git.](https://git-scm.com/book/en/v2)
 * [McKinney, W. Python for Data Analysis - Data Wrangling with Pandas, Numpy and Python. (2018). ISBN-13: 1491957662](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/ref=asc_df_1491957662/?tag=hyprod-20&linkCode=df0&hvadid=312140868236&hvpos=1o1&hvnetw=g&hvrand=6431209822672155744&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032076&hvtargid=pla-396828636441&psc=1)
