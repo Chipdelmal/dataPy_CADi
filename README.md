@@ -21,7 +21,7 @@ For other data-analysis related topics please take a look at the [dataViz_CADi](
 
 ## Contents
 
-This workshop was created with flexibility in mind. As such, modules are fairly independent and can be followed in a different order than the one suggested here.
+This workshop was created with flexibility in mind. As such, modules are fairly independent and can be followed in a different order than the one suggested here. For a topic-oriented breakdown of the contents, please have a look at the [sitemap](./sitemap.md).
 
 
 
