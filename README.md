@@ -67,6 +67,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 ### Online
 
+* [dataViz Book](https://serialmentor.com/dataviz/): Online book with data visualization examples and principles.
 * [dataViz CADi](https://github.com/Chipdelmal/dataViz_CADi): "Data Visualization" CADi bootcamp taught in December of 2018 with code examples in [Python](https://www.python.org/), [R](https://www.r-project.org/) and [Mathematica](https://www.wolfram.com/mathematica/).
 * [Git Carpentry Workshop](https://swcarpentry.github.io/git-novice-es/): A good git/github introduction for Spanish-speaking audiences (with lots of examples and explanations).
 * [Mists of Data](http://ric70x7.github.io/blog_archive.html): [Ricardo's Andrade](http://ric70x7.github.io/) personal blog devoted to data analysis in Python with code examples.
