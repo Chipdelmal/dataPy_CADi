@@ -28,19 +28,3 @@ zoo.groupby("animal").mean().water_need
 
 waterGroupedSum = zoo.groupby("animal").mean().water_need
 waterGrouped.plot.bar()
-
-
-
-
-
-article_read = pd.read_csv(
-    "../data/extracted/articles.csv",
-    delimiter=';',
-    names = ['my_datetime', 'event', 'country', 'user_id', 'source', 'topic']
-)
-article_read[['country', 'user_id']]
-article_read[article_read.source == 'SEO']
-
-
-article_read.groupby('source').count()
-article_read[article_read.country == 'country_2'].groupby(['source', 'topic']).count()
