@@ -14,16 +14,20 @@ The first visible screen of our interaction with jupyter is the dashboard, which
 
 ### Header
 
+The header is no different from any other toolbar we can access in other productivity-related software. All the common tasks can be performed on it, and we can even click on the help for the packages we are currently loading in our notebook.
+
 <img src="./media/jup01.png" width="100%">
 
 ### Body
+
+The body is where we do our coding, and analysis. We will spend most of our time interacting with it, so it's worth spending time getting comfortable in navigating through it.
 
 <img src="./media/jup03.png" width="100%">
 
 
 ### Keyboard Shortcuts
 
-<img src="./media/jup04.png" width="40%">
+<img src="./media/jup04.png" width="35%">
 
 ##  Exercises and Examples
 
