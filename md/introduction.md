@@ -40,8 +40,8 @@
 
 ### Mentoring
 
-* Two Masters Students (Computer Science)
-* Four undergraduate students (3 Computer Science, 1 Statistics)
+* Two Masters Students ([Computer Science](https://www.researchgate.net/publication/333176157_A_Novel_Deep_Recurrent_Neural_Network_Architecture_for_Time_Series_Forecasting_of_Mosquito-Borne_Disease_Case_Counts?_sg=jZF4_n21L9YfmCO7PgPPn7Ee88X_PBqApRQqUyYptj6_PeWeR8vykorJ2fi1QgUrnMy-jRJST1kMozg618oMCM-J2xJUr7T7VejCLZiK.axstZynycTAv-JL3p_u1OTEwT-wGGpDuqol9kf3HIYQEMKB1Z4zp7V_SPuO5PvlXZZtBpS55gr3Z_hrejkhWsg))
+* Four undergraduate students ([3 Computer Science](https://chipdelmal.github.io/MoNeT/Berkeley.html), [1 Statistics](https://www.researchgate.net/publication/333204465_Quantifying_the_Relationship_Between_Spatial_Habitat_Distribution_and_Homing_Allele_Fixation_in_MCR_Gene_Drive_Systems_for_Aedes_aegypti_Mosquitoes?_sg=-tACnujvzrgzoaxq-46SNGTWAxPXD3mRQFFdZlLuMRdutuc5aFE7jRPgihOag43L1oaGv-QykTMK2FFHwQszW0p1DRL0rZOmHDoZNg0r.wR8OXPMPnpbhrMKumT0yMmLfXQMLCz8cXRyU2LQyC5yW0HkSAn98p5hG30XMiJQLV-uIsQxOVOAb4xYCqWV_Aw))
 
 ### Interests
 
@@ -49,6 +49,10 @@
 * Data visualization and data analysis
 * Application of computational optimization techniques
 * Application of engineering problem solving techniques in public health contexts
+
+### Hobbies
+
+<img src="./media/guitar.jpg" width="100%">
 
 <hr>
 
@@ -78,8 +82,3 @@ The first steps to get this bootcamp started are to:
 * **Install Anaconda**
 * **Get a Github account**
 * **Get a Twitter dev account**
-
-
-<hr><hr>
-
-Navigation: [Back to the Outline](../README.md)

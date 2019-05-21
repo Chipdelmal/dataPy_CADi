@@ -1,4 +1,4 @@
-# Python 101
+# dataPy: Python 101
 
 Python is, by most accounts, the most popular *object-oriented scripting language*. There are many reasons for this, which we will look into in more detail, but in short: it is an accessible, easily readable, programming language that is extremely versatile for a wide variety of applications.
 
