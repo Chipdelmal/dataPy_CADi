@@ -20,3 +20,5 @@ In this exercise, we will focus on loading a dataset into a [pandas](./pandas.md
 ## [Exercise 2: California Housing (Cleaning)](../scripts/housingCleaning.py)
 
 The second part of the exercise involves the use of [scikit-learn](./scikitLearn.md) to impute data and pre process it for machine learning applications.
+
+##  [Exercise 3: Titanic](../scripts/titanic.py)
