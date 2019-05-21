@@ -33,7 +33,7 @@ pip install tweepy
 conda deactivate
 ```
 
-Once installed, we can move on to some [exercises](../scripts/twitter.py).
+Once installed, we can move on to some [exercises](../scripts/tweepyDemo.py).
 
 
 ### [Python Twitter Tools](https://github.com/sixohsix/twitter)
