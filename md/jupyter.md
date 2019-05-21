@@ -4,7 +4,7 @@ Jupyter notebooks are a novel was of doing Python development. They provide a si
 
 ##  Introduction
 
-For [Mathematica](https://www.wolfram.com/mathematica/) users, jupyter notebooks will feel as familiar territory.
+Jupyter works on the idea on creating notebooks that combine text, code and graphics (or [Mathematica](https://www.wolfram.com/mathematica/) users, jupyter notebooks will feel as familiar territory). For the text parts, jupyter follows the [markdown standard](https://en.wikipedia.org/wiki/Markdown), which means we can include bold, italic, headers and even images.
 
 ### Dashboard
 
@@ -31,9 +31,9 @@ The body is where we do our coding, and analysis. We will spend most of our time
 
 ##  Exercises and Examples
 
-### [Exercise 1: Hello Jupyter!]()
+### [Exercise 1: Hello Jupyter!](../scripts/jupyterDemo.ipynb)
 
-### [Exercise 1]()
+### [Exercise 2: Loading and manipulating files]()
 
 
 <hr>
