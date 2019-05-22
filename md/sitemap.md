@@ -14,6 +14,7 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
 * [Data Wrangling](./dataWrangling.md)
   * [scipy](./scipy.md)
   * [pandas](./pandas.md)
+    * ["NFL"](../scripts/nfl.py)
     * ["Zoo"](../scripts/zoo.py)
     * ["Articles read"](../scripts/articles.py)
     * ["Titanic"](../scripts/titanic.py)
