@@ -7,7 +7,9 @@
 
 ### [Exercise 1: NFL](../scripts/nfl.py)
 
-<img src="./media/nfl.png" width="50%">
+Given a dataset of NFL players containing: Age, Birth Place, Birthday, College, Current Status, Current Team, Experience, Height (inches), High School, High School Location, Name, Number, Player Id, Position, Weight (lbs), Years Played; we will be doing basic operations such as filtering and plotting of data to extract information from a data frame.
+
+<img src="./media/nfl.png" width="50%"><img src="./media/nflScatter.png" width="50%">
 
 ### [Exercise 2: Zoo](../scripts/zoo,py)
 

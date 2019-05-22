@@ -44,7 +44,7 @@ frequencies.plot.bar(title=("Active players above  " + str(ageFilterValue) + "gr
 
 color = cm.inferno_r(np.linspace(.4,.8, 30))
 frequencies.plot(kind="bar", title=("Active NFL players above " + str(ageFilterValue) + "y grouped by position"), color=color)
-plt.savefig('./images/nfl.png',dpi=500)
+plt.savefig('./images/nflBar.png',dpi=500)
 
 
 
@@ -53,3 +53,4 @@ sns.lmplot(
     aspect=1.5, fit_reg=False, hue='Position', legend=True,
     palette=sns.color_palette("hls", len(aboveAndActive["Position"].unique()))
 )
+plt.savefig('./images/nflScatter.png',dpi=500)

@@ -7,8 +7,9 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 
-zoo = pd.read_csv("../data/extracted/zoo.csv")
+zoo = pd.read_csv("../data/extracted/Zoo/zoo.csv")
 
 zoo[["animal"]].count()
 zoo.animal.count()
@@ -27,4 +28,11 @@ waterGroupedMean = zoo.groupby("animal").mean()[["water_need"]]
 zoo.groupby("animal").mean().water_need
 
 waterGroupedSum = zoo.groupby("animal").mean().water_need
-waterGrouped.plot.bar()
+waterGroupedSum.plot.bar()
+
+sns.barplot(
+    x="animal", y="water_need", data=zoo,
+    capsize=.2, linewidth=2.5, facecolor=(1, 1, 1, 0),
+    errcolor=".2", edgecolor=".2"
+)
+plt.savefig('./images/zoo.png',dpi=500)
