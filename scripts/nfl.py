@@ -11,14 +11,17 @@
 #   https://cmdlinetips.com/2018/02/how-to-subset-pandas-dataframe-based-on-values-of-a-column/
 #   https://stackoverflow.com/questions/11927715/how-to-give-a-pandas-matplotlib-bar-graph-custom-colors
 #   https://stackoverflow.com/questions/18926031/how-to-extract-a-subset-of-a-colormap-as-a-new-colormap-in-matplotlib
+#   https://seaborn.pydata.org/tutorial/color_palettes.html
 ###############################################################################
 
 
 %matplotlib inline
 import matplotlib.pyplot as plt
+import matplotlib.colors as colors
 import pandas as pd
 import numpy as np
 from matplotlib import cm
+import seaborn as sns
 
 data = pd.read_csv("../data/extracted/NFL/NFL.csv")
 data.head()
@@ -42,3 +45,11 @@ frequencies.plot.bar(title=("Active players above  " + str(ageFilterValue) + "gr
 color = cm.inferno_r(np.linspace(.4,.8, 30))
 frequencies.plot(kind="bar", title=("Active NFL players above " + str(ageFilterValue) + "y grouped by position"), color=color)
 plt.savefig('./images/nfl.png',dpi=500)
+
+
+
+sns.lmplot(
+    x="Height (inches)", y="Weight (lbs)", data=aboveAndActive,
+    aspect=1.5, fit_reg=False, hue='Position', legend=True,
+    palette=sns.color_palette("hls", len(aboveAndActive["Position"].unique()))
+)
