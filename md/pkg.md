@@ -9,21 +9,21 @@ A python package involves a surprisingly low number of steps that can be found i
 Create the following folders and files:
 
 ```bash
-/packaging_tutorial
-  /example_pkg
+/pkg
+  /dataPyPkg
     __init__.py
 ```
-and edit the **__init__.py** to contain the line:
+and edit the **__init__** file to contain the line:
 
 ```bash
-name = "example_pkg"
+name = "dataPyPkg"
 ```
 
 In addition to the previous folders, we will need a **README** file, and a [LICENSE](https://choosealicense.com/).
 
 ```bash
-/packaging_tutorial
-  /example_pkg
+/pkg
+  /dataPyPkg
     __init__.py
   setup.py
   LICENSE
@@ -41,7 +41,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="example-pkg-your-username",
+    name="dataPyPkg",
     version="0.0.1",
     author="Example Author",
     author_email="author@example.com",
@@ -62,6 +62,12 @@ All set! We can now install our package with the following command:
 
 ``` bash
 pip install .
+```
+
+Or
+
+```bash
+python setup.py install
 ```
 
 With this, we should have a fully working python package that we can use in our programming projects. Even better, we can use it in our own environments to keep things clean and tidy!
