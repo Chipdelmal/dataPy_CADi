@@ -31,7 +31,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Python 101](./md/python101.md): Introduction to the programming language.
 1. [Python Environments](./md/environments.md): Using [anaconda](https://www.anaconda.com/) and [virtualenv](https://virtualenv.pypa.io/en/latest/) to avoid packages clashes.
 1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), and [Atom](https://ide.atom.io/) for python code development.
-1. [Data Wrangling](./md/dataWrangling.md): Using [pandas](./pandas.md), [matplotlib plots](./matplotlib.md), and [scikit-learn](./scikitLearn.md) to
+1. [Data Wrangling](./md/dataWrangling.md): Using [pandas](./pandas.md), [matplotlib plots](./matplotlib.md), and [scikit-learn](./scikitLearn.md) to parse, manipulate, and pre-analyze data.
 
 ### Day 02 (8h)
 
@@ -43,7 +43,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 ### Day 03 (8h)
 
 1. [Python 103](./md/python103.md): Advanced topics (code efficiency and scopes).
-1. [Pypi](./md/pypi.md): Installing, browsing, and creating packages in the [Pypi](https://pypi.org/)/[TestPypi](https://test.pypi.org/) indexing system.
+1. [Pypi](./md/pypi.md): Installing, browsing, and creating python packages, and how to upload them to the [Pypi](https://pypi.org/)/[TestPypi](https://test.pypi.org/) indexing systems.
 1. [GeoData](./md/geoData.md):
 1. [Plotting](./md/plots.md): Using [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) to generate meaningful data representations.
 

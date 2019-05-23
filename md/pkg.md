@@ -2,13 +2,7 @@
 
 A python package involves a surprisingly low number of steps that can be found in the [official guide](https://packaging.python.org/tutorials/packaging-projects/). In this document, we'll present a summary.
 
-## An Example: [MoNeT](https://pypi.org/project/MoNeT-MGDrivE/)
-
-[<img src="./media/monet.jpg" width="100%">](https://pypi.org/project/MoNeT-MGDrivE/)
-
 <hr>
-
-##  Creating a pip package
 
 ### Lay down the folders structure
 
@@ -70,10 +64,13 @@ All set! We can now install our package with the following command:
 pip install .
 ```
 
+With this, we should have a fully working python package that we can use in our programming projects. Even better, we can use it in our own environments to keep things clean and tidy!
+
 <hr>
 
-##  [Pypi](./pypi.md) and [TestPy](https://test.pypi.org/)
+##  [Pypi](https://pypi.org/) and [TestPy](https://test.pypi.org/)
 
+Additionally, we could upload our package to the [pypi](https://pypi.org/) system by following the next steps.
 
 ### Generating distribution files
 
@@ -88,6 +85,8 @@ We can now create our distribution files:
 ```bash
 python3 setup.py sdist bdist_wheel
 ```
+
+### Uploading the distribution
 
 To upload our package to testpy, we must first [create an account](https://test.pypi.org/account/register/). Once we do that, we can run the following command:
 
