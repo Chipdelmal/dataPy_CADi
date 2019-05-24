@@ -31,19 +31,21 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Python 101](./md/python101.md): Introduction to the programming language.
 1. [Python Environments](./md/environments.md): Using [anaconda](https://www.anaconda.com/) and [virtualenv](https://virtualenv.pypa.io/en/latest/) to avoid packages clashes.
 1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), and [Atom](https://ide.atom.io/) for python code development.
-1. [Data Wrangling](./md/dataWrangling.md): Using [pandas](./pandas.md), [matplotlib plots](./matplotlib.md), and [scikit-learn](./scikitLearn.md) to parse, manipulate, and pre-analyze data.
+1. [Data Wrangling](./md/dataWrangling.md): Using [pandas](./pandas.md) and [matplotlib plots](./matplotlib.md)
 
 ### Day 02 (8h)
 
 1. [Python 102](./md/python102.md): Object-oriented concepts.
 1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
-1. [Twitter](./md/twitter.md): Interfacing with the API to get trends,
-1. [Google Trends](./md/googleTrends.md):
+1. [Data Wrangling](./md/dataWrangling.md): Using [scikit-learn](./scikitLearn.md) to parse, manipulate, and pre-analyze data.
+1. [Twitter](./md/twitter.md): Interfacing with the API to get trends, tweets, tags, etcetera.
+1. [Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
 
 ### Day 03 (8h)
 
 1. [Python 103](./md/python103.md): Advanced topics (code efficiency and scopes).
-1. [Pypi](./md/pypi.md): Installing, browsing, and creating python packages, and how to upload them to the [Pypi](https://pypi.org/)/[TestPypi](https://test.pypi.org/) indexing systems.
+1. [Pypi](./md/pypi.md): Installing, browsing, and handling python packages.
+1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.
 1. [GeoData](./md/geoData.md):
 1. [Plotting](./md/plots.md): Using [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) to generate meaningful data representations.
 
@@ -80,7 +82,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 ### Books
 
-* [Theodore Petrou (2017). Pandas Cookbook](https://www.packtpub.com/big-data-and-business-intelligence/pandas-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781784393878)
+* [Theodore Petrou (2017). Pandas Cookbook.](https://www.packtpub.com/big-data-and-business-intelligence/pandas-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781784393878)
 * [Scott Chacon and Ben Straub (2019). Pro Git.](https://git-scm.com/book/en/v2)
 * [McKinney, W. Python for Data Analysis - Data Wrangling with Pandas, Numpy and Python. (2018). ISBN-13: 1491957662](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/ref=asc_df_1491957662/?tag=hyprod-20&linkCode=df0&hvadid=312140868236&hvpos=1o1&hvnetw=g&hvrand=6431209822672155744&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032076&hvtargid=pla-396828636441&psc=1)
 * [Géron, Aurélien (2018). Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems](http://shop.oreilly.com/product/0636920052289.do)
@@ -89,6 +91,11 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [Lutz, M. (2014). Python Pocket Reference.](https://www.amazon.com/Python-Pocket-Reference-Your-OReilly/dp/1449357016)
 * [Beazley, D. (2013). Python Cookbook.](https://www.amazon.com/Python-Cookbook-Third-David-Beazley/dp/1449340377)
 * [Russell Mathew A. (2013). Mining the Social Web: Data Mining Facebook, Twitter, Linkedin, Google+, Github, And More ](https://www.amazon.com/Mining-Social-Web-Facebook-LinkedIn/dp/1449367615)
+* [Cairo, Alberto (2016). The truthful art: data, charts, and maps for communication.  ISBN-13: 978-0321934079 ](http://www.thefunctionalart.com/p/the-truthful-art-book.html)
+* [Foster Provost, Tom Fawcett. Data science for business.](http://shop.oreilly.com/product/0636920028918.do)
+* [Kirk, A. (2016). Data Visualisation: A Handbook for Data Driven Design. ISBN-13: 978-1473912144](http://www.visualisingdata.com/book/)
+* [Yau, N. (2011). Visualize this : the FlowingData guide to design, visualization, and statistics. Wiley Pub. ISBN-13: 978-0470944882](https://flowingdata.com/books/)
+* [Yau, N. (2013). Data points: visualization that means something. ISBN-13: 978-1118462195](https://flowingdata.com/books/)
 
 <hr>
 
