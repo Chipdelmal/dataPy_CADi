@@ -28,6 +28,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 ### Day 01 (8h)
 
 1. [Introduction](./md/introduction.md): Objectives, scope, requirements and expectations.
+1. [Data Primer](./md/dataPrimer.md): What is data science and how does data wrangling fit into it?
 1. [Python 101](./md/python101.md): Introduction to the programming language.
 1. [Python Environments](./md/environments.md): Using [anaconda](https://www.anaconda.com/) and [virtualenv](https://virtualenv.pypa.io/en/latest/) to avoid packages clashes.
 1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), and [Atom](https://ide.atom.io/) for python code development.

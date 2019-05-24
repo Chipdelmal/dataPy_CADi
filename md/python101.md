@@ -22,6 +22,9 @@ Because of these, and other reasons, Python is used in companies and application
   * Lots of online support for almost any kind of programming application
 
 
+
+[<img src="./media/primer02.png" width="100%">](https://trends.google.com/trends/explore?date=all&q=data%20science)
+
 <hr>
 
 ##  Installation
