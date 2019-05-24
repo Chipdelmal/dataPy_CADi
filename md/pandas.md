@@ -13,7 +13,11 @@ Given a dataset of NFL players containing: Age, Birth Place, Birthday, College, 
 
 ### [Exercise 2: Zoo](../scripts/zoo,py)
 
+<img src="./media/zoo.jpg" width="50%">
+
 ### [Exercise 3: Articles](../scripts/articles,py)
+
+<img src="./media/articles.png" width="35%">
 
 ### [Exercise 4: Flights](../scripts/flights,py)
 

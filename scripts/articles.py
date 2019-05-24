@@ -9,7 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 article_read = pd.read_csv(
-    "../data/extracted/articles.csv",
+    "../data/extracted/pandas/articles.csv",
     delimiter=';',
     names = ['my_datetime', 'event', 'country', 'user_id', 'source', 'topic']
 )
