@@ -20,24 +20,26 @@
 from pytrends.request import TrendReq
 from matplotlib import rcParams
 rcParams.update({'figure.autolayout': True})
+%matplotlib inline
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Defining the trends request
 #   https://trends.google.com/trends/explore?q=blockchain&geo=US
-kw_list = ["Blockchain"]
+kw_list = ["data"]
 pytrends = TrendReq(hl='en-US', tz=360)
-pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
+pytrends.build_payload(kw_list, cat=0, timeframe='today 8-y', geo='', gprop='')
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Interest Over Time
 interest_over_time_df = pytrends.interest_over_time()
 #interest_over_time_df.loc['2017-10-26']
 print(interest_over_time_df.head())
+interest_over_time_df["data"].plot()
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Interest by Region
 interest_by_region_df = pytrends.interest_by_region()
-interest_by_region_df.sort_values(by=["Blockchain"], ascending=False, inplace=True)
+interest_by_region_df.sort_values(by=["data"], ascending=False, inplace=True)
 interest_by_region_df.iloc[:20].plot.bar()
 # fig = interest_by_region_df.iloc[:20].plot.bar()
 # fig.get_figure().savefig('trends.png',dpi=500)

@@ -1,6 +1,9 @@
 # dataPy: Twitter
 
-Twitter is a very valuable source of news and information. With around 25 million users worldwide, it makes sense to try to make use of the information shared
+Twitter is a very valuable source of news and information. With around 25 million users worldwide, it makes sense to try to make use of the information shared on it. Fortunately, there are some Python interfaces to help us do just that.
+
+To get started, we need to setup a developer account and generate a request for an "app" to access the API. Once done that, we can use our app's keys and tokens to parse the information.
+
 ##  [Twitter API](https://developer.twitter.com/en/docs.html)
 
 Twitter's API (Application Programming Interface)

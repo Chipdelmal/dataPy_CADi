@@ -9,10 +9,10 @@ Due to its popularity, python has several alternatives in terms of integrated de
 
 Python's culture is based on open-source development and sharing of code. As such, several free and open source IDEs are readily available online for a variety of applications and programming tastes.
 
-* [IDLE](./idle.md)
-* [Spyder](./spyder.md)
-* [Jupyter](./jupyter.md)
-* [Atom](./atom.md)
+* [IDLE](./idle.md): Simple, lightweight IDE that comes packaged with Python installations.
+* [Spyder](./spyder.md): Python's ["R-Studio"](https://www.rstudio.com/) IDE.
+* [Jupyter](./jupyter.md): Most popular IDE for data analysis.
+* [Atom](./atom.md): A flexible and lightweight IDE for Python and many other languages.
 
 <hr>
 
