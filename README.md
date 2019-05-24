@@ -17,7 +17,7 @@ The course covers subjects include the parsing and handling of data from differe
 
 For other data-analysis related topics please take a look at the [dataViz_CADi](https://github.com/Chipdelmal/dataViz_CADi) repository. Which contains exercises on data visualization in [R](https://www.r-project.org/), [Python](https://www.python.org/) and [Mathematica](https://www.wolfram.com/mathematica/).
 
-<hr>
+<img src="./md/media/flow.jpg" width="100%" height=10px>
 
 ## Contents
 
@@ -50,7 +50,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [GeoData](./md/geoData.md):
 1. [Plotting](./md/plots.md): Using [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) to generate meaningful data representations.
 
-<hr>
+<img src="./md/media/flow.jpg" width="100%" height=10px>
 
 ## Resources
 
@@ -98,7 +98,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [Yau, N. (2011). Visualize this : the FlowingData guide to design, visualization, and statistics. Wiley Pub. ISBN-13: 978-0470944882](https://flowingdata.com/books/)
 * [Yau, N. (2013). Data points: visualization that means something. ISBN-13: 978-1118462195](https://flowingdata.com/books/)
 
-<hr>
+<img src="./md/media/flow.jpg" width="100%" height=10px>
 
 ### Author: [Ph.D. Héctor Manuel Sánchez Castellanos](https://chipdelmal.github.io/)
 
