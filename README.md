@@ -17,7 +17,7 @@ The course covers subjects include the parsing and handling of data from differe
 
 For other data-analysis related topics please take a look at the [dataViz_CADi](https://github.com/Chipdelmal/dataViz_CADi) repository. Which contains exercises on data visualization in [R](https://www.r-project.org/), [Python](https://www.python.org/) and [Mathematica](https://www.wolfram.com/mathematica/).
 
-<img src="./md/media/flow.jpg" width="100%" height=10px>
+<img src="./md/media/flow.jpg" width="100%" height=7.5px>
 
 ## Contents
 
@@ -36,6 +36,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 ### Day 02 (8h)
 
+1. [A Story to Tell](./md/aStoryToTell.md): Data-driven storytelling.
 1. [Python 102](./md/python102.md): Object-oriented concepts.
 1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
 1. [Data Wrangling](./md/dataWrangling.md): Using [scikit-learn](./scikitLearn.md) to parse, manipulate, and pre-analyze data.
@@ -50,7 +51,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [GeoData](./md/geoData.md):
 1. [Plotting](./md/plots.md): Using [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) to generate meaningful data representations.
 
-<img src="./md/media/flow.jpg" width="100%" height=10px>
+<img src="./md/media/flow.jpg" width="100%" height=7.5px>
 
 ## Resources
 
@@ -98,7 +99,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [Yau, N. (2011). Visualize this : the FlowingData guide to design, visualization, and statistics. Wiley Pub. ISBN-13: 978-0470944882](https://flowingdata.com/books/)
 * [Yau, N. (2013). Data points: visualization that means something. ISBN-13: 978-1118462195](https://flowingdata.com/books/)
 
-<img src="./md/media/flow.jpg" width="100%" height=10px>
+<img src="./md/media/flow.jpg" width="100%" height=7.5px>
 
 ### Author: [Ph.D. Héctor Manuel Sánchez Castellanos](https://chipdelmal.github.io/)
 

@@ -4,6 +4,8 @@ In the latest years, the interest for data gathering, processing, and analysis h
 
 [<img src="./media/primer00.png" width="60%">](https://trends.google.com/trends/explore?date=all&q=data%20science)
 
+<hr>
+
 ##  Data Science
 
 Data science is broadly defined as the process of extracting knowledge from data. It is a multi-disciplinary field that, at its core, mainly combines: statistics, mathematics, machine learning and computer science.
@@ -37,7 +39,15 @@ Good practices in data wrangling are not so different from the good practices in
 <img src="./media/aggregation.jpg" width="100%">
 
 
+### Warning!
+
+We should never expect that data will be provided in a clean, ordered way. Even in the best of conditions, data will be missing, row and column labels will be duplicated, there will be blank lines, numbers and letters will be mixed. It is a common practice to underestimate the time it will take to pre-process
+
+<img src="./media/eracr.jpg" width="100%">
+
 ### How to Get Started
+
+The whole concept of "data wrangling" can sound daunting at first. This is, in part, because it is usually mixed with the applications in machine learning and big data. At its core, data manipulation is just that: cleaning and shaping data so that we can do meaningful things with it.
 
 <hr>
 
