@@ -1,114 +1,61 @@
-# dataPy: Python 101
+# dataPy: Python 101 (part 1)
 
-Python is, by most accounts, the most popular *object-oriented scripting language*. There are many reasons for this, which we will look into in more detail, but in short: it is an accessible, easily readable, programming language that is extremely versatile for a wide variety of applications.
-
-Because of these, and other reasons, Python is used in companies and applications like: Google, Dropbox, Netflix, YouTube, Raspberry Pi, amongst many others.
-
-## Why is Python popular?
-
-* Open source
-* Flexible
-* Easy to learn, yet comprehensive for complex tasks
-  * Speed
-  * Productivity
-* Very powerful scripting language
-  * Ideal for making prototypes
-  * Ideal for data science
-* Good code core packages
-* Garbage collection
-* No types definitions
-* Large community
-  * Wide selection of third-party packages (pip)
-  * Lots of online support for almost any kind of programming application
-
-
-
-[<img src="./media/primer02.png" width="100%">](https://trends.google.com/trends/explore?date=all&q=data%20science)
-
-<hr>
-
-##  Installation
-
-Head to the [python downloads website](https://www.python.org/downloads/), and download [version 3.7.3 installer for your operating system](https://www.python.org/downloads/release/python-373/) and follow the instructions.
-
-Additionally, let's take some time to install [Anaconda for Python 3.7](https://www.anaconda.com/distribution/), which we will be using later during the bootcamp.
-
-<hr>
-
-##  First Steps
-
-For the introduction to the language, let's head to either of:
+Let's get started with some python programming! For the introduction to the language, head to either of:
 * https://www.onlinegdb.com/online_python_interpreter
 * https://repl.it/
 
-### Hello World!
+and type:
 
 ```python
 print("Hello World!")
 ```
 
-### Types
-
-```python
-num = 10
-strg = "Hello World!"
-num = "test"
-```
-
-####  Numeric
-
-####  Strings
-
-```python
-"Repeat " * 10
-```
-
+Now that we have gotten tradition out of the way, let's look at the fundamental types of the Python language.
 
 <hr>
 
-##  Mutability
+## Scalar Types
 
 
+### Numeric
 
-### Mutable
-
-
-####  Lists
+Integers and floating-point numbers are fundamental types in Python. Integers can store arbitrarily long numbers, and floats are
 
 ```python
-# Lists
-lstA = [1, 2, 3, 4]
-lstA[0] = 5
-print(",".join(str(e) for e in lstA))
+iValue = 1384891
+print(iValue ** 4)
 ```
+
 
 ```python
-lstB = lstA
-lstA[0] = -1
-
-print(
-  "A: [" + ",".join(str(e) for e in lstA) + "] \n" +
-  "B: [" + ",".join(str(e) for e in lstA) + "]"
-)
+print(3/2)
+print(3//2)
 ```
 
-#### Immutable
+###  Strings
 
-```python
-# Strings
-strg = "Strings are immutable"
-strg[0] = "Z"
+###  Booleans
 
-# Tuples
-tup = (1,2)
-```
+###  None
+
+###  Dates and Times
+
+### Casting
 
 <hr>
 
-### Functions
+##  Control Flow
 
-```python
-def lstToStr(inList):
-  converted = ",".join(str(e) for e in inList)
-  return "[" + converted + "]"
-```
+###  if, elif, else
+
+Ternary expression
+
+```value = true-expr if condition else false-expr```
+
+###  for loops
+
+###  while loops
+
+###  pass
+
+###  range
