@@ -60,3 +60,4 @@ def binarySearch(arr, l, r, x):
 
 * https://www.geeksforgeeks.org/python-programming-examples/
 * https://www.pythonforbeginners.com/code-snippets-source-code/python-code-examples
+* https://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/

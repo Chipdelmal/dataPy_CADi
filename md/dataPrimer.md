@@ -2,7 +2,7 @@
 
 In the latest years, the interest for data gathering, processing, and analysis has spiked. Data science has become an extremely hot topic, and the need for professionals who are capable in processing information in fast, and flexible ways has increased in the latest years.
 
-[<img src="./media/primer00.png" width="60%">](https://trends.google.com/trends/explore?date=all&q=data%20science)
+[<img src="./media/primer00.png" width="100%">](https://trends.google.com/trends/explore?date=all&q=data%20science)
 
 <hr>
 
@@ -38,6 +38,9 @@ Good practices in data wrangling are not so different from the good practices in
 
 <img src="./media/aggregation.jpg" width="100%">
 
+### How is it different from "regular" programming?
+
+Albeit there is no hard difference with normal programming, data wrangling tends to deal less with "puzzles" or convoluted control flow structures and more with higher-dimensioanl thinking of data structures. In a way, the level of mental abstraction is re-directed into thinking into the data and the ways we can make efficient use of it, instead of more traditional CS problems.
 
 ### Warning!
 
