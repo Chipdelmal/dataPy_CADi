@@ -10,10 +10,10 @@ git config --global core.editor "nano -w"
 
 ### Creating a Github Repo
 
-<img src="./media/git01.png" width="50%">
+<img src="../md/media/git01.png" width="50%">
 
 
-<img src="./media/git02.png" width="50%">
+<img src="../md/media/git02.png" width="50%">
 
 
 ### Linking to a [Github](https://github.com/) Repo
