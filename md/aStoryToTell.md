@@ -1,5 +1,13 @@
 # dataPy: A Story to Tell
 
+At the core of any data analysis task, there is an underlying story about how the data was gathered, why, and how we use it to obtain knowledge.
+
+## How
+
+## Why
+
+
+
 ##  Think of how the data relates to the project
 
 [<img src="./media/poster.jpg" width="100%">](https://www.researchgate.net/publication/328415445_MGDrivE_A_simulation_framework_for_gene_drive_in_spatially-explicit_mosquito_populations_and_its_application_to_threshold-dependent_systems?_sg=wY8aTCIUwlo1GWhgYdJwCHKj7pJWQ03cs-qSsh7RyrbN-cu_iz3eKqxlfv6EMb0NmbQpF6KJvfVbgsFXeIBwRh3wN23gSfnxxsQgKg9_.TD0SjKOp4B6bRZr_uA6yscLDYBRoiWMiy_ULYP3_9Gu6Tk81XKFfZHkI4Lx1KPNABz1FJ2mxZsAVNESrt7LfRg)
