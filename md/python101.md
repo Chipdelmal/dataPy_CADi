@@ -46,15 +46,38 @@ print(3//2)
 
 ##  Control Flow
 
+Control flow structures work in pretty much the same way as they do in other programming languages, although python does have some convenient shortcuts to make our lives easier.
+
 ###  if, elif, else
 
-Ternary expression
+The most basic flow control structure: **if**; checks if some condition is met and takes an action accordingly.
 
-```value = true-expr if condition else false-expr```
+```python
+if x < 0:
+  print("The number is negative.")
+```
+The accompanying **elif** (**else-if**) and **else** check more conditions, and perform actions if met, or if none are met.
+
+```python
+if x == 0:
+  print("The number is zero")
+elif x < 0:
+  print("The number less than zero")
+else:
+  print("The number more than zero")
+```
+
+Additionally, we can use a ternary expression in the form: ```value = true-expr if condition else false-expr```, to make one-line comparisons.
+
+```python
+True if x > 0 else False
+```
 
 ###  for loops
 
 ###  while loops
+
+
 
 ```python
 x=256
