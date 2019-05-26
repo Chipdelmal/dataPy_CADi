@@ -68,9 +68,16 @@ Watch a repo to follow updates about it. Star it to save it in your "liked" repo
 
 Document your project using the integrated wikis and [markdown files](https://github.com/Chipdelmal/dataViz_CADi/blob/master/markdowns/markdown.md).
 
+
 <hr>
 
-## Other Resources
+##  [Exercise 1: Creating a git repo](./git.md)
+
+In this exercise, we will create our github account and cloning it to our local machine. We will be using this repository to store some of the scripts developed throughout the rest of the course. We will also learn how to for a repository to extend its codebase.
+
+<hr>
+
+##  Resources
 
 The use of git is a subject of study in on itself. The material taught as part of this course is a demonstration of some of the most common operations for small data science projects. For more information take a look at these other available resources:
 
@@ -80,12 +87,4 @@ The use of git is a subject of study in on itself. The material taught as part o
 * [Git Alternatives](https://en.wikipedia.org/wiki/List_of_version-control_software)
 * [Version Control Systems Comparison](https://en.wikipedia.org/wiki/Comparison_of_version-control_software)
 
-<br>
-
 [<img src="./media/git03.png" width="100%">](https://guides.github.com/)
-
-<hr>
-
-##  [Exercise 1: Creating a git repo](./git.md)
-
-In this exercise, we will create our github account and cloning it to our local machine. We will be using this repository to store some of the scripts developed throughout the rest of the course. We will also learn how to for a repository to extend its codebase.

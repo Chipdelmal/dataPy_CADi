@@ -14,7 +14,7 @@ Head to the [github website](https://github.com/) and create a new account (pref
 
 [<img src="./media/gitEducation.png" width="100%">](https://education.github.com/)
 
-Whilst there, make sure to also download the [github desktop app](https://desktop.github.com/)
+Whilst there, make sure to also download the [github desktop app](https://desktop.github.com/)!
 
 [<img src="./media/gitDesktop.png" width="100%">](https://desktop.github.com/)
 
@@ -88,3 +88,13 @@ git push origin master
 <hr>
 
 ##  A More Detailed Explanation
+
+At first glance, this whole process might seem obscure and confusing but, over time, this process becomes natural and intuitive.
+
+[<img src="./media/gitDiagram.png" width="50%">](https://blog.osteele.com/2008/05/my-git-workflow/)
+
+<hr>
+
+## Resources
+
+* https://blog.osteele.com/2008/05/my-git-workflow/
