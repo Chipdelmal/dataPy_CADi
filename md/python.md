@@ -2,6 +2,8 @@
 
 Python is, by most accounts, the most popular *object-oriented scripting language*. There are many reasons for this, which we will look into in more detail, but in short: it is an accessible, easily readable, programming language that is extremely versatile for a wide variety of applications.
 
+<img src="./media/pythonRaspberry.png" width="100%"><br>
+
 Because of these, and other reasons, Python is used in companies and applications like: Google, Dropbox, Netflix, YouTube, Raspberry Pi, amongst many others.
 
 ## Why is Python popular?
@@ -21,9 +23,7 @@ Because of these, and other reasons, Python is used in companies and application
   * Wide selection of third-party packages (pip)
   * Lots of online support for almost any kind of programming application
 
-
-
-[<img src="./media/primer02.png" width="100%">](https://trends.google.com/trends/explore?date=all&q=data%20science)
+<br> [<img src="./media/primer02.png" width="100%">](https://trends.google.com/trends/explore?date=all&q=data%20science)
 
 
 ##  Differences with other languages
