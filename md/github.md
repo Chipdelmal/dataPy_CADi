@@ -42,7 +42,7 @@ Git was born out of necessity when Linux developers were denied the free use of 
 
 ### [gh-pages](https://pages.github.com/)
 
-Github provides a built-in way to create websites for our projects and even our personal site. For a brief tutorial on this feature, please have a look at the [dataViz_CADi gh-pages](https://github.com/Chipdelmal/dataViz_CADi/blob/master/markdowns/ghPages.md) document or [github's quick guide](https://guides.github.com/features/pages/).
+Github provides a built-in way to create websites for our projects and even our personal site. For a brief tutorial on this feature, please have a look at the [dataViz_CADi](https://github.com/Chipdelmal/dataViz_CADi) [gh-pages](https://github.com/Chipdelmal/dataViz_CADi/blob/master/markdowns/ghPages.md) document, along with the [markdown section](https://github.com/Chipdelmal/dataViz_CADi/blob/master/markdowns/markdown.md); or [github's quick guide](https://guides.github.com/features/pages/).
 
 [<img src="./media/git07.png" width="50%">](https://gist.github.com/slwu89/b1aee32ef5bcd297696d3da0b5d2159b)
 
@@ -74,6 +74,10 @@ Document your project using the integrated wikis and [markdown files](https://gi
 ##  [Exercise 1: Creating a git repo](./git.md)
 
 In this exercise, we will create our github account and cloning it to our local machine. We will be using this repository to store some of the scripts developed throughout the rest of the course. We will also learn how to for a repository to extend its codebase.
+
+##  [Exercise 2: Forking the dataPy repo](./gitFork.md)
+
+In the second git exercise, we will fork the [dataPy](https://github.com/Chipdelmal/dataPy_CADi) repository and clone it to our computers so that we can work with it throughout the rest of the workshop.
 
 <hr>
 
