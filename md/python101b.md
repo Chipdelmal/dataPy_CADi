@@ -20,12 +20,11 @@ It should return **Python 3.7.x**.
 
 <hr>
 
-##  Mutability
+##  Data Structures
 
-### Mutable
+### Tuples
 
-
-####  Lists
+### List
 
 ```python
 # Lists
@@ -44,24 +43,20 @@ print(
 )
 ```
 
-#### Immutable
+####  Add and Remove
 
-```python
-# Strings
-strg = "Strings are immutable"
-strg[0] = "Z"
+####  Combining
 
-# Tuples
-tup = (1,2)
-```
+####  Sorting
+
+####  Searching
+
+####  Slicing
+
+### Dictionary
+
+### Set
 
 <hr>
 
-### Functions
-
-```python
-def lstToStr(inList):
-  converted = ",".join(str(e) for e in inList)
-  return "[" + converted + "]"
-```
-<hr>
+## Files

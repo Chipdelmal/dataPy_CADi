@@ -2,11 +2,20 @@
 
 At the core of any data analysis task, there is an underlying story about how the data was gathered, why, and how we use it to obtain knowledge.
 
-## How
+## Important Questions
 
-## Why
+### How
+
+### Why
+
+### What are we looking for?
+
+### [An important warning!](https://www.tylervigen.com/spurious-correlations)
+
+[<img src="./media/spurious.png" width="100%">](https://www.tylervigen.com/spurious-correlations)
 
 
+## Bigger Picture
 
 ##  Think of how the data relates to the project
 

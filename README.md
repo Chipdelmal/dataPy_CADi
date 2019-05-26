@@ -1,4 +1,4 @@
-# DataPy CADi
+# dataPy CADi
 
 This repository contains the materials for the **Data acquisition, wrangling and exploratory analysis in Python**, three days intensive [CADi](http://sitios.itesm.mx/va/capacitacion/1_2.html) (["Cursos de Actualización en las Disciplinas"](http://sitios.itesm.mx/va/capacitacion/1_2.html)) for faculty members at ["Tecnológico de Monterrey"](https://tec.mx/es) Institute.
 
@@ -30,10 +30,10 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 1. [Introduction](./md/introduction.md): Objectives, scope, requirements and expectations.
 1. [Data Primer](./md/dataPrimer.md): What is data science and how does data wrangling fit into it?
-1. [Python 101](./md/python.md): Introduction to the programming language: [description](./md/python.md), [scalar types](./md/python101.md) and [collections (data structures)](./md/python101b.md).
+1. [Python 101](./md/python.md): Introduction to the programming language: [description](./md/python.md), [scalar types](./md/python101.md), [collections (data structures)](./md/python101b.md) and [functions](./md/python101c.md)
 1. [Python Environments](./md/environments.md): Using [anaconda](https://www.anaconda.com/) and [virtualenv](https://virtualenv.pypa.io/en/latest/) to avoid packages clashes.
 1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), and [Atom](https://ide.atom.io/) for python code development.
-1. [Data Wrangling](./md/dataWrangling.md): Using [pandas](./pandas.md) and [matplotlib](./matplotlib.md)
+1. [Data Wrangling](./md/dataWrangling.md): Using [pandas](./pandas.md) and [matplotlib](./matplotlib.md).
 
 ### Day 02 (8h)
 
