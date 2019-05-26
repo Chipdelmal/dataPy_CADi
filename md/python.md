@@ -39,3 +39,24 @@ To programmers comming from other languages, Python may seem a bit strange in th
 * Packages can be created and imported as simple files
 
 Over time, however most programmers learn to appreciate Python's syntax and flexibility for what it is and what it is good for.
+
+
+```python
+def binarySearch(arr, l, r, x):
+    while l <= r:
+        mid = l + (r - l)/2;
+        if arr[mid] == x:
+            return mid
+        elif arr[mid] < x:
+            l = mid + 1
+        else:
+            r = mid - 1
+    return -1
+```
+
+<hr>
+
+##  Resources
+
+* https://www.geeksforgeeks.org/python-programming-examples/
+* https://www.pythonforbeginners.com/code-snippets-source-code/python-code-examples

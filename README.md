@@ -29,7 +29,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 1. [Introduction](./md/introduction.md): Objectives, scope, requirements and expectations.
 1. [Data Primer](./md/dataPrimer.md): What is data science and how does data wrangling fit into it?
-1. [Python 101](./md/python.md): Introduction to the programming language: description, [lesson 1](./md/python101.md) and [lesson 2](./md/python101b.md).
+1. [Python 101](./md/python.md): Introduction to the programming language: [description](./md/python.md), [lesson 1](./md/python101.md) and [lesson 2](./md/python101b.md).
 1. [Python Environments](./md/environments.md): Using [anaconda](https://www.anaconda.com/) and [virtualenv](https://virtualenv.pypa.io/en/latest/) to avoid packages clashes.
 1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), and [Atom](https://ide.atom.io/) for python code development.
 1. [Data Wrangling](./md/dataWrangling.md): Using [pandas](./pandas.md) and [matplotlib plots](./matplotlib.md)

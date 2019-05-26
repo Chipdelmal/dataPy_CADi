@@ -1,6 +1,6 @@
 # dataPy: Python 101 (part 2)
 
-With the introductions out of the way, let's install Python in our systems and
+For the second part of the Python introduction, let's install Python in our systems (or update it), along with Anaconda (which we will use later in the bootcamp). With our installations in place, we will explore some deeper concept we will require throughout the course.
 
 <hr>
 
