@@ -76,4 +76,4 @@ print(pyConTag["statuses"][0]['user'])
 
 
 pyConTagExt = t.search.tweets(q="#pycon", tweet_mode='extended')
-pyConTagExt["statuses"]
+[i["full_text"] for i in pyConTagExt["statuses"]]

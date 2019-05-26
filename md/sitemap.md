@@ -39,6 +39,7 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
   * [Google Trends](./googleTrends.md)
     * ["pyTrends Demo"](../scripts/pyTrends.py)
     * ["How to Breakup"](../scripts/breakup.py)
+    * ["CRISPR"](../scripts/trendsCRISPR.py)
   * [Twitter](./twitter.md)
     * ["Tweepy demo"](../scripts/tweepyParser.py)
     * ["Twitter toolkit"](../scripts/twitterDemo.py)

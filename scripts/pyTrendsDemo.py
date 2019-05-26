@@ -17,17 +17,17 @@
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Import required libraries
+%matplotlib inline
 from pytrends.request import TrendReq
 from matplotlib import rcParams
 rcParams.update({'figure.autolayout': True})
-%matplotlib inline
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Defining the trends request
 #   https://trends.google.com/trends/explore?q=blockchain&geo=US
 kw_list = ["data"]
 pytrends = TrendReq(hl='en-US', tz=360)
-pytrends.build_payload(kw_list, cat=0, timeframe='today 8-y', geo='', gprop='')
+pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Interest Over Time

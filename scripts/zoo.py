@@ -10,6 +10,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 zoo = pd.read_csv("../data/extracted/Zoo/zoo.csv")
+zoo
+
 
 zoo[["animal"]].count()
 zoo.animal.count()
