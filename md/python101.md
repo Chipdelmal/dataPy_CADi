@@ -75,9 +75,43 @@ True if x > 0 else False
 
 ###  for loops
 
+**For** loops iterate over collections of items (lists or tuples). We can use these loops in a traditional way:
+
+```python
+sum = 0
+for i in range(0,10,1):
+  sum = sum + i
+  print(sum)
+```
+
+and we can access elements of lists in the same we would in other programming languages:
+
+```python
+numbers = ["One", "Two", "Three", "Four", "Five", "Six"]
+numLen = len(numbers)
+for i in range(numLen):
+  print("Number " + str(i) + ": " + numbers[i])
+```
+
+However, the "pythonic" way to do this is by using the list itself as the iterator:
+
+```python
+numbers = ["One", "Two", "Three", "Four", "Five", "Six"]
+for num in numbers:
+  print(num)
+```
+
+Furthermore, we can traverse a list and use the index of the currently inspected element at the same time by taking advantage of the **enumerate** function:
+
+```python
+numbers = ["One", "Two", "Three", "Four", "Five", "Six"]
+for num, name in enumerate(numbers, start=0):
+  print("Number " + str(num) + ": " + name)
+```
+
 ###  while loops
 
-
+**While** loops are the most general ways to cycle a piece of code. In **while** loops, we set a condition to be met at the point we want to exit the loop:
 
 ```python
 x=256
@@ -88,6 +122,16 @@ while x > 0:
   total = total + x
   x=x//2
 ```
+
 ###  pass
 
-###  range
+Used in blocks where no action is required:
+
+```python
+if x < 0:
+  print('negative!')
+elif x == 0:
+  pass
+else:
+  print('positive!')
+```
