@@ -26,20 +26,13 @@ This is not a CS data structures course, nevertheless, it is important to unders
 
 ### List and Slicing
 
+Lists are the most widely used structure in python. These are sequences of elements that can be replaced, extended, reduced in size, amongst other operations.
+
 ```python
+# We can create and
 lstA = [1, 2, 3, 4]
 lstA[0] = 5
-print(",".join(str(e) for e in lstA))
-```
-
-```python
-lstB = lstA
-lstA[0] = -1
-
-print(
-  "A: [" + ",".join(str(e) for e in lstA) + "] \n" +
-  "B: [" + ",".join(str(e) for e in lstA) + "]"
-)
+print(lstA)
 ```
 
 Same as in programming languages as Mathematica and R, we can "slice" elements of lists easily in python:
@@ -56,7 +49,74 @@ a[-2]
 
 ####  Add, Remove and Combine
 
+As mentioned before, lists are mutable, meaning that they can be modified easily:
+
+```python
+a = ["a","b","c"]
+# Adding an element to the list
+a.append("x")
+# Inserting an element in a position and shifting the following ones
+a.insert(1,"y")
+# Removing and returning the head of the list
+a.pop(0)
+# Removing and returning the tail of the list
+a.pop(-1)
+# Removing an element of the list by value
+a.remove("b")
+# Concatenating lists (slow)
+x = ("l","m","n")
+b = a + x
+# Extending a list (fast)
+a.extend(x)
+a
+```
+
 ####  Sorting and Searching
+
+Finding an element in a list is easy (albeit computationally expensive):
+
+```python
+[0,0,0,1,2,3].index(2)
+```
+
+Lists can be sorted in place:
+
+```python
+a = ['y', 'c', 'lx', 'maa', 'n', 'l', 'm', 'nzzz']
+a.sort()
+a.sort(key=len)
+```
+
+We can also insert elements whilst keeping the list sorted with **bisect**:
+
+```python
+import bisect as bs
+c = [1,2,2,2,3,4,5,8]
+# To return the position:
+pos = bs.bisect(c,3)
+# To do the sorted insertion
+bs.insort(c,3)
+```
+
+####  Warning!
+
+One important thing to take into account, is that when we assign the list to another variable, we are pointing towards the same original list (no copy is automatically created), so if we modify the contents of either of the references, we will modify the contents of the structure in memory:
+
+```python
+lstA = [1, 2, 3, 4]
+lstB = lstA
+lstA[0] = -1
+print(lstB, lstA)
+```
+To avoid this, when assigning the second reference, we can explicitly create a copy of the contents:
+
+```python
+lstA = [1, 2, 3, 4]
+lstB = lstA.copy()
+lstA[0] = -1
+print(lstB, lstA)
+```
+
 
 ### Dictionary
 
