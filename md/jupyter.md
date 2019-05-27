@@ -29,12 +29,19 @@ The body is where we do our coding, and analysis. We will spend most of our time
 
 <img src="./media/jup04.png" width="35%">
 
-##  Exercises and Examples
+<hr>
+
+##  Exercises
 
 ### [Exercise 1: Hello Jupyter!](../scripts/jupyterDemo.ipynb)
 
-### [Exercise 2: Loading and manipulating files]()
+This example notebook will show us the basics of creating and using a jupyter notebook to code in python and to combine it with markdown text to enrich the content.
 
+### [Exercise 2: Exporting a QR code](../scripts/jupyterQR.ipynb)
+
+In this exercise, we will create a QR code containing the website URL and export it to disk (following [this source code](../scripts/pyQR.py)).
+
+<img src="./media/qrURL.png" width="30%">
 
 <hr>
 
