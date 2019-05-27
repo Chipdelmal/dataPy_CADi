@@ -6,14 +6,45 @@
 
 ### Comprehensions
 
-```[expr for val in collection if condition]```
+Comprehensions are one of the most beloved features in python. With them, we can process the elements of a list, tuple or dictionary and return a processed version of their elements. The general structure for comprehensions is:
+
+```python
+# Returning a list
+[expr for val in collection if condition]
+# Returning a tuple
+(expr for val in collection if condition)
+# Returning a dictionary
+{key: value for val in collection if condition}
+```
+
+We can, for example, take a list of numbers square them and return a list in a single, clean, line of code:
+
+```python
+exList = [1, 2, 3, 4, 5, 6]
+[i ** 2 for i in exList]
+```
+
+Extending the idea, we can calculate and return the squared value only of the even numbers:
+
+```python
+[i ** 2 for i in exList if i % 2 == 0]
+```
+
+At first, comprehensions might not look all that useful, but they can be used in very powerful ways:
 
 ```python
 strings = ['a', 'as', 'bat', 'car', 'dove', 'python']
 [x.upper() for x in strings if len(x) > 2]
+```
+
+And we can use them to generate dictionaries too:
+
+```python
 unique_lengths = {len(x) for x in strings}
 loc_mapping = {val : index for index, val in enumerate(strings)}
 ```
+
+As a final note, it is worth noting that list comprehensions usually run faster than their traditionally typed counterparts.
 
 ### enumerate
 

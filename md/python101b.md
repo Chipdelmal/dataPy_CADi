@@ -62,6 +62,13 @@ a[-2]
 
 ### Tuples
 
+Tuples, store a sequence of elements but, unlike lists, they are immutable (meaning that, once created, we can't modify them).
+
+```python
+a = (1,2,0,4,5)
+a[2] = 3
+```
+
 ### Set
 
 A set is, as its mathematic counterpart, an unordered collection of unique elements. It support operations such as union, intersection, difference, and symmetric difference. These structures are specially useful to check if an element has already been visited in a traverse algorithm, or to get the unique elements in a structure.

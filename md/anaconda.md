@@ -2,6 +2,8 @@
 
 In this workshop, we will be using anaconda as our environment manager. The reason to prefer it over virtualenv is that it can be used with [R](https://www.r-project.org/) (which is also commonly used for data-analysis applications), and because it also provides a user interface, which makes it accessible for a wider audience.
 
+[<img src="./media/anacondaBanner.png" width="100%">](https://www.anaconda.com/distribution/)
+
 ## Installing Anaconda
 
 Anaconda does not come bundled with our python installation, so we have to head to the [download section of the project's website](https://www.anaconda.com/distribution/) and install it.

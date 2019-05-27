@@ -14,9 +14,9 @@ Now that we have gotten tradition out of the way, let's look at the fundamental 
 
 <hr>
 
-## Scalar Types
+## Core Types
 
-Scalar types are the most fundamental units of programming in python. They represent a single value of data and are the foundations of any program we will build throughout this bootcamp.
+Core types are the most fundamental units of programming in python. They represent a single value of data and are the foundations of any program we will build throughout this bootcamp.
 
 ### Numeric
 
