@@ -21,7 +21,7 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
     * ["Random Walk"](../scripts/randomWalk.py)
   * [jupyter](./jupyter.md)
     * [Jupyter Basics](../scripts/jupyterDemo.ipynb)
-    * [Jupyter File Manipulation](../scripts/jupyterFiles.ipynb)
+    * ["QR Code"](../scripts/jupyterQR.ipynb)
   * [atom](./atom.md)
 * [Data Wrangling](./dataWrangling.md)
   * [pandas](./pandas.md)
