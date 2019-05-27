@@ -20,6 +20,12 @@ source env/dataPy/bin/activate
 # In Windows: \path\to\env\Scripts\activate
 ```
 
+With the environment open, let's install the [MoNeT_MGDrivE](https://pypi.org/project/MoNeT-MGDrivE/) package using pip:
+
+```bash
+pip install MoNeT_MGDrivE
+```
+
 Once we have finished working, we can deactivate the environment with:
 
 ```bash

@@ -31,6 +31,15 @@ Paramount in science, reproducibility is a must for any kind of publication. Pro
 
 ## Exercises
 
-##  [Exercise 1: Creating an environment with virtualenv](./virtualenv.md)
+###  [Exercise 1: Creating an environment with virtualenv](./virtualenv.md)
 
-##  [Exercise 2: Creating an environment with anaconda](./anaconda.md)
+We will do a basic example in the creation of an environment with virtualenv from the command line to know how we would use it if we didn't have access to anaconda.
+
+[<img src="./media/virtualenv.png" width="100%">](https://www.anaconda.com/distribution/)
+
+
+###  [Exercise 2: Creating an environment with anaconda](./anaconda.md)
+
+For this exercise, we will create the environment we will use throughout the bootcamp to install our packages!
+
+[<img src="./media/anacondaDownload.png" width="100%">](https://www.anaconda.com/distribution/)
