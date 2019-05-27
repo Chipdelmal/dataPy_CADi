@@ -1,8 +1,12 @@
-# Environments
+# dataPy: Environments
 
 Virtual environments attempt to solve a variety of problems that arise when working in several programming projects at the same time. In this section of our bootcamp we will go through some of these uses and we will setup the environment that we will be using for the rest of the workshop.
 
+<hr>
+
 ## What is an environment and why should I use one?
+
+There are various reasons to use environments, most of which relate to "good practices" in coding.
 
 ###  Packages "Hygene"
 
@@ -16,57 +20,17 @@ Environments solve this problem in an elegant way by providing "workspaces" with
 
 Another problem environments address is the "shipping" of our code. This is: **How do I share my code with collaborators and users without them having to install and figure out packages dependencies by themselves?**
 
-By creating a virtual environment, we are already
-
-##  Getting started (updating pip)
-
-Updating on MacOs and Linux:
-
-```bash
-pip3 install --upgrade pip
-```
+By creating a virtual environment, we are already making sure that we have everything necessary to run our code, so we can simply share it with our collaborators for them to be able to run the code too.
 
 
-Updating on Windows:
+### Reproducibility
 
-```bash
-python -m pip install -U pip
-```
+Paramount in science, reproducibility is a must for any kind of publication. Providing a self-contained environment can ensure that any interested reader can run our code.
 
-##  [virtualenv](https://virtualenv.pypa.io/en/latest/)
+<hr>
 
-##  [Anaconda](https://www.anaconda.com/)
+## Exercises
 
-### Creating an environment
+##  [Exercise 1: Creating an environment with virtualenv](./virtualenv.md)
 
-```bash
-conda create -n DataStructures python=3.7
-```
-
-To install from *yml* file:
-
-```bash
-conda env create -f dataPy.yml
-```
-
-### Installing packages on the environment
-
-```bash
-source activate dataPy
-pip install pandas
-pip install numpy
-conda deactivate
-```
-
-### Adding the kernel to Jupyter/Atom (optional)
-
-```bash
-python -m ipykernel install --user --name dataPy
-```
-
-
-### Exporting an environment to a YML file
-
-```bash
-conda env export > dataPy.yml
-```
+##  [Exercise 2: Creating an environment with anaconda](./anaconda.md)
