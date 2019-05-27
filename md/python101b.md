@@ -77,6 +77,13 @@ b
 
 A set is, as its mathematic counterpart, an unordered collection of unique elements. It support operations such as union, intersection, difference, and symmetric difference. These structures are specially useful to check if an element has already been visited in a traverse algorithm, or to get the unique elements in a structure.
 
+```python
+a = set([1,3,3,2,2,4,4,4,4,0])
+b = set([2,2,3,3,9])
+a & b
+a | b
+```
+
 <hr>
 
 ## Files
