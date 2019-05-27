@@ -4,6 +4,8 @@
 
 ## Useful functions for collections of data
 
+In addition to the operations we've seen so far, there are some other common functions that are used
+
 ### Comprehensions
 
 Comprehensions are one of the most beloved features in python. With them, we can process the elements of a list, tuple or dictionary and return a processed version of their elements. The general structure for comprehensions is:
@@ -48,13 +50,33 @@ As a final note, it is worth noting that list comprehensions usually run faster 
 
 ### enumerate
 
-### sorted
+It is a common practice when iterating through elements of a sequence to keep track of the index of the current item:
 
 ```python
+lst = ["car", "apple", "book"]
+for (i, val) in enumerate(lst):
+  print(str(i) + " : " + val)
+```
+
+### sorted and reverse
+
+Sorting lists is also easy in python:
+
+```python
+a = [7, 1, 2, 6, 0, 3, 2]
 sorted([7, 1, 2, 6, 0, 3, 2])
+a.sort()
+```
+
+And reversing them is just as easy:
+
+```python
+a.reverse()
 ```
 
 ### zip
+
+The **zip** operation can be thought of a **transpose** operation in mathematics (and mathematica programming). It combines the elements of two collections and returns them element-wise:
 
 ```python
 seq1 = ['foo', 'bar', 'baz']
@@ -63,7 +85,6 @@ zipped = zip(seq1, seq2)
 list(zipped)
 ```
 
-### reverse
 
 <hr>
 
