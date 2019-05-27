@@ -65,8 +65,12 @@ a[-2]
 Tuples, store a sequence of elements but, unlike lists, they are immutable (meaning that, once created, we can't modify them).
 
 ```python
+# We can't modify the contents of a tuple once it's created
 a = (1,2,0,4,5)
 a[2] = 3
+# We can, however, concatenate tuples
+b = a + a
+b
 ```
 
 ### Set
@@ -77,6 +81,13 @@ A set is, as its mathematic counterpart, an unordered collection of unique eleme
 
 ## Files
 
+File objects are interfaces to files in Python. Reading and writing files in Python is not that different from other object-oriented languages such as **C++** or **Java**:
+
+```python
+f = open("../data/extracted/1984/1984.txt")
+text = f.read()
+text.count('\n')
+```
 
 <hr>
 
