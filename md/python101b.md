@@ -60,6 +60,23 @@ a[-2]
 
 ### Dictionary
 
+A dictionary is not a sequence of elements, but rather a "mapping". This means that rather than storing elements in a given order, the dictionary stores pairs of: **key-value**. For CS people, a dictionary is, an implementation of a mutable hash table.
+
+```python
+# We can create a dictionary in various different ways:
+dictEx = {"age": 10 , "name": "Pusheen", "animal": "cat"}
+dictEx = dict(name="Pusheen", animal="cat", age=10)
+dictEx = dict(zip(["name","age","animal"],["Pusheen",10,"cat"]))
+dictEx["age"]
+# We can also add a new element by key, or replace an existing one
+dictEx["age"] = 11
+dictEx["hobby"] = "blogging"
+dictEx
+# We could print the contents of the dictionary by sorted key using a list comprehension:
+[i + " is " + str(dictEx[i]) for i in sorted(dictEx.keys())]
+```
+
+
 ### Tuples
 
 Tuples, store a sequence of elements but, unlike lists, they are immutable (meaning that, once created, we can't modify them).
@@ -80,7 +97,9 @@ A set is, as its mathematic counterpart, an unordered collection of unique eleme
 ```python
 a = set([1,3,3,2,2,4,4,4,4,0])
 b = set([2,2,3,3,9])
+# Union
 a & b
+# Instersection
 a | b
 ```
 
