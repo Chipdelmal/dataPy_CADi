@@ -28,6 +28,7 @@ Then look for our specification file:
 <img src="./media/anac02.png" width="100%">
 
 <img src="./media/anac03.png" width="100%">
+
 ```bash
 conda env create -f dataPy.yml
 ```
@@ -45,6 +46,7 @@ And we should be done!
 To create an environment from scratch, we first click the "Create" button and set a name. We then select the python version, and click create.
 
 <img src="./media/anac01b.png" width="100%">
+
 ```bash
 conda create -n dataPy python=3.7
 ```
@@ -73,6 +75,7 @@ We can also launch jupyter from our package:
 And create a new notebook with our kernel:
 
 <img src="./media/anac06b.png" width="100%">
+
 ```bash
 source activate dataPy
 jupyter notebook
