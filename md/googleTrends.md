@@ -16,12 +16,24 @@ This package is an unofficial [google Trends](https://trends.google.com/trends/)
 
 ### [Exercise 1: Using pytrends](../scripts/pyTrends.py)
 
+This exercise is an introduction on how to use google trends with the pytrends python package. With it, we will learn how to make requests to the google trends server, and plot their frequencies using matplotlib.
+
 <img src="./media/blockchain.jpg" width="50%">
 
 ### [Exercise 2: "How to Breakup"](../scripts/pyTrends.py)
 
+In this second exercise, we will see how we can extract more "knowledge" on a google trends series by restricting time samples, and ploting at different timescales.
+
 <img src="./media/break.jpg" width="50%">
+
+### [Exercise 3: "CRISPR"](../scripts/trendsCRISPR.py)
+
+The final google trends exercise will show us how to clean and merge dataframes so that we can compare search queries about CRISPR across three geographic scales.
+
+<img src="./media/crispr.png" width="50%">
 
 <hr>
 
 ## Other Resources
+
+* https://pandas.pydata.org/pandas-docs/stable/reference/frame.html
