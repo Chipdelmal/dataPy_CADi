@@ -12,7 +12,7 @@ The course covers subjects include the parsing and handling of data from differe
 
 For other data-analysis related topics please take a look at the [dataViz_CADi](https://github.com/Chipdelmal/dataViz_CADi) repository. Which contains exercises on data visualization in [R](https://www.r-project.org/), [Python](https://www.python.org/) and [Mathematica](https://www.wolfram.com/mathematica/).
 
-[<img src="./md/media/dataPy.jpg" width="50%" height="100px">](https://github.com/Chipdelmal/dataPy_CADi)[<img src="./md/media/dataViz.jpg" width="50%" height="100px">](https://github.com/Chipdelmal/dataViz_CADi)<br>
+[<img src="./md/media/dataPy.jpg" width="50%" height="125px">](https://github.com/Chipdelmal/dataPy_CADi)[<img src="./md/media/dataViz.jpg" width="50%" height="125px">](https://github.com/Chipdelmal/dataViz_CADi)<br>
 
 <img src="./md/media/flow.jpg" width="100%" height=7.5px>
 
