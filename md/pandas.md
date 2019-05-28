@@ -22,6 +22,8 @@ Given a dataset of NFL players containing: Age, Birth Place, Birthday, College, 
 ### [Exercise 4: Flights](../scripts/flights,py)
 
 
+### [Exercise 5: Baseball](../scripts/baseball.py)
+
 <hr>
 
 ##  Other Resources

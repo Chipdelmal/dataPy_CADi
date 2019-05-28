@@ -26,7 +26,7 @@ dataW.rename(columns={"Month": "month", 'CRISPR: (Worldwide)': "World"}, inplace
 
 
 pd.concat([data, dataW], axis=1)
-dataFull = pd.merge(data, dataW, how="inner", on="month")
+dataFull = pd.merge(data, dataW, how="cross", on="month")
 dataFull
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
