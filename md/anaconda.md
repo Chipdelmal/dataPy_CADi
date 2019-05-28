@@ -94,3 +94,9 @@ To export our environment to a **YML** file, we can run:
 ```bash
 conda env export > dataPy.yml
 ```
+
+<hr>
+
+##  Resources
+
+* https://stackoverflow.com/questions/39604271/conda-environments-not-showing-up-in-jupyter-notebook
