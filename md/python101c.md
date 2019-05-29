@@ -2,6 +2,93 @@
 
 <hr>
 
+## Importing Packages
+
+In contrast to languages like C, in which we have to compile the libraries and link them to our compiler, it is fairly easy to both install, and run packages in Python. To install, it is common to use the **pip** package manager:
+
+```bash
+pip install numpy
+```
+
+### Installing PIP
+
+There's a couple of ways to install pip, so let's first check if we already have it running in our computers:
+
+```bash
+pip --version
+```
+
+If it is not installed, let's install it by following the next steps (this guide is for MacOS/Linux, but a guide for windows computers can be found in [this link](https://projects.raspberrypi.org/en/projects/using-pip-on-windows)):
+
+
+```bash
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+```
+
+Before moving on, let's make sure we are running the latest version by upgrading it:
+
+```bash
+# On Unix
+pip install -U pip
+# On Windows
+python -m pip install -U pip
+```
+
+We are set! With this, we should be able to install and run packages with our Python distribution easily!
+
+### Using PIP
+
+With pip installed, let's install pandas!
+
+```bash
+pip install pandas
+```
+
+And list the packages that are currently installed in our system:
+
+```bash
+pip list
+```
+
+<hr>
+
+## Functions
+
+```python
+def sumTwoValues(a, b=0):
+  return a + b
+```
+
+```python
+def listToString(inList):
+  converted = ",".join(str(e) for e in inList)
+  return "[" + converted + "]"
+```
+
+Functions are regular objects in python, as such, we can do things like the following:
+
+```python
+import re
+def remove_punctuation(value):
+  return re.sub('[!#?]', '', value)
+
+def clean_strings(strings, ops):
+  result = []
+  for value in strings:
+    for function in ops:
+      value = function(value)
+    result.append(value)
+  return result
+
+states = ['   Alabama ', 'Georgia!', 'Georgia', 'georgia', 'FlOrIda', 'south   carolina##', 'West virginia?']
+clean_ops = [str.strip, remove_punctuation, str.title]
+clean_strings(states, clean_ops)
+```
+
+
+<hr>
+
 ## Useful functions for collections of data
 
 In addition to the operations we've seen so far, there are some other common functions that are used
@@ -84,11 +171,6 @@ seq2 = ['one', 'two', 'three']
 zipped = zip(seq1, seq2)
 list(zipped)
 ```
-
-
-<hr>
-
-## Importing Packages
 
 <hr>
 

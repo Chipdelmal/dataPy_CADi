@@ -175,40 +175,6 @@ text = f.read()
 text.count('\n')
 ```
 
-<hr>
-
-## Functions
-
-```python
-def sumTwoValues(a, b=0):
-  return a + b
-```
-
-```python
-def listToString(inList):
-  converted = ",".join(str(e) for e in inList)
-  return "[" + converted + "]"
-```
-
-Functions are regular objects in python, as such, we can do things like the following:
-
-```python
-import re
-def remove_punctuation(value):
-  return re.sub('[!#?]', '', value)
-
-def clean_strings(strings, ops):
-  result = []
-  for value in strings:
-    for function in ops:
-      value = function(value)
-    result.append(value)
-  return result
-
-states = ['   Alabama ', 'Georgia!', 'Georgia', 'georgia', 'FlOrIda', 'south   carolina##', 'West virginia?']
-clean_ops = [str.strip, remove_punctuation, str.title]
-clean_strings(states, clean_ops)
-```
 
 <hr>
 

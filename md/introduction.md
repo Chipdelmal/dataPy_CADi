@@ -28,7 +28,7 @@ Before getting into the code, let's take some time for introductions and objecti
 
 *Dev team: Four undergraduate students (3 Computer Science + 1 Statistics)*
 
-[<img src="./media/eracr2.jpg" width="75%">](https://chipdelmal.github.io/MoNeT/)
+[<img src="./media/eracr2.jpg" width="100%">](https://chipdelmal.github.io/MoNeT/)
 [<img src="./media/eracr.jpg" width="100%">](https://chipdelmal.github.io/MoNeT/)
 
 ####  [MASH](https://smitdave.github.io/MASH-Main/): Modular Analysis & Simulation for Health (University of Washington)
