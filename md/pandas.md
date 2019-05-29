@@ -13,16 +13,23 @@ Given a dataset of NFL players containing: Age, Birth Place, Birthday, College, 
 
 ### [Exercise 2: Zoo](../scripts/zoo,py)
 
+Another introductory exercise in which we calculate metrics from a pandas dataframe with some grouping functions.
+
 <img src="./media/zoo.jpg" width="50%">
 
 ### [Exercise 3: Articles](../scripts/articles,py)
+
+Multiple level grouping and filtering in a small dataset.
 
 <img src="./media/articles.png" width="35%">
 
 ### [Exercise 4: Flights](../scripts/flights,py)
 
+Some more advanced filtering and grouping on pandas dataframes for statistics and metrics on a large dataset.
 
-### [Exercise 5: Baseball](../scripts/baseball.py)
+<img src="./media/flights.png" width="100%">
+
+<!--### [Exercise 5: Baseball](../scripts/baseball.py)-->
 
 <hr>
 
