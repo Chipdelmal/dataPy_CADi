@@ -11,7 +11,7 @@ In the latest years, the interest for data gathering, processing, and analysis h
 Data science is broadly defined as the process of extracting knowledge from data. It is a multi-disciplinary field that, at its core, mainly combines: statistics, mathematics, machine learning and computer science.
 
 
-[<img src="./media/primer04.jpg" width="60%">](https://datascience.berkeley.edu/about/what-is-data-science/)
+[<img src="./media/primer04.jpg" width="100%">](https://datascience.berkeley.edu/about/what-is-data-science/)
 
 
 This, however, comes at a cost. Analyzing data is a much more involved process than just collecting information and drawing correlations from it. It is important to understand that data itself won't tell us answers if we do not understand the underlying processes that generate it.
