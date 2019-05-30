@@ -24,7 +24,7 @@ It should return **Python 3.7.x**.
 
 This is not a CS data structures course, nevertheless, it is important to understand how data is stored in python so that we can manipulate it as we desire.
 
-### List and Slicing
+### List
 
 Lists are the most widely used structure in python. These are sequences of elements that can be replaced, extended, reduced in size, amongst other operations.
 

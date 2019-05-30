@@ -12,4 +12,4 @@ titanic.head()
 
 encoder = OneHotEncoder(sparse=False)
 encoder.fit_transform(titanic[['sex', 'embarked']])
-encoder.categories_
+print(encoder.categories_)
