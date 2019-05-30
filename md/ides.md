@@ -12,6 +12,7 @@ Python's culture is based on open-source development and sharing of code. As suc
 * [IDLE](./idle.md): Simple, lightweight IDE that comes packaged with Python installations.
 * [Spyder](./spyder.md): Python's ["R-Studio"](https://www.rstudio.com/) IDE.
 * [Jupyter](./jupyter.md): Most popular IDE for data analysis.
+* [nteract](./nteract.md): A new alternative to run jupyter notebooks in a desktop app.
 * [Atom](./atom.md): A flexible and lightweight IDE for Python and many other languages.
 
 <hr>
