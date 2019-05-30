@@ -150,6 +150,8 @@ b = a + a
 b
 ```
 
+
+
 ### Set
 
 A set is, as its mathematic counterpart, an unordered collection of unique elements. It support operations such as union, intersection, difference, and symmetric difference. These structures are specially useful to check if an element has already been visited in a traverse algorithm, or to get the unique elements in a structure.
@@ -162,6 +164,8 @@ a & b
 # Instersection
 a | b
 ```
+
+[<img src="./media/set03.png" width="30%">](http://ric70x7.github.io/20190121_buffers.html)[<img src="./media/set02.png" width="30%">](http://ric70x7.github.io/20190121_buffers.html)[<img src="./media/set01.png" width="30%">](http://ric70x7.github.io/20190121_buffers.html)
 
 <hr>
 
