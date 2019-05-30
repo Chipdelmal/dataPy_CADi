@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from pandas.plotting import scatter_matrix
-#%matplotlib inline
+%matplotlib inline
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Setup data path
@@ -50,7 +50,8 @@ data["ocean_proximity"].value_counts()
 # Get some basic statistics and plots
 data.describe()
 data.hist(bins=50, figsize=(20, 15))
-#plt.show()
+plt.show()
+# plt.savefig('./images/scikit04.png',dpi=500)
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Create a test set
