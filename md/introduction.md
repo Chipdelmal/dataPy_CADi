@@ -4,8 +4,9 @@ Before getting into the code, let's take some time for introductions and objecti
 
 <hr>
 
-##  My background
+## [My background](https://www.researchgate.net/profile/Hector_Sanchez_Castellanos)
 
+_I'm a Computer Scientist/Mechatronics Engineer working in modeling processes related to the spread/control of mosquito-borne diseases. My main lines of research focus on simulating the spatial spread of gene-drives in mosquito populations, and modeling the effects of mosquito-control interventions in mathematical/computational frameworks. I am particularly interested in the application of CS/Engineering methodologies (network theory, optimization techniques, individual-based modeling, etcetera) to stop the spread of vector-borne diseases. In the past I've worked in animal vocalizations analysis, robotics, computer vision, electronics instrumentation and automotive industry._
 
 ### Education
 
@@ -13,7 +14,7 @@ Before getting into the code, let's take some time for introductions and objecti
 * PhD in Computer Science @ [Tecnológico de Monterrey](https://tec.mx/es)
 * BSc in Mechatronics Engineering @ [Tecnológico de Monterrey](https://tec.mx/es)
 
-### [Research](https://www.researchgate.net/profile/Hector_Sanchez_Castellanos)
+### [Research](https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=1&gmla=AJsN-F6sB0xjpAcybR6MN1_Vqgpb21-oCGtqXDmrR9A3dQKCYyUCTQNsFj_OzxKrEtxKdDgFnlS7CsjGqaxWZ2acMQDLODMKQuvwHhLBeaKHKNtEX9KoT4g&user=OeOYQqEAAAAJ)
 
 ####  [MGDrivE](https://marshalllab.github.io/MGDrivE/): Mosquito Gene Drive Explorer (UC Berkeley)
 
