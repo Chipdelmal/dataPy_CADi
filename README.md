@@ -74,7 +74,9 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [Git Carpentry Workshop](https://swcarpentry.github.io/git-novice-es/): A good git/github introduction for Spanish-speaking audiences (with lots of examples and explanations).
 * [Python 3.7 documentation](https://docs.python.org/3.7/): Official python documentation with examples of use of the built-in functions.
 * [Mists of Data](http://ric70x7.github.io/blog_archive.html): [Ricardo's Andrade](http://ric70x7.github.io/) personal blog devoted to data analysis in Python with code examples.
+* [Numpy documentation](https://www.numpy.org/devdocs/)
 * [Seaborn](https://seaborn.pydata.org/): Documentation for the seaborn statistical visualization package.
+* [SciPy documentation](https://docs.scipy.org/doc/)
 * [Virtualenv documentation](https://virtualenv.pypa.io/en/latest/): Tutorials and documentation for python's built-in environment manager.
 
 

@@ -4,3 +4,8 @@
 
 
 [<img src="./media/scipy.png" width="100%">](https://www.scipy.org/)
+
+
+##  Reference
+
+* https://docs.scipy.org/doc/scipy/reference/tutorial/
