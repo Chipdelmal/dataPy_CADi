@@ -14,7 +14,7 @@ THe go-to data type to store spatial information is: shapefiles; which are compo
 
 ##  Examples and Exercises
 
-##  [Exercise 01](./got.md): Game of Thrones Map (based on the [example](http://ric70x7.github.io/20190318_got.html) created by [Ricardo Andrade](http://ric70x7.github.io/))
+##  [Exercise 01: Game of Thrones Map](../scripts/got.py)
 
 Throughout this exercise, we will create a map by parsing a community-created dataset to represent the locations in the popular TV show "Game of Thrones".
 

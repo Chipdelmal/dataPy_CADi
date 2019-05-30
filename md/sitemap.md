@@ -5,13 +5,13 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
 * [Introduction](./introduction.md)
 * [Data Wrangling Primer](./dataPrimer.md)
 * [Python](./python.md)
-  * [Python 101 (part 1)](./python101.md)
-  * [Python 101 (part 2)](./python101b.md)
-  * [Python 101 (part 3)](./python101c.md)
-  * [Python 102](./python102.md)
-  * [Python 103](./python103.md)
-* [Pypi](./pypi.md)
-  * [pkg](./pkg.md)
+  * [Python 101 (part 1): Core Types](./python101.md)
+  * [Python 101 (part 2): Data Structures](./python101b.md)
+  * [Python 101 (part 3): Functions and Comprehensions](./python101c.md)
+  * [Advanced Python](./python103.md)
+* [Libraries](./libraries.md)*
+  * [Pypi](./pypi.md)*
+  * [pkg](./pkg.md)*
 * [Environments](./environments.md)
   * [anaconda](./anaconda.md)
   * [virtualenv](./virtualenv.md)
@@ -25,20 +25,22 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
   * [jupyter](./jupyter.md)
     * [Jupyter Basics](../scripts/jupyterDemo.ipynb)
     * ["QR Code"](../scripts/jupyterQR.ipynb)
+  * [nteract](../scripts/nteract.md)
   * [atom](./atom.md)
-* [Data Wrangling](./dataWrangling.md)
-  * [pandas](./pandas.md)
+* [Data Wrangling](./dataWrangling.md)*
+  * [pandas](./pandas.md)*
     * ["NFL"](../scripts/nfl.py)
     * ["Zoo"](../scripts/zoo.py)
     * ["Articles read"](../scripts/articles.py)
     * ["Titanic"](../scripts/titanic.py)
     * ["Flights"](../scripts/flights.py)
-  * [scipy](./scipy.md)
-  * [scikit-learn](./scikitLearn.md)
+  * [scipy](./scipy.md)*
+  * [numpy](./numpy.md)
+    * [pgSIT](../scripts/pgSIT.py)*
+  * [scikit-learn](./scikitLearn.md)*
     * ["Housing Cleaning"](../scripts/housingCleaning.py)
     * ["Housing Exploring"](../scripts/housingExploring.py)
     * ["Housing Transforming"](../scripts/housingTransforming.py)
-  * [numpy](./numpy.md)
 * [Data Sources](./dataSources.md)
   * [Google Trends](./googleTrends.md)
     * ["pyTrends Demo"](../scripts/pyTrends.py)
@@ -49,6 +51,8 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
     * ["Twitter toolkit"](../scripts/twitterDemo.py)
   * [Geographic](./geographic.md)
     * ["Game of Thrones"](../scripts/got.py)
-* [Data Visualization](./dataViz.md)
-  * [seaborn](./seaborn.md)
-  * [matplotlib](./matplotlib.md)
+* [Data Visualization](./dataViz.md)*
+  * [seaborn](./seaborn.md)*
+  * [matplotlib](./matplotlib.md)*
+  * [plotly](./plotly.md)*
+* [Story-Driven Programming](./md/aStoryToTell.md)*

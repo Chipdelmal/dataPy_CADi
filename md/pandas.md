@@ -29,7 +29,9 @@ Some more advanced filtering and grouping on pandas dataframes for statistics an
 
 <img src="./media/flights.png" width="100%">
 
-<!--### [Exercise 5: Baseball](../scripts/baseball.py)-->
+
+##  [Exercise 5: Titanic](../scripts/titanic.py)
+
 
 <hr>
 

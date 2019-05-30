@@ -29,23 +29,24 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Python 101](./md/python.md): Introduction to the programming language: [description](./md/python.md), [core types](./md/python101.md), [collections (data structures)](./md/python101b.md) and [functions](./md/python101c.md).
 1. [Python Environments](./md/environments.md): Using [anaconda](./md/anaconda.md) and [virtualenv](./md/virtualenv.md) for development.
 1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), [nteract](https://nteract.io/), and [Atom](https://ide.atom.io/) to write and launch our code.
-1. [Data Wrangling](./md/dataWrangling.md): Using [pandas](./pandas.md) and [matplotlib](./matplotlib.md).
 
 ### Day 02 (8h)
 
 1. [A Story to Tell](./md/aStoryToTell.md): Data-driven storytelling.
-1. [Python 102](./md/python102.md): Object-oriented concepts.
 1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
-1. [Data Wrangling](./md/dataWrangling.md): Using [scikit-learn](./scikitLearn.md) to parse, manipulate, and pre-analyze data.
+1. [Data Wrangling (part 1)](./md/dataWrangling.md): Using [pandas](./pandas.md) and [matplotlib](./matplotlib.md).
 1. [Twitter](./md/twitter.md): Interfacing with the API to get trends, tweets, tags, etcetera.
-1. [Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
+1. [Data Wrangling (part 2)](./md/dataWrangling.md): Using [scikit-learn](./md/scikitLearn.md) to parse, manipulate, and pre-analyze data.
+
+<!--1. [Python 102](./md/python102.md): Object-oriented concepts.-->
 
 ### Day 03 (8h)
 
-1. [Python 103](./md/python103.md): Advanced topics (code efficiency and scopes).
+1. [Advanced Python](./md/python103.md): Advanced topics (code efficiency and scopes).
+1. [Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
 1. [Pypi](./md/pypi.md): Installing, browsing, and handling python packages.
 1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.
-1. [GeoData](./md/geoData.md):
+1. [GeoData](./md/geoData.md): A couple of examples of how to work with geographic datasets.
 1. [Plotting](./md/plots.md): Using [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) to generate meaningful data representations.
 
 <img src="./md/media/flow.jpg" width="100%" height=7.5px>
@@ -74,9 +75,9 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [Git Carpentry Workshop](https://swcarpentry.github.io/git-novice-es/): A good git/github introduction for Spanish-speaking audiences (with lots of examples and explanations).
 * [Python 3.7 documentation](https://docs.python.org/3.7/): Official python documentation with examples of use of the built-in functions.
 * [Mists of Data](http://ric70x7.github.io/blog_archive.html): [Ricardo's Andrade](http://ric70x7.github.io/) personal blog devoted to data analysis in Python with code examples.
-* [Numpy documentation](https://www.numpy.org/devdocs/)
+* [Numpy documentation](https://www.numpy.org/devdocs/): Examples of use and developer guides for the popular multidimensional array package.
 * [Seaborn](https://seaborn.pydata.org/): Documentation for the seaborn statistical visualization package.
-* [SciPy documentation](https://docs.scipy.org/doc/)
+* [SciPy documentation](https://docs.scipy.org/doc/): Guides for the most popular package for scientific computing in python.
 * [Virtualenv documentation](https://virtualenv.pypa.io/en/latest/): Tutorials and documentation for python's built-in environment manager.
 
 

@@ -14,7 +14,7 @@ Whenever we have layers of homogeneously-typed data that are gonna remain consis
 
 <img src="./media/traces.jpg" width="100%">
 
-## [Exercise 1: ]()
+## [Exercise 1: pgSIT](../scripts/pgSIT.py)
 
 <hr>
 

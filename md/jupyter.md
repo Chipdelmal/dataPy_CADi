@@ -1,14 +1,14 @@
 # dataPy: [Jupyter](https://jupyter.org/)
 
-Jupyter notebooks are a novel was of doing Python development. They provide a simple and streamlined way to do scripting and analyses in a clean, organized way that is easy for others to read and understand. Their ability to integrate markdown makes it ideal for information sharing and data analysis.
+[Jupyter](https://jupyter.org/) notebooks are a novel was of doing Python development. They provide a simple and streamlined way to do scripting and analyses in a clean, organized way that is easy for others to read and understand. Their ability to integrate [markdown](https://github.com/Chipdelmal/dataViz_CADi/blob/master/markdowns/markdown.md) makes it ideal for information sharing and data analysis.
 
 ##  Introduction
 
-Jupyter works on the idea on creating notebooks that combine text, code and graphics (or [Mathematica](https://www.wolfram.com/mathematica/) users, jupyter notebooks will feel as familiar territory). For the text parts, jupyter follows the [markdown standard](https://en.wikipedia.org/wiki/Markdown), which means we can include bold, italic, headers and even images.
+[Jupyter](https://jupyter.org/) works on the idea on creating notebooks that combine text, code and graphics (or [Mathematica](https://www.wolfram.com/mathematica/) users, [jupyter](https://jupyter.org/) notebooks will feel as familiar territory). For the text parts, [jupyter](https://jupyter.org/) follows the [markdown standard](https://en.wikipedia.org/wiki/Markdown), which means we can include bold, italic, headers and even images. Although we won't go deep into the details of markdown in this bootcamp, we will briefly review the basics as taught in the [dataViz_CADi](https://github.com/Chipdelmal/dataViz_CADi/blob/master/markdowns/markdown.md).
 
 ### Dashboard
 
-The first visible screen of our interaction with jupyter is the dashboard, which shows the accessible files, kernels, terminals, etcetera.
+The first visible screen of our interaction with [jupyter](https://jupyter.org/) is the dashboard, which shows the accessible files, kernels, terminals, etcetera.
 
 <img src="./media/jup02.png" width="100%">
 
@@ -35,7 +35,7 @@ The body is where we do our coding, and analysis. We will spend most of our time
 
 ### [Exercise 1: Hello Jupyter!](../scripts/jupyterDemo.ipynb)
 
-This example notebook will show us the basics of creating and using a jupyter notebook to code in python and to combine it with markdown text to enrich the content.
+This example notebook will show us the basics of creating and using a [jupyter](https://jupyter.org/) notebook to code in python and to combine it with markdown text to enrich the content.
 
 ### [Exercise 2: Exporting a QR code](../scripts/jupyterQR.ipynb)
 
