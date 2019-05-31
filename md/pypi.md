@@ -4,7 +4,21 @@
 
 ##  Example package: [MoNeT_MGDrivE](https://pypi.org/project/MoNeT-MGDrivE/)
 
+
+```bash
+# To install the package
+pip install MoNeT_MGDrivE
+```
+
 [<img src="./media/monet.jpg" width="100%">](https://pypi.org/project/MoNeT-MGDrivE/)
+
+
+```bash
+# To uninstall it
+pip uninstall MoNeT_MGDrivE
+```
+
+
 
 ##  Browsing and installing packages
 
