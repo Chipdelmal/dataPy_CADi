@@ -79,8 +79,10 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [Seaborn](https://seaborn.pydata.org/): Documentation for the seaborn statistical visualization package.
 * [SciPy documentation](https://docs.scipy.org/doc/): Guides for the most popular package for scientific computing in python.
 * [Virtualenv documentation](https://virtualenv.pypa.io/en/latest/): Tutorials and documentation for python's built-in environment manager.
-
-
+* [Scrapy](https://scrapy.org/): Web-scrapper application for Python
+* [BeautifulSoup](https://pypi.org/project/beautifulsoup4/): An easier to learn web scraper application
+* [Spacy](https://spacy.io/): Natural language analysis
+* [NLTK](https://www.nltk.org/)
 
 ### Books
 
