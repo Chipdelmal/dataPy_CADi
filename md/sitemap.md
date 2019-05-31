@@ -41,7 +41,9 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
     * ["Housing Cleaning"](../scripts/housingCleaning.py)
     * ["Housing Exploring"](../scripts/housingExploring.py)
     * ["Housing Transforming"](../scripts/housingTransforming.py)
-* [Data Sources](./dataSources.md)
+* [Data Sources](./dataSources.md)*
+  * [Scraping](./scraping.md)*
+    * ["7-Day Forecast"](../scripts/soup.py)
   * [Google Trends](./googleTrends.md)
     * ["pyTrends Demo"](../scripts/pyTrends.py)
     * ["How to Breakup"](../scripts/breakup.py)

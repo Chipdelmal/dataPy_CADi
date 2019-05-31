@@ -55,7 +55,7 @@ weather = pd.DataFrame({
     "period": periods,
     "short_desc": short_descs,
     "temp": temps,
-    "desc":descs
+    "desc": descs
 })
 temp_nums = weather["temp"].str.extract("(?P<temp_num>\d+)", expand=False)
 weather["temp_num"] = temp_nums.astype('int')

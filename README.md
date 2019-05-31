@@ -83,6 +83,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [BeautifulSoup](https://pypi.org/project/beautifulsoup4/): An easier to learn web scraper application
 * [Spacy](https://spacy.io/): Natural language analysis
 * [NLTK](https://www.nltk.org/)
+* [DataCamp](https://www.datacamp.com/)
 
 ### Books
 
