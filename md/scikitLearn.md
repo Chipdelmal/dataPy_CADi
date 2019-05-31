@@ -2,11 +2,13 @@
 
 [Scikit-Learn](https://scikit-learn.org/stable/) is a machine learning package for Python. This is an extremely robust distribution that contains algorithms to do [supervised](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning) and [unsupervised](https://scikit-learn.org/stable/unsupervised_learning.html#unsupervised-learning) learning.
 
-<img src="./media/scikitlearn.png" width="100%">
+[<img src="./media/scikitlearn.png" width="100%">](https://scikit-learn.org/stable/index.html)
 
 This library is widely used and thoroughly [documented](https://scikit-learn.org/stable/documentation.html), with [tutorials](https://scikit-learn.org/stable/tutorial/index.html) available both as **.py** scripts and [jupyter](https://jupyter.org/) notebooks.
 
-<img src="./media/scikitlearn2.png" width="100%">
+[<img src="./media/scikitlearn2.png" width="100%">](https://scikit-learn.org/stable/documentation.html)
+
+In terms of this bootcamp, however, we will focus on its [data preprocessing capabilities](https://scikit-learn.org/stable/modules/preprocessing.html#preprocessing).
 
 <hr>
 
