@@ -10,10 +10,20 @@ One of the main features of Python is the availability of community libraries re
 
 [<img src="./media/tensorFlow.png" width="100%">](https://www.tensorflow.org/)
 
+<hr>
+
 ##  Installing Libraries
 
-By far, the easiest and most common way to install Python packages is through [Pypi](https://pypi.org/).
+By far, the easiest and most common way to install Python packages is through [Pypi](https://pypi.org/), although they can be added to the Python path manually (something we will not cover in this course).
 
 ### [Pypi](./pypi.md)
 
-### Manual installation
+[<img src="./media/pypi.png" width="100%">](https://pypi.org/)
+
+### Github installation
+
+It is also possible to install packages from github through **pip** by following this pattern (assuming the repo has a **setup.py** file):
+
+```bash
+pip install git+https://github.com/myuser/foo.git@v123
+```

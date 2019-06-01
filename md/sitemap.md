@@ -9,7 +9,7 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
   * [Python 101 (part 2): Data Structures](./python101b.md)
   * [Python 101 (part 3): Functions and Comprehensions](./python101c.md)
   * [Advanced Python](./python103.md)
-* [Libraries](./libraries.md)*
+* [Libraries](./libraries.md)
   * [Pypi](./pypi.md)*
   * [pkg](./pkg.md)*
 * [Environments](./environments.md)
@@ -51,10 +51,14 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
   * [Twitter](./twitter.md)
     * ["Tweepy demo"](../scripts/tweepyParser.py)
     * ["Twitter toolkit"](../scripts/twitterDemo.py)
+    * ["Tweets analysis"](../scripts/tweetAnalysis.py)
+  * [Natural Language](../md/naturalLanguage.md)
+      * ["spaCy"](../scripts/spaCy.py)
+      * ["spaCy1984"](../scripts/spaCy1984.py)
   * [Geographic](./geographic.md)
     * ["Game of Thrones"](../scripts/got.py)
 * [Data Visualization](./dataViz.md)*
   * [seaborn](./seaborn.md)*
   * [matplotlib](./matplotlib.md)*
   * [plotly](./plotly.md)*
-* [Story-Driven Programming](./md/aStoryToTell.md)*
+* [A Story to Tell...](./md/aStoryToTell.md)*
