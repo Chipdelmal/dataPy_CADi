@@ -15,35 +15,35 @@ import re
 from nltk.corpus import stopwords
 import csv
 
-csv_reader = csv.reader, delimiter=',')
-with open("../data/extracted/tweepy/crispr.csv", 'r', encoding="utf-8") as csvFile:
-    reader = csv.reader(csvFile)
+csv_reader = csv.reader, delimiter = ',')
+    with open("../data/extracted/tweepy/crispr.csv", 'r', encoding = "utf-8") as csvFile:
+    reader=csv.reader(csvFile)
     for row in reader:
         print(row[1].encode().decode("utf-8", "replace"))
 
-twitterFeed = pd.read_csv(
+twitterFeed=pd.read_csv(
     "../data/extracted/tweepy/crispr.csv",
-    header=None,
-    names=["datetime", "tweet"],
-    encoding="utf-8"
+    header = None,
+    names = ["datetime", "tweet"],
+    encoding = "utf-8"
 )
-#twitterFeed["datetime"] = pd.to_datetime(twitterFeed["datetime"])
-#twitterFeed["tweet"] = twitterFeed["tweet"].astype(str)
-twitterFeed.dtypes
-twt = twitterFeed["tweet"].iloc[0]
+    #twitterFeed["datetime"] = pd.to_datetime(twitterFeed["datetime"])
+    #twitterFeed["tweet"] = twitterFeed["tweet"].astype(str)
+    twitterFeed.dtypes
+    twt=twitterFeed["tweet"].iloc[0]
 
 
-################
-uniqueTweets = twitterFeed["tweet"].unique()
+    ################
+    uniqueTweets=twitterFeed["tweet"].unique()
 
-##########
-twt = uniqueTweets[1]
-doc = nlp(twt)
-print("Noun phrases:", [chunk.text for chunk in doc.noun_chunks])
+    ##########
+    twt=uniqueTweets[1]
+    doc=nlp(twt)
+    print("Noun phrases:", [chunk.text for chunk in doc.noun_chunks])
 
-##########
-p.set_options()
-twt = twitterFeed["tweet"].iloc[10]
-print(twt)
-p.clean(twt)
-p.parse(twt).urls
+    ##########
+    p.set_options()
+    twt=twitterFeed["tweet"].iloc[10]
+    print(twt)
+    p.clean(twt)
+    p.parse(twt).urls

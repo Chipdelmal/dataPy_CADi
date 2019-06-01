@@ -54,7 +54,9 @@ csvFile = open(
 )
 csvWriter = csv.writer(csvFile)
 
-for tweet in tweepy.Cursor(api.search, q=tagText, count=maxTweets, lang="en", since=sinceDate).items():
+for tweet in tweepy.Cursor(api.search, q=tagText, count=maxTweets, lang="en", since=sinceDate, tweet_mode='extended').items():
     # print (tweet.created_at, tweet.text)
-    csvWriter.writerow([tweet.created_at, tweet.text.encode('UTF-8')])
+    csvWriter.writerow([tweet.created_at, tweet.full_text.encode('UTF-8')])
 print("Finished!")
+
+tweet._json

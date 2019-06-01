@@ -11,7 +11,6 @@
 
 
 import spacy
-
 nlp = spacy.load("en_core_web_sm")
 
 text = ("When Sebastian Thrun started working on self-driving cars at "
