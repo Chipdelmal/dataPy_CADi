@@ -1,3 +1,19 @@
+# -*- coding: utf-8 -*-
+
+###############################################################################
+# "Housing data (transforming)" example
+###############################################################################
+#  Objectives:
+#   Extending the exploration of the "California housint " dataset with
+#       some plots.
+#  Source:
+#   https://github.com/ageron/handson-ml/blob/master/02_end_to_end_machine_learning_project.ipynb
+#   https://github.com/ageron/handson-ml/tree/master/datasets/housing
+#   https://pandas.pydata.org/pandas-docs/stable/reference/api/
+#   https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
+#   https://matplotlib.org/tutorials/colors/colormaps.html
+###############################################################################
+
 import pandas as pd
 import numpy as np
 from sklearn.base import BaseEstimator, TransformerMixin

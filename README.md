@@ -12,7 +12,7 @@ The course covers subjects include the parsing and handling of data from differe
 
 For other data-analysis related topics please take a look at the [dataViz_CADi](https://github.com/Chipdelmal/dataViz_CADi) repository. Which contains exercises on data visualization in [R](https://www.r-project.org/), [Python](https://www.python.org/) and [Mathematica](https://www.wolfram.com/mathematica/).
 
-[<img src="./md/media/dataPy.jpg" width="50%" height="135px">](https://github.com/Chipdelmal/dataPy_CADi)[<img src="./md/media/dataViz.jpg" width="50%" height="135px">](https://github.com/Chipdelmal/dataViz_CADi)<br>
+[<img src="./md/media/dataPy.jpg" width="50%" height="150px">](https://github.com/Chipdelmal/dataPy_CADi)[<img src="./md/media/dataViz.jpg" width="50%" height="150px">](https://github.com/Chipdelmal/dataViz_CADi)<br>
 
 <img src="./md/media/flow.jpg" width="100%" height=7.5px>
 
@@ -80,10 +80,10 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [SciPy documentation](https://docs.scipy.org/doc/): Guides for the most popular package for scientific computing in python.
 * [Virtualenv documentation](https://virtualenv.pypa.io/en/latest/): Tutorials and documentation for python's built-in environment manager.
 * [Scrapy](https://scrapy.org/): Web-scrapper application for Python
-* [BeautifulSoup](https://pypi.org/project/beautifulsoup4/): An easier to learn web scraper application
-* [Spacy](https://spacy.io/): Natural language analysis
-* [NLTK](https://www.nltk.org/)
-* [DataCamp](https://www.datacamp.com/)
+* [BeautifulSoup](https://pypi.org/project/beautifulsoup4/): An approachable web scraper application.
+* [Spacy](https://spacy.io/): Advanced natural language analysis library.
+* [NLTK](https://www.nltk.org/): Natural language toolkit for python.
+* [DataCamp](https://www.datacamp.com/): Online courses on data analysis.
 
 ### Books
 

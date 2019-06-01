@@ -1,18 +1,17 @@
+# -*- coding: utf-8 -*-
+
 ###############################################################################
-# "pytrends" example
+# "How to Breakup" example
 ###############################################################################
 #  Objectives:
 #   To test the Google Trends data retreival within Python
-#  Source:
+#  Sources:
 #   https://github.com/GeneralMills/pytrends#api
-###############################################################################
-# Instructions and other information
-# -----------------------------------------------------------------------------
-# https://brohrer.github.io/dataframe_indexing.html
-# https://github.com/GeneralMills/pytrends
-# https://towardsdatascience.com/heartbreak-monday-blues-and-pytrends-f1a398591a79
-# https://data36.com/pandas-tutorial-2-aggregation-and-grouping/
-# https://pandas.pydata.org/pandas-docs/stable/reference/indexing.html#datetimeindex
+#   https://brohrer.github.io/dataframe_indexing.html
+#   https://github.com/GeneralMills/pytrends
+#   https://towardsdatascience.com/heartbreak-monday-blues-and-pytrends-f1a398591a79
+#   https://data36.com/pandas-tutorial-2-aggregation-and-grouping/
+#   https://pandas.pydata.org/pandas-docs/stable/reference/indexing.html#datetimeindex
 ###############################################################################
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

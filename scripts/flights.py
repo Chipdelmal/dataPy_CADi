@@ -1,14 +1,12 @@
+# -*- coding: utf-8 -*-
+
 ###############################################################################
 # "Flights data" example
 ###############################################################################
 #  Objectives:
 #   To learn some of the most common operations used in pandas
-#  Source:
+#  Sources:
 #   https://tomaugspurger.github.io/dplry-pandas.html
-###############################################################################
-# Instructions and other information
-# -----------------------------------------------------------------------------
-# Sources:
 #   https://github.com/hadley/nycflights13/blob/master/data-raw/airports.csv
 #   https://github.com/rich-iannone/so-many-pyspark-examples/blob/master/data-files/nycflights13.csv
 ###############################################################################

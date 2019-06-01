@@ -16,19 +16,24 @@ For most everyday crawling applications, [beautifulsoup](https://pypi.org/projec
 [<img src="./media/soup.png" width="100%">](https://pypi.org/project/beautifulsoup4/)
 
 
-###  [Exercise 1: Downloading the Weather Forecast](../scripts/soup.py)
-
-This exercise will teach us how to download the information from: https://forecast.weather.gov/; and download the seven day forecast into a pandas dataframe.
-
-<img src="./media/soupCrawl.png" width="100%">
-
 ## [Scrapy](https://scrapy.org/)
 
 For more advanced applications such as: high volume datasets, proxies, time-sensitive data parsing; [scrapy](https://scrapy.org/) is the most robust option available. This, however, comes at a cost. Despite its thorough [documentation](https://docs.scrapy.org/en/latest/), [scrapy](https://scrapy.org/) is substantially more difficult to learn so it's probably best left to applications that really require its use.
 
 [<img src="./media/scrapy.png" width="100%">](https://scrapy.org/)
 
+<hr>
+
+## Exercises
+
+###  [Exercise 1: 7-Day Forecast](../scripts/soup.py)
+
+This exercise will teach us how to download the information from: https://forecast.weather.gov/; and download the seven day forecast into a pandas dataframe.
+
+<img src="./media/soupCrawl.png" width="100%">
 
 <hr>
+
+##  References
 
 * https://www.dataquest.io/blog/tutorial-text-classification-in-python-using-spacy/

@@ -2,11 +2,13 @@
 
 ###############################################################################
 # Game of Thrones Map Plotting
-#
-# Based on work by Ricardo Andrade:
+#  Objectives:
+#   To test the Google Trends data retreival within Python
+# Sources:
 #   http://ric70x7.github.io/20190318_got.html
 ###############################################################################
 
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Loading libraries
 import geopandas as gp
 import numpy as np

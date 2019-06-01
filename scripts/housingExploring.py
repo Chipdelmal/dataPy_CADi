@@ -1,19 +1,14 @@
 ###############################################################################
-# "Housing data" example
+# "Housing data (exploring)" example
 ###############################################################################
 #  Objectives:
-#
+#   Extending the exploration of the "California housint " dataset with
+#       some plots.
 #  Source:
 #   https://github.com/ageron/handson-ml/blob/master/02_end_to_end_machine_learning_project.ipynb
-###############################################################################
-# Instructions and other information
-# -----------------------------------------------------------------------------
-# Download the data from:
 #   https://github.com/ageron/handson-ml/tree/master/datasets/housing
-# Pandas:
 #   https://pandas.pydata.org/pandas-docs/stable/reference/api/
 #   https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
-# CMaps:
 #   https://matplotlib.org/tutorials/colors/colormaps.html
 ###############################################################################
 

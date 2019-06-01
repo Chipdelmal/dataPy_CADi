@@ -1,23 +1,25 @@
+# -*- coding: utf-8 -*-
+
 ###############################################################################
-# "Housing data" example
+# "Housing data (cleaning)" example
 ###############################################################################
 #  Objectives:
-#
-#  Source:
+#   Doing pandas dataframe manipulation to clean and create a categorical variable
+#       encoding.
+#  Sources:
 #   https://github.com/ageron/handson-ml/blob/master/02_end_to_end_machine_learning_project.ipynb
-###############################################################################
-# Instructions and other information
-# -----------------------------------------------------------------------------
-# Download the data from:
 #   https://github.com/ageron/handson-ml/tree/master/datasets/housing
-# Pandas:
 #   https://pandas.pydata.org/pandas-docs/stable/reference/api/
 #   https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html
-# CMaps:
 #   https://matplotlib.org/tutorials/colors/colormaps.html
-# Category Encoders:
 #   http://contrib.scikit-learn.org/categorical-encoding/
+#   https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.isna.html
+#   https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dropna.html
+#   https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop.html
+#   https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html
+#   https://scikit-learn.org/stable/modules/impute.html
 ###############################################################################
+
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Import required libraries
@@ -37,9 +39,6 @@ data = pd.read_csv(FULL_PATH)
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Get information about our dataframe
-#   https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.isna.html
-#   https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.dropna.html
-#   https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop.html
 data.isna()
 data.isna().sum()
 
@@ -51,8 +50,6 @@ data.drop("total_bedrooms", axis=1)
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Imputing data
-#   https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html
-#   https://scikit-learn.org/stable/modules/impute.html
 median = data["total_bedrooms"].median()
 print(median)
 data["total_bedrooms"].fillna(median, inplace=True)
@@ -80,7 +77,7 @@ housingCat.head(10)
 housingCatCategories
 
 encoder = OneHotEncoder(categories="auto", sparse=False)
-housingCatT = housingCat.values.reshape(-1,1)
+housingCatT = housingCat.values.reshape(-1, 1)
 housingCatOne = encoder.fit_transform(housingCatT)
 housingCatOne
 encoder.categories_
