@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 ###############################################################################
 # "qrCode" example
 ###############################################################################
@@ -5,17 +7,15 @@
 #   To create and export a qr code from jupyter
 #  Source:
 #   https://github.com/mnooner256/pyqrcode
-###############################################################################
-# Instructions and other information
-# -----------------------------------------------------------------------------
-# https://pypi.org/project/PyQRCode/
-# https://github.com/mnooner256/pyqrcode
-# https://pythonhosted.org/PyQRCode/
+#   https://pypi.org/project/PyQRCode/
+#   https://github.com/mnooner256/pyqrcode
+#   https://pythonhosted.org/PyQRCode/
 ###############################################################################
 
+# Load library
 import pyqrcode
-import sys
 
+# Creating and saving the QR code for a URL
 url = pyqrcode.create('https://github.com/Chipdelmal')
 url.svg('./images/qrURL.svg', scale=15, module_color="#7D007D")
 url.png(
@@ -34,8 +34,6 @@ url.png(
 #   QR code, and version 40 is the largest.
 # Mode parameter sets how the contents will be encoded. As mentioned above,
 #   three of the five possible encodings have been written.
-
-
 url = pyqrcode.create(
     'https://github.com/Chipdelmal',
     error="H",

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 ###############################################################################
 # "pytrends" example
 ###############################################################################
@@ -5,15 +7,11 @@
 #   To test the Google Trends data retreival within Python
 #  Source:
 #   https://github.com/GeneralMills/pytrends#api
+#   https://brohrer.github.io/dataframe_indexing.html
+#   https://github.com/GeneralMills/pytrends
+#   https://towardsdatascience.com/heartbreak-monday-blues-and-pytrends-f1a398591a79
+#   https://data36.com/pandas-tutorial-2-aggregation-and-grouping/
 ###############################################################################
-# Instructions and other information
-# -----------------------------------------------------------------------------
-# https://brohrer.github.io/dataframe_indexing.html
-# https://github.com/GeneralMills/pytrends
-# https://towardsdatascience.com/heartbreak-monday-blues-and-pytrends-f1a398591a79
-# https://data36.com/pandas-tutorial-2-aggregation-and-grouping/
-###############################################################################
-
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Import required libraries

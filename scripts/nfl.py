@@ -1,8 +1,11 @@
+# -*- coding: utf-8 -*-
+
 ###############################################################################
 # "NFL"
 ###############################################################################
 #  Objectives:
-#
+#   To learn the basics of data imporing, filtering and ploting in pandas
+#       matplotlib and seaborn
 #  Source:
 #   https://www.kaggle.com/kendallgillies/nflstatistics
 #   https://deadspin.com/chart-the-height-and-weight-of-every-nfl-player-by-po-1445608274
@@ -15,19 +18,21 @@
 #   https://seaborn.pydata.org/tutorial/color_palettes.html
 ###############################################################################
 
-
-%matplotlib inline
-import matplotlib.pyplot as plt
-import matplotlib.colors as colors
-import pandas as pd
-import numpy as np
-from matplotlib import cm
+# Import the required libraries
 import seaborn as sns
+from matplotlib import cm
+import numpy as np
+import pandas as pd
+import matplotlib.colors as colors
+import matplotlib.pyplot as plt
+%matplotlib inline
 
+# Load the dataset
 data = pd.read_csv("../data/extracted/NFL/NFL.csv")
 data.head()
 list(data.columns)
 
+# Filtering and Selecting
 ageFilterValue = 30
 ageFilter = data["Age"] > ageFilterValue
 aboveAge = data[ageFilter]
@@ -39,19 +44,33 @@ activeFilter = data["Current Status"] == "Active"
 aboveAndActive = data[ageFilter & activeFilter]
 len(aboveAndActive)
 
+# Plotting
 frequencies = aboveAndActive["Position"].value_counts()
-frequencies.plot.bar(title=("Active players above  " + str(ageFilterValue) + "grouped by position"))
+frequencies.plot.bar(
+    title=(
+        "Active players above  " +
+        str(ageFilterValue) +
+        "grouped by position"
+    )
+)
 
+# Plotting with style
+color = cm.inferno_r(np.linspace(.4, .8, 30))
+frequencies.plot(
+    kind="bar",
+    title=(
+        "Active NFL players above " +
+        str(ageFilterValue) +
+        "y grouped by position"
+    ),
+    color=color
+)
+plt.savefig('./images/nflBar.png', dpi=500)
 
-color = cm.inferno_r(np.linspace(.4,.8, 30))
-frequencies.plot(kind="bar", title=("Active NFL players above " + str(ageFilterValue) + "y grouped by position"), color=color)
-plt.savefig('./images/nflBar.png',dpi=500)
-
-
-
+# Scatter plot
 sns.lmplot(
     x="Height (inches)", y="Weight (lbs)", data=aboveAndActive,
     aspect=1.5, fit_reg=False, hue='Position', legend=True,
     palette=sns.color_palette("hls", len(aboveAndActive["Position"].unique()))
 )
-plt.savefig('./images/nflScatter.png',dpi=500)
+plt.savefig('./images/nflScatter.png', dpi=500)

@@ -1,20 +1,33 @@
-import twitter
-import json
-import yweather
-import nltk
-from collections import Counter
+# -*- coding: utf-8 -*-
 
 ###############################################################################
-# IMPORTANT!
+# "Twitter Tools" example
 ###############################################################################
-# Create a file called "twitterCredentials.py" and fill it out with the
-#   following information:
+#  Objectives:
+#   Using tweepy to parse twitter tags
+#  Source:
+#   https://mike.verdone.ca/twitter/
+#   https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place.html
+#   https://en.wikipedia.org/wiki/WOEID
+###############################################################################
+# IMPORTANT!
+#   Create a file called "twitterCredentials.py" and fill it out with the
+#       following information:
 #
 # access_token =
 # access_token_secret =
 # consumer_key =
 # consumer_secret =
 ###############################################################################
+
+###############################################################################
+# Import libraries
+from twitter import *
+import twitter
+import json
+import yweather
+import nltk
+from collections import Counter
 
 # Authorizing the package in twitters API
 from twitterCredentials import *
@@ -30,9 +43,6 @@ print(twitter_api)
 
 ###############################################################################
 # Getting the trends information from locations in the world
-#   https://developer.twitter.com/en/docs/trends/trends-for-location/api-reference/get-trends-place.html
-#   https://en.wikipedia.org/wiki/WOEID
-###############################################################################
 WORLD_WOE_ID = 1
 US_WOE_ID = 23424977
 
@@ -53,8 +63,6 @@ print(mxTrends)
 
 ###############################################################################
 # More operations with "Python Twitter Tools"
-###############################################################################
-from twitter import *
 t = Twitter(
     auth=OAuth(
         access_token, access_token_secret,

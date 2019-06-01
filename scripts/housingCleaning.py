@@ -4,8 +4,8 @@
 # "Housing data (cleaning)" example
 ###############################################################################
 #  Objectives:
-#   Doing pandas dataframe manipulation to clean and create a categorical variable
-#       encoding.
+#   Doing pandas dataframe manipulation to clean and create a categorical
+#       variable encoding.
 #  Sources:
 #   https://github.com/ageron/handson-ml/blob/master/02_end_to_end_machine_learning_project.ipynb
 #   https://github.com/ageron/handson-ml/tree/master/datasets/housing

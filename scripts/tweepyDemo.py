@@ -1,11 +1,16 @@
+# -*- coding: utf-8 -*-
 
-import tweepy
-
+###############################################################################
+# "Tweepy" example
+###############################################################################
+#  Objectives:
+#   Using tweepy to parse twitter tags
+#  Source:
+#   https://www.tweepy.org/
 ###############################################################################
 # IMPORTANT!
-###############################################################################
-# Create a file called "twitterCredentials.py" and fill it out with the
-#   following information:
+#   Create a file called "twitterCredentials.py" and fill it out with the
+#       following information:
 #
 # access_token =
 # access_token_secret =
@@ -13,6 +18,11 @@ import tweepy
 # consumer_secret =
 ###############################################################################
 
+###############################################################################
+# Import library
+import tweepy
+
+###############################################################################
 # Authorizing the package in twitters API
 from twitterCredentials import *
 
@@ -25,7 +35,7 @@ user = api.me()
 print(user)
 print(user.location)
 
-
+###############################################################################
 # Using a cursor to get tags from twitter
 cursor = tweepy.Cursor(
     api.search,
