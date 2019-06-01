@@ -4,9 +4,11 @@
 # "Tweepy" example
 ###############################################################################
 #  Objectives:
-#   Using tweepy to parse twitter tags
-#  Source:
+#   Using tweepy to parse twitter tags and writting them to a CSV file
+#  Sources:
 #   https://www.tweepy.org/
+#   https://gist.github.com/vickyqian/f70e9ab3910c7c290d9d715491cde44c
+#   http://www.compciv.org/homework/assignments/twitter_csv_analysis/
 ###############################################################################
 # IMPORTANT!
 #   Create a file called "twitterCredentials.py" and fill it out with the
@@ -19,8 +21,9 @@
 ###############################################################################
 
 ###############################################################################
-# Import library
+# Import libraries
 import tweepy
+import csv
 
 ###############################################################################
 # Authorizing the package in twitters API
@@ -28,8 +31,7 @@ from twitterCredentials import *
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
-
-api = tweepy.API(auth)
+api = tweepy.API(auth, wait_on_rate_limit=True)
 user = api.me()
 
 print(user)
@@ -37,12 +39,18 @@ print(user.location)
 
 ###############################################################################
 # Using a cursor to get tags from twitter
-cursor = tweepy.Cursor(
-    api.search,
-    q="#unitedAIRLINES",
-    count=10,
-    lang="en",
-    since="2018-25-04"
-)
-for tweet in cursor.items():
-    print (tweet.created_at, tweet.text)
+maxTweets = 50
+tagText = "#gameOfThrones"
+sinceDate = "2017-04-03"
+
+tagText.split("#")
+
+###############################################################################
+# Open/Create a file to append data
+csvFile = open('../data/got.csv', 'a')
+csvWriter = csv.writer(csvFile)
+
+for tweet in tweepy.Cursor(api.search, q=tagText, count=maxTweets, lang="en", since=sinceDate).items():
+    # print (tweet.created_at, tweet.text)
+    csvWriter.writerow([tweet.created_at, tweet.text.encode('utf-8')])
+print("Finished!")
