@@ -23,7 +23,9 @@ At the core of any data analysis task, there is an underlying story about how th
 
 [<img src="./media/spurious.png" width="100%">](https://www.tylervigen.com/spurious-correlations)
 
-####  [Visualization Bias!](https://medium.com/multiple-views-visualization-research-explained/data-is-personal-what-we-learned-from-42-interviews-in-rural-america-93539f25836d)
+###  [Visualization Bias!](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368)
+
+###  [Data mean different things to different people!](https://medium.com/multiple-views-visualization-research-explained/data-is-personal-what-we-learned-from-42-interviews-in-rural-america-93539f25836d)
 
 [<img src="./media/vizBias.png" width="100%">](https://medium.com/multiple-views-visualization-research-explained/data-is-personal-what-we-learned-from-42-interviews-in-rural-america-93539f25836d)
 
@@ -33,6 +35,8 @@ At the core of any data analysis task, there is an underlying story about how th
 <hr>
 
 ## Bigger Picture
+
+### Get personal with the data
 
 ###  Think of how the data relates to the project
 
