@@ -9,6 +9,8 @@
 #   https://www.tweepy.org/
 #   https://gist.github.com/vickyqian/f70e9ab3910c7c290d9d715491cde44c
 #   http://www.compciv.org/homework/assignments/twitter_csv_analysis/
+#   https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object.html
+#   https://gist.github.com/dev-techmoe/ef676cdd03ac47ac503e856282077bf2
 ###############################################################################
 # IMPORTANT!
 #   Create a file called "twitterCredentials.py" and fill it out with the
@@ -41,7 +43,7 @@ user = api.me()
 
 ###############################################################################
 # Using a cursor to get tags from twitter
-maxTweets = 10
+maxTweets = 250
 tagText = "#crispr"
 sinceDate = "2017-04-03"
 
@@ -55,5 +57,11 @@ csvWriter = csv.writer(csvFile)
 
 for tweet in tweepy.Cursor(api.search, q=tagText, count=maxTweets, lang="en", since=sinceDate, tweet_mode='extended').items():
     # print (tweet.created_at, tweet.text)
-    csvWriter.writerow([tweet.created_at, tweet.full_text])
+    csvWriter.writerow([tweet.created_at, tweet.full_text, tweet._json["truncated"]])
 print("Finished!")
+
+
+###############################################################################
+# Exploring the structure
+tweet.full_text
+tweet._json["truncated"]
