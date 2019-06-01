@@ -49,14 +49,11 @@ sinceDate = "2017-04-03"
 # Open/Create a file to append data
 csvFile = open(
     '../data/extracted/Tweepy/' + tagText.split("#")[1] + ".csv",
-    'w',
-    encoding='UTF-8'
+    'w'
 )
 csvWriter = csv.writer(csvFile)
 
 for tweet in tweepy.Cursor(api.search, q=tagText, count=maxTweets, lang="en", since=sinceDate, tweet_mode='extended').items():
     # print (tweet.created_at, tweet.text)
-    csvWriter.writerow([tweet.created_at, tweet.full_text.encode('UTF-8')])
+    csvWriter.writerow([tweet.created_at, tweet.full_text])
 print("Finished!")
-
-tweet._json
