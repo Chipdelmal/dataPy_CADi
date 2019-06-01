@@ -34,20 +34,18 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True)
 user = api.me()
 
-print(user)
-print(user.location)
+# print(user)
+# print(user.location)
 
 ###############################################################################
 # Using a cursor to get tags from twitter
 maxTweets = 50
-tagText = "#gameOfThrones"
+tagText = "#crispr"
 sinceDate = "2017-04-03"
-
-tagText.split("#")
 
 ###############################################################################
 # Open/Create a file to append data
-csvFile = open('../data/got.csv', 'a')
+csvFile = open('../data/extracted/' + tagText.split("#")[1] + ".csv" , 'a')
 csvWriter = csv.writer(csvFile)
 
 for tweet in tweepy.Cursor(api.search, q=tagText, count=maxTweets, lang="en", since=sinceDate).items():
