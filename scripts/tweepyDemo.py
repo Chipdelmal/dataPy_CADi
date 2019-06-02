@@ -57,7 +57,7 @@ csvWriter = csv.writer(csvFile)
 
 for tweet in tweepy.Cursor(api.search, q=tagText, count=maxTweets, lang="en", since=sinceDate, tweet_mode='extended').items():
     # print (tweet.created_at, tweet.text)
-    csvWriter.writerow([tweet.created_at, tweet.full_text, tweet._json["truncated"]])
+    csvWriter.writerow([tweet.created_at, tweet.full_text])
 print("Finished!")
 
 

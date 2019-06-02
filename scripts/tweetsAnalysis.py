@@ -10,6 +10,7 @@
 #   https://towardsdatascience.com/extracting-twitter-data-pre-processing-and-sentiment-analysis-using-python-3-0-7192bd8b47cf
 #   https://codereview.stackexchange.com/questions/163446/cleaning-and-extracting-meaningful-text-from-tweets
 #   https://github.com/s/preprocessor
+#   https://textblob.readthedocs.io/en/dev/quickstart.html
 ###############################################################################
 
 
@@ -17,6 +18,7 @@
 # Import libraries
 # import nltk
 # nltk.download("stopwords")
+from textblob import TextBlob
 import pandas as pd
 import preprocessor as p
 import re
@@ -48,8 +50,14 @@ len(uniqueTweets)
 uniqueTweets[0]
 
 ###############################################################################
+# Deleting RTs
+isRT = [txt[0:3]!="RT " for txt in uniqueTweets]
+uniqueNonRT = uniqueTweets[isRT]
+
+###############################################################################
 # Get the noun-phrases
-twt = p.clean(uniqueTweets[1])
+p.set_options()
+twt = p.clean(uniqueNonRT[1])
 doc = nlp(twt)
 nouns = [chunk.text for chunk in doc.noun_chunks]
 verbs = [token.lemma_ for token in doc if token.pos_ == "VERB"]
@@ -60,14 +68,17 @@ print(
 )
 
 ###############################################################################
-# Parse URLs
-p.set_options()
-twt = twitterFeed["tweet"].iloc[10]
-print(twt)
-p.clean(twt)
-p.parse(twt).urls
-
-
-
-
-p.clean(twt)
+# Sentiment
+#   Polarity is float which lies in the range of [-1,1] where 1 means positive
+#       statement and -1 means a negative statement.
+#   Subjective sentences generally refer to personal opinion, emotion or
+#       judgment whereas objective refers to factual information. Subjectivity
+#       is also a float which lies in the range of [0,1].
+twt = p.clean(uniqueNonRT[0])
+blob = TextBlob(twt)
+(polarity, subjectivity) = blob.sentiment
+print(
+    twt + "\n"
+    "P: " + str(polarity) + "\n" +
+    "S: " + str(subjectivity)
+)
