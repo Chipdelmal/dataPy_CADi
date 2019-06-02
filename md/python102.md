@@ -12,10 +12,11 @@ txtFile.close()
 ```
 
 ```python
+import csv
 with open("../data/extracted/tweepy/crispr.csv",) as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
     for row in readCSV:
-        print(row[0],row[1].encode().decode("utf-8"))
+        print(row[0],row[1])
 ```
 
 ## OOP

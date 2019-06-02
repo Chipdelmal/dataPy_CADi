@@ -43,7 +43,7 @@ user = api.me()
 
 ###############################################################################
 # Using a cursor to get tags from twitter
-maxTweets = 1000
+maxTweets = 5000
 tagText = "#gameofthrones"
 sinceDate = "2017-04-03"
 

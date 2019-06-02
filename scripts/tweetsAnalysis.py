@@ -33,7 +33,7 @@ nlp = spacy.load("en_core_web_sm")
 ###############################################################################
 # Load data
 twitterFeed = pd.read_csv(
-    "../data/extracted/tweepy/crispr.csv",
+    "../data/extracted/tweepy/gameofthrones.csv",
     header=None,
     names=["datetime", "tweet"],
     encoding="utf-8"

@@ -60,13 +60,25 @@ Some of the alternatives to tweepy are:
 
 ### [Exercise 1: Twitter-Tools](../scripts/twitterDemo.py)
 
+This exercise shows how to setup the credentials for twitter, and how to use them to post a tweet and status.
+
+<img src="./media/twitterTools.png" width="50%">
+
 ### [Exercise 2: Tweepy Hashtag Parser](../scripts/tweepyDemo.py)
+
+Gather the latest tweets with a given hashtag and store them in a CSV file for further analysis.
+
+<img src="./media/parser.png" width="50%">
 
 ### [Exercise 3: Tweets Sentiment Analysis](../scripts/tweetsAnalysis.py)
 
+Clean and analyze the sentiment of the tweets stored to the CSV file in the previous exercise.
+
+<img src="./media/sentiment.png" width="50%">
+
 <hr>
 
-## Other Sources
+## Resources
 
 * https://stackabuse.com/accessing-the-twitter-api-with-python/
 * https://www.pythoncentral.io/introduction-to-tweepy-twitter-for-python/
