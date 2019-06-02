@@ -11,6 +11,7 @@
 #   https://codereview.stackexchange.com/questions/163446/cleaning-and-extracting-meaningful-text-from-tweets
 #   https://github.com/s/preprocessor
 #   https://textblob.readthedocs.io/en/dev/quickstart.html
+#   https://www.analyticsvidhya.com/blog/2018/02/natural-language-processing-for-beginners-using-textblob/
 ###############################################################################
 
 
@@ -21,16 +22,18 @@
 from textblob import TextBlob
 import pandas as pd
 import preprocessor as p
-import re
+import statistics
 from nltk.corpus import stopwords
 import csv
 import spacy
+import numpy as np
+import seaborn as sns
 nlp = spacy.load("en_core_web_sm")
 
 ###############################################################################
 # Load data
 twitterFeed = pd.read_csv(
-    "../data/extracted/tweepy/crisprBackup.csv",
+    "../data/extracted/tweepy/crispr.csv",
     header=None,
     names=["datetime", "tweet"],
     encoding="utf-8"
@@ -82,3 +85,15 @@ print(
     "P: " + str(polarity) + "\n" +
     "S: " + str(subjectivity)
 )
+
+###############################################################################
+# Sentiment Plots
+polarities = []
+for txt in uniqueNonRT:
+    twt = p.clean(txt)
+    blob = TextBlob(twt)
+    (polarity, subjectivity) = blob.sentiment
+    polarities.append(polarity)
+statistics.mean(polarities)
+sns.distplot(polarities)
+sns.violinplot(polarities)

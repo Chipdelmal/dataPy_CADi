@@ -43,8 +43,8 @@ user = api.me()
 
 ###############################################################################
 # Using a cursor to get tags from twitter
-maxTweets = 250
-tagText = "#crispr"
+maxTweets = 1000
+tagText = "#gameofthrones"
 sinceDate = "2017-04-03"
 
 ###############################################################################
@@ -64,4 +64,3 @@ print("Finished!")
 ###############################################################################
 # Exploring the structure
 tweet.full_text
-tweet._json["truncated"]

@@ -54,6 +54,17 @@ Some of the alternatives to tweepy are:
 * [Twython](https://github.com/ryanmcgrath/twython)
 * [Python-twitter](https://github.com/bear/python-twitter)
 
+<hr>
+
+##  Exercises
+
+### [Exercise 1: Twitter-Tools](../scripts/twitterDemo.py)
+
+### [Exercise 2: Tweepy Hashtag Parser](../scripts/tweepyDemo.py)
+
+### [Exercise 3: Tweets Sentiment Analysis](../scripts/tweetsAnalysis.py)
+
+<hr>
 
 ## Other Sources
 

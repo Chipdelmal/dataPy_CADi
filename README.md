@@ -6,7 +6,7 @@ The course covers subjects include the parsing and handling of data from differe
 
 
 
-[<img src="./md/media/pythonLogo.png" height="50px">](https://developer.twitter.com/en/docs.html)[<img src="./md/media/logoTwitter.png" height="50px">](https://developer.twitter.com/en/docs.html)[<img src="./md/media/logoTrends.jpg" height="50px">](https://trends.google.com/trends/?geo=US)[<img src="./md/media/logoJupyter.png" height="50px">](https://jupyter.org/)[<img src="./md/media/logoSpyder.png" height="50px">](https://www.spyder-ide.org/)[<img src="./md/media/logoOSM.png" height="50px">](https://www.openstreetmap.org/)[<img src="./md/media/logoPandas.png" height="50px">](hhttps://pandas.pydata.org/)[<img src="./md/media/logoNumpy.jpeg" height="50px">](https://www.numpy.org/)[<img src="./md/media/logoAtom.png" height="50px">](https://ide.atom.io/)[<img src="./md/media/logoGIS.png" height="50px">](https://www.esri.com/en-us/what-is-gis/overview)[<img src="./md/media/logoGithub.png" height="50px">](https://www.github.com)[<img src="./md/media/logoPypi.png" height="50px">](https://pypi.org/)[<img src="./md/media/anaconda.png" height="50px">](https://www.anaconda.com/)[<img src="./md/media/spacy.png" height="50px">](https://spacy.io/)[<img src="./md/media/beautifulsoup.jpg" height="50px">](https://www.crummy.com/software/BeautifulSoup/)
+[<img src="./md/media/pythonLogo.png" height="50px">](https://developer.twitter.com/en/docs.html)[<img src="./md/media/logoTwitter.png" height="50px">](https://developer.twitter.com/en/docs.html)[<img src="./md/media/logoTrends.jpg" height="50px">](https://trends.google.com/trends/?geo=US)[<img src="./md/media/logoJupyter.png" height="50px">](https://jupyter.org/)[<img src="./md/media/logoSpyder.png" height="50px">](https://www.spyder-ide.org/)[<img src="./md/media/logoOSM.png" height="50px">](https://www.openstreetmap.org/)[<img src="./md/media/logoPandas.png" height="50px">](hhttps://pandas.pydata.org/)[<img src="./md/media/logoNumpy.jpeg" height="50px">](https://www.numpy.org/)[<img src="./md/media/logoAtom.png" height="50px">](https://ide.atom.io/)[<img src="./md/media/logoGIS.png" height="50px">](https://www.esri.com/en-us/what-is-gis/overview)[<img src="./md/media/logoGithub.png" height="50px">](https://www.github.com)[<img src="./md/media/logoPypi.png" height="50px">](https://pypi.org/)[<img src="./md/media/anaconda.png" height="50px">](https://www.anaconda.com/)[<img src="./md/media/spacy.png" height="50px">](https://spacy.io/)[<img src="./md/media/beautifulsoup.jpg" height="50px">](https://www.crummy.com/software/BeautifulSoup/)[<img src="./md/media/tweepy.png" height="50px">](https://www.tweepy.org/)
 
 
 
@@ -34,6 +34,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 ### Day 02 (8h)
 
 1. [A Story to Tell](./md/aStoryToTell.md): Data-driven storytelling.
+1. [Intermediate Python](./md/python102.md): Dealing with files and Object-Oriented Programming basics.
 1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
 1. [Data Wrangling (part 1)](./md/dataWrangling.md): Using [pandas](./pandas.md) and [matplotlib](./matplotlib.md).
 1. [Twitter](./md/twitter.md): Interfacing with the API to get trends, tweets, tags, etcetera.
