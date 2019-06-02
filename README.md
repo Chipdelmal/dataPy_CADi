@@ -30,6 +30,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Python 101](./md/python.md): Introduction to the programming language: [description](./md/python.md), [core types](./md/python101.md), [collections (data structures)](./md/python101b.md) and [functions](./md/python101c.md).
 1. [Python Environments](./md/environments.md): Using [anaconda](./md/anaconda.md) and [virtualenv](./md/virtualenv.md) for development.
 1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), [nteract](https://nteract.io/), and [Atom](https://ide.atom.io/) to write and launch our code.
+1. [Plotting](./md/plots.md): Using [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) to generate meaningful data representations.
 
 ### Day 02 (8h)
 
@@ -40,7 +41,6 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Twitter](./md/twitter.md): Interfacing with the API to get trends, tweets, tags, etcetera.
 1. [Data Wrangling (part 2)](./md/dataWrangling.md): Using [scikit-learn](./md/scikitLearn.md) to parse, manipulate, and pre-analyze data.
 
-<!--1. [Python 102](./md/python102.md): Object-oriented concepts.-->
 
 ### Day 03 (8h)
 
@@ -48,8 +48,9 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
 1. [Pypi](./md/pypi.md): Installing, browsing, and handling python packages.
 1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.
-1. [GeoData](./md/geoData.md): A couple of examples of how to work with geographic datasets.
-1. [Plotting](./md/plots.md): Using [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) to generate meaningful data representations.
+1. [GeoData](./md/geoData.md): How to work with geographic datasets.
+1. [Sentiment Analysis](./md/language.md): Basic examples of how to do simple linguistic sentiment analysis in python.
+
 
 <img src="./md/media/flow.jpg" width="100%" height=7.5px>
 

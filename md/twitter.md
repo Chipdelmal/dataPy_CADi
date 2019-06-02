@@ -70,12 +70,6 @@ Gather the latest tweets with a given hashtag and store them in a CSV file for f
 
 <img src="./media/parser.png" width="50%">
 
-### [Exercise 3: Tweets Sentiment Analysis](../scripts/tweetsAnalysis.py)
-
-Clean and analyze the sentiment of the tweets stored to the CSV file in the previous exercise.
-
-<img src="./media/sentiment.png" width="50%">
-
 <hr>
 
 ## Resources

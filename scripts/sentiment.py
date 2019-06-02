@@ -15,6 +15,7 @@
 from textblob import TextBlob
 import pandas as pd
 import spacy
+import seaborn as sns
 import matplotlib.pyplot as plt
 nlp = spacy.load("en_core_web_sm")
 # python -m spacy download en_core_web_sm
@@ -55,15 +56,16 @@ data.to_csv("../data/extracted/spaCy/versesOut.tsv", sep='\t', index=False)
 
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-# Plotting
-num_bins = 20
+# Plotting Histograms
+num_bins = 8
 n, bins, patches = plt.hist(
     data.polarity, num_bins, facecolor='blue', alpha=0.5
 )
 plt.xlabel('Polarity')
 plt.ylabel('Count')
 plt.title('Histogram of polarity')
-plt.savefig('./images/polarity.png', dpi=500)
+plt.savefig('./images/sentiment01.png', dpi=500)
+
 
 
 plt.figure(figsize=(10, 6))
@@ -73,4 +75,10 @@ n, bins, patches = plt.hist(
 plt.xlabel('Subjectivity')
 plt.ylabel('Count')
 plt.title('Histogram of subjectivity')
-plt.savefig('./images/subjectivity.png', dpi=500)
+plt.savefig('./images/sentiment02.png', dpi=500)
+
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# Plotting Distributions
+sns.distplot(polarities)
+sns.violinplot(polarities)
