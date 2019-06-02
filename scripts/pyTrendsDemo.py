@@ -15,9 +15,9 @@
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Import required libraries
-%matplotlib inline
 from pytrends.request import TrendReq
 from matplotlib import rcParams
+%matplotlib inline
 rcParams.update({'figure.autolayout': True})
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -30,7 +30,7 @@ pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Interest Over Time
 interest_over_time_df = pytrends.interest_over_time()
-#interest_over_time_df.loc['2017-10-26']
+# interest_over_time_df.loc['2017-10-26']
 print(interest_over_time_df.head())
 interest_over_time_df["data"].plot()
 
