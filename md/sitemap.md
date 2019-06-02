@@ -53,7 +53,7 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
     * ["Tweepy demo"](../scripts/tweepyParser.py)
     * ["Twitter toolkit"](../scripts/twitterDemo.py)
     * ["Tweets analysis"](../scripts/tweetAnalysis.py)
-  * [Natural Language](../md/naturalLanguage.md)
+  * [Natural Language](../md/naturalLanguage.md)*
       * ["spaCy"](../scripts/spaCy.py)
       * ["spaCy1984"](../scripts/spaCy1984.py)
   * [Geographic](./geographic.md)
