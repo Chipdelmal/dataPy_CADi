@@ -91,7 +91,6 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [DataCamp](https://www.datacamp.com/): Online courses on data analysis.
 * [Towards Data Science](https://towardsdatascience.com/): Hub with interesting blog posts on data science with code and datasets.
 
-
 ### Books
 
 * [Theodore Petrou (2017). Pandas Cookbook.](https://www.packtpub.com/big-data-and-business-intelligence/pandas-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781784393878)

@@ -18,8 +18,8 @@
 # Import required libraries
 import pandas as pd
 import numpy as np
-%matplotlib inline
-
+import pprintpp
+import pickle
 
 ###############################################################################
 # Loading the dataset
@@ -125,3 +125,25 @@ mem_usage(optimized_gl)
 date = optimized_gl.date
 print(mem_usage(date))
 date.head()
+
+optimized_gl['date'] = pd.to_datetime(date,format='%Y%m%d')
+print(mem_usage(optimized_gl))
+optimized_gl.date.head()
+
+
+dtypes = optimized_gl.drop('date',axis=1).dtypes
+dtypes_col = dtypes.index
+dtypes_type = [i.name for i in dtypes.values]
+column_types = dict(zip(dtypes_col, dtypes_type))
+# rather than print all 161 items, we'll
+# sample 10 key/value pairs from the dict
+# and print it nicely using prettyprint
+preview = first2pairs = {key:value for key,value in list(column_types.items())[:10]}
+
+pp = pp = pprint.PrettyPrinter(indent=4)
+pp.pprint(preview)
+
+
+outputFile = '../data/extracted/baseball/keysDict.pickle'
+with open(outputFile, 'wb') as handle:
+    pickle.dump(column_types, handle, protocol=pickle.HIGHEST_PROTOCOL)

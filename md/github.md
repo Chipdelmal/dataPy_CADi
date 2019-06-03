@@ -90,5 +90,6 @@ The use of git is a subject of study in on itself. The material taught as part o
 * [Github Quick Guides](https://guides.github.com/)
 * [Git Alternatives](https://en.wikipedia.org/wiki/List_of_version-control_software)
 * [Version Control Systems Comparison](https://en.wikipedia.org/wiki/Comparison_of_version-control_software)
+* https://www.dataquest.io/blog/tutorial-introduction-learn-git-github/
 
 [<img src="./media/git03.png" width="100%">](https://guides.github.com/)
