@@ -31,3 +31,10 @@ This is an intensive bootcamp designed to teach the fundamentals and tools used 
 * **... an in-depth Python course**: This three-day workshop is not intended to be a thorough Python course. Python is a very rich and deep programming language. It's flexibility and...
 * **... a course on Data Analysis**: Data analysis is a rich and dynamic topic which is rapidly becoming a subject of study on its own. As such, it is impossible to cover...
 * **... a course on Data Visualization**: Similar to data analysis, this is a very complex subject that should be covered in a different bootcamp. However, you can have a look at the [dataViz CADi repository](https://github.com/Chipdelmal/dataViz_CADi) for some ideas, scripts, and general information.
+
+
+### Some final warnings
+
+* **Code style**: I tried to be as consistent as possible whilst following conventions, but there might be mixed sections every here and there.
+* **Code comments**: Most of the code is thoroughly commented, but there might be sections which require more explanations.
+* **Data Sources**: Some of the exercises depend on external servers which might limit our number of requests. In those cases, the data was also stored as a copy in the **data** folder of this repository.

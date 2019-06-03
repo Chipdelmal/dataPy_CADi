@@ -130,7 +130,7 @@ dt.replace(minute=0, second=0)
 Finally, we can change between types using **casts**:
 
 ```python
-# Checking the tyopes
+# Checking the types
 num_int = 123
 num_str = "456"
 type(num_int)

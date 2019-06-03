@@ -69,6 +69,13 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [repl.it](https://repl.it/languages/python3): Online Python IDE and interpreter (also supports many other languages).
 * [scikit-learn](https://scikit-learn.org/stable/): Data analysis and machine learning platform for python.
 * [sympy](https://www.sympy.org/en/index.html): Symbolic calculus in Python.
+* [Google Earth Studio](https://www.google.com/earth/studio/)
+* [Scrapy](https://scrapy.org/): Web-scrapper application for Python
+* [BeautifulSoup](https://pypi.org/project/beautifulsoup4/): An approachable web scraper application.
+* [Spacy](https://spacy.io/): Advanced natural language analysis library.
+* [NLTK](https://www.nltk.org/): Natural language toolkit for python.
+* [Seaborn](https://seaborn.pydata.org/): Documentation for the seaborn statistical visualization package.
+
 
 ### Online
 
@@ -79,14 +86,10 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [Python 3.7 documentation](https://docs.python.org/3.7/): Official python documentation with examples of use of the built-in functions.
 * [Mists of Data](http://ric70x7.github.io/blog_archive.html): [Ricardo's Andrade](http://ric70x7.github.io/) personal blog devoted to data analysis in Python with code examples.
 * [Numpy documentation](https://www.numpy.org/devdocs/): Examples of use and developer guides for the popular multidimensional array package.
-* [Seaborn](https://seaborn.pydata.org/): Documentation for the seaborn statistical visualization package.
 * [SciPy documentation](https://docs.scipy.org/doc/): Guides for the most popular package for scientific computing in python.
 * [Virtualenv documentation](https://virtualenv.pypa.io/en/latest/): Tutorials and documentation for python's built-in environment manager.
-* [Scrapy](https://scrapy.org/): Web-scrapper application for Python
-* [BeautifulSoup](https://pypi.org/project/beautifulsoup4/): An approachable web scraper application.
-* [Spacy](https://spacy.io/): Advanced natural language analysis library.
-* [NLTK](https://www.nltk.org/): Natural language toolkit for python.
 * [DataCamp](https://www.datacamp.com/): Online courses on data analysis.
+
 
 ### Books
 

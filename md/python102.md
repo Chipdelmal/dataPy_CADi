@@ -2,6 +2,8 @@
 
 
 
+<hr>
+
 ## Files
 
 
@@ -17,6 +19,17 @@ with open("../data/extracted/tweepy/crispr.csv",) as csvfile:
     readCSV = csv.reader(csvfile, delimiter=',')
     for row in readCSV:
         print(row[0],row[1])
+```
+
+
+##  Storing Objects
+
+```python
+import pickle
+import math
+object_pi = math.pi
+file_pi = open('filename_pi.obj', 'w')
+pickle.dump(object_pi, file_pi)
 ```
 
 ## OOP
@@ -36,6 +49,7 @@ The basic idea behind OOP is that we can define **classes** that have **attribut
 <hr>
 
 
-<hr>
 
 ##  Resources
+
+* https://www.thoughtco.com/using-pickle-to-save-objects-2813661
