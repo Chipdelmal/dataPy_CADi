@@ -61,6 +61,7 @@
 * Mathematical/Computational modeling of spatiotemporal processes
 * Data visualization and data analysis
 * Application of computational optimization techniques
+* The automation of data analysis workflows
 * Application of engineering problem solving techniques in public health contexts
 * Developing projects for students and mentoring
 

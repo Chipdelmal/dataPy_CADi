@@ -7,10 +7,12 @@
 * [Scraping](./scraping.md)
 * [Geographic](./geographic.md)
 
+
 <hr>
 
 ##  OpenSource Archives
 
+* https://data.world/
 * https://archive.ics.uci.edu/ml/index.php
 * https://www.kaggle.com/
 * https://registry.opendata.aws/

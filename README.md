@@ -89,6 +89,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [SciPy documentation](https://docs.scipy.org/doc/): Guides for the most popular package for scientific computing in python.
 * [Virtualenv documentation](https://virtualenv.pypa.io/en/latest/): Tutorials and documentation for python's built-in environment manager.
 * [DataCamp](https://www.datacamp.com/): Online courses on data analysis.
+* [Towards Data Science](https://towardsdatascience.com/): Hub with interesting blog posts on data science with code and datasets.
 
 
 ### Books
