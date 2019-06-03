@@ -38,3 +38,4 @@ This is an intensive bootcamp designed to teach the fundamentals and tools used 
 * **Code style**: I tried to be as consistent as possible whilst following conventions, but there might be mixed sections every here and there.
 * **Code comments**: Most of the code is thoroughly commented, but there might be sections which require more explanations.
 * **Data Sources**: Some of the exercises depend on external servers which might limit our number of requests. In those cases, the data was also stored as a copy in the **data** folder of this repository.
+* **OS**: The examples were developed and tested on macOS Mojave, although they should be platform-independent.

@@ -8,8 +8,7 @@
 * PhD in Computer Science @ ([Tecnológico de Monterrey](https://tec.mx/es))
 * BSc in Mechatronics Engineering @ ([Tecnológico de Monterrey](https://tec.mx/es))
 
-<img src="./media/berkeley.jpg" height="50px"><img src="./media/ihme.png" height="50px"><img src="./media/itesm.png" height="50px"><br>
-<img src="./media/ucla.png" height="50px"><img src="./media/ucsf.png" height="50px">
+<img src="./media/berkeley.jpg" height="50px"><img src="./media/ihme.png" height="50px"><img src="./media/itesm.png" height="50px">
 
 <hr>
 
@@ -63,3 +62,6 @@
 * Data visualization and data analysis
 * Application of computational optimization techniques
 * Application of engineering problem solving techniques in public health contexts
+* Developing projects for students and mentoring
+
+<img src="./media/aggregation.jpg" width="100%">
