@@ -15,6 +15,8 @@
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Import required libraries
+import pickle
+import pandas as pd
 from pytrends.request import TrendReq
 from matplotlib import rcParams
 %matplotlib inline
@@ -30,6 +32,12 @@ pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Interest Over Time
 interest_over_time_df = pytrends.interest_over_time()
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# "Dumping" the dataframe to pkl
+dataDumpPath = "../data/extracted/Trends/dataDump.pkl"
+interest_over_time_df.to_pickle(dataDumpPath)
+interest_over_time_df = pd.read_pickle(dataDumpPath)
 # interest_over_time_df.loc['2017-10-26']
 print(interest_over_time_df.head())
 interest_over_time_df["data"].plot()
@@ -41,7 +49,6 @@ interest_by_region_df.sort_values(by=["data"], ascending=False, inplace=True)
 interest_by_region_df.iloc[:20].plot.bar()
 # fig = interest_by_region_df.iloc[:20].plot.bar()
 # fig.get_figure().savefig('trends.png',dpi=500)
-
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Related Queries, returns a dictionary of dataframes

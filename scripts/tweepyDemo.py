@@ -11,6 +11,7 @@
 #   http://www.compciv.org/homework/assignments/twitter_csv_analysis/
 #   https://developer.twitter.com/en/docs/tweets/data-dictionary/overview/tweet-object.html
 #   https://gist.github.com/dev-techmoe/ef676cdd03ac47ac503e856282077bf2
+#   http://best-hashtags.com/hashtag/
 ###############################################################################
 # IMPORTANT!
 #   Create a file called "twitterCredentials.py" and fill it out with the
