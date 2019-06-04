@@ -75,6 +75,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [Spacy](https://spacy.io/): Advanced natural language analysis library.
 * [NLTK](https://www.nltk.org/): Natural language toolkit for python.
 * [Seaborn](https://seaborn.pydata.org/): Documentation for the seaborn statistical visualization package.
+* [xlrd](https://pypi.org/project/xlrd/): Excel data reader.
 
 
 ### Online

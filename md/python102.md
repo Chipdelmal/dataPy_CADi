@@ -6,6 +6,8 @@
 
 ## File Formats
 
+Data wrangling inherently involves loading and writing data to disks. Fortunately, python has a lot of tools to do these operations as seamlessly as possible!
+
 ### [CSV/TSV](https://en.wikipedia.org/wiki/Comma-separated_values)
 
 Most prevalent data format. Stores information in a tabular way in which each slot in an entry is separated by a comma, "tab" or by a custom separator symbol; and each entry is a row in the plain text file.
@@ -28,6 +30,17 @@ Patch,WH,WR,WB,HH,HR,HB,RR,RB,BB
 20,25.53,0,0,0,0,0,0,0,0
 21,25.48,0,0,0,0,0,0,0,0
 22,25.62,0,0,0,0,0,0,0,0
+```
+
+A basic CSV reading example follows:
+
+```python
+import csv
+csvfile = open('data-text.csv', 'rb')
+reader = csv.DictReader(csvfile)
+	for row in reader:
+		print row
+csvfile.close()
 ```
 
 
@@ -113,11 +126,33 @@ Human-readable data transmission format based on "attribute-value" pairs and arr
 }]
 ```
 
+A python example of how to read these kinds of data is:
+
+```python
+import json
+json_data = open('data-text.json').read()
+data = json.loads(json_data)
+	for item in data:
+		print item
+json_data.close()
+```
+
 ### [Shapefile](https://en.wikipedia.org/wiki/Shapefile)
 
 This file format was designed to handle polygonal data for [geographic information systems (GIS)](https://www.esri.com/en-us/what-is-gis/overview). The specification contains at least three mandatory files, and several optional ones:
 
 [<img src="./media/gis.png" width="50%">](https://en.wikipedia.org/wiki/Shapefile)
+
+### Other data types
+
+One of the main advantages of using python is that it has great diversity in packages and libraries that allow us to handle almost any common filetype.
+
+```python
+import xlrd
+book = xlrd.open_workbook('excelFile.xlsx')
+	for sheet in book.sheets():
+		print sheet.name
+```
 
 <hr>
 
@@ -155,17 +190,45 @@ with open("../data/extracted/tweepy/crispr.csv","r") as csvfile:
 
 Throughout this course, however, we are mostly going to use functions that are built-in in packages to both load, and store data.
 
+
 <hr>
 
 ##  Storing Objects
 
+###	[Pickle](https://docs.python.org/3/library/pickle.html)
+
+The most seamless way to store data in python (particularly objects) is through the  [pickle module](https://docs.python.org/3/library/pickle.html). This package allows us to serialize the data and store it into a **pkl** file:
+
 ```python
 import pickle
-import math
-object_pi = math.pi
-file_pi = open('filename_pi.obj', 'w')
-pickle.dump(object_pi, file_pi)
+objectOut = {"a": 1, "b": 2}
+file = open('../data/extracted/filename_pi.obj', 'wb')
+pickle.dump(objectOut, file)
+file_pi.close()
 ```
+
+we can, in the same or in a different session, load the data without any hassle:
+
+```python
+file = open('../data/extracted/filename_pi.obj', 'rb')
+objectIn = pickle.load(file)
+file.close()
+```
+
+Let's make sure they contain the same information:
+
+```python
+print(objectIn == objectOut)
+```
+
+Finally, we can also take a quick look at the documentation of the methods:
+
+```python
+help(pickle.dump)
+help(pickle.load)
+```
+
+To [R](https://www.r-project.org/) programmers this might seem familiar. This process is similar to storing objects in [**RDS**](http://www.sthda.com/english/wiki/saving-data-into-r-data-format-rds-and-rdata) files.
 
 <hr>
 
@@ -191,3 +254,4 @@ The basic idea behind OOP is that we can define **classes** that have **attribut
 * https://www.geeksforgeeks.org/reading-writing-text-files-python/
 * https://www.thoughtco.com/using-pickle-to-save-objects-2813661
 * https://www.programiz.com/python-programming/file-operation
+* [Matthes, E. (2016). Python Crash Course - A Hands-On, Project-Based Introduction to Programming. No Starch Press.](https://www.amazon.com/Python-Crash-Course-Project-Based-Introduction/dp/1593276036)
