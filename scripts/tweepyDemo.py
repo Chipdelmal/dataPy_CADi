@@ -63,7 +63,7 @@ for tweet in tweepy.Cursor(
     # print (tweet.created_at, tweet.text)
     csvWriter.writerow([tweet.created_at, tweet.full_text])
 print("Finished!")
-
+csvFile.close()
 
 ###############################################################################
 # Exploring the structure

@@ -65,4 +65,6 @@
 * Application of engineering problem solving techniques in public health contexts
 * Developing projects for students and mentoring
 
-<img src="./media/aggregation.jpg" width="100%">
+<br>
+
+<img src="./media/pusheen.jpg" width="100%">
