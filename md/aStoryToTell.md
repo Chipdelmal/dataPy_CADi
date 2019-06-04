@@ -30,7 +30,7 @@ At the core of any data analysis task, there is an underlying story about how th
 [<img src="./media/vizBias.png" width="100%">](https://medium.com/multiple-views-visualization-research-explained/data-is-personal-what-we-learned-from-42-interviews-in-rural-america-93539f25836d)
 
 
-[_In fact, for many people, the data and the visualization were synonymous. For these people, the pipeline from data to design is clean and clear, without bias or rhetoric._](https://medium.com/multiple-views-visualization-research-explained/data-is-personal-what-we-learned-from-42-interviews-in-rural-america-93539f25836d)
+[_"In fact, for many people, the data and the visualization were synonymous. For these people, the pipeline from data to design is clean and clear, without bias or rhetoric."_](https://medium.com/multiple-views-visualization-research-explained/data-is-personal-what-we-learned-from-42-interviews-in-rural-america-93539f25836d)
 
 <hr>
 

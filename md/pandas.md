@@ -41,6 +41,21 @@ Some more advanced filtering and grouping on pandas dataframes for statistics an
 ##  [Exercise 5: Titanic](../scripts/titanic.py)
 
 
+<img src="./media/titanic.png" width="50%">
+
+##  [Exercise 6: Baseball](../scripts/baseball.py)
+
+This exercise shows how to make a more efficient use of memory in pandas, and how data are stored internally by default.
+
+[<img src="./media/dataquest.png" width="100%">](https://www.dataquest.io/blog/pandas-big-data/)
+
+
+##  [Exercise 7: Baseball (efficient)](../scripts/baseballOnLoad.py)
+
+In this second part of the exercise, we will see how to do the data-efficient import of data with pandas.
+
+[<img src="./media/pandasMemory.png" width="100%">](https://www.dataquest.io/blog/pandas-big-data/)
+
 <hr>
 
 ##  Resources

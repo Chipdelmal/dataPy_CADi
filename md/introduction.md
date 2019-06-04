@@ -40,3 +40,4 @@ This is an intensive bootcamp designed to teach the fundamentals and tools used 
 * **Data Sources**: Some of the exercises depend on external servers which might limit our number of requests. In those cases, the data was also stored as a copy in the **data** folder of this repository.
 * **OS**: The examples were developed and tested on macOS Mojave, although they should be platform-independent.
 * **Language Mixups**: I've been coding in several programming languages at the same time in the last years, so I might be mixing up the functions names and definitions.
+* **Bugs**: I tested all of the scripts in the repo and don't expect many bugs to appear, but as in any programming project there might have been some slip-offs.
