@@ -12,7 +12,7 @@
 
 <hr>
 
-## [Research](https://www.researchgate.net/profile/Hector_Sanchez_Castellanos)
+## [Research](https://www.researchgate.net/profile/Hector_Sanchez_Castellanos/publications)
 
 ###  [MGDrivE](https://marshalllab.github.io/MGDrivE/): Mosquito Gene Drive Explorer (UC Berkeley)
 

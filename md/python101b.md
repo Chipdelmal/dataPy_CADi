@@ -8,7 +8,7 @@ For the second part of the Python introduction, let's install Python in our syst
 
 Head to the [python downloads website](https://www.python.org/downloads/), and download [version 3.7.3 installer for your operating system](https://www.python.org/downloads/release/python-373/) and follow the instructions.
 
-Additionally, let's take some time to install [Anaconda for Python 3.7](https://www.anaconda.com/distribution/), which we will be using later during the bootcamp.
+Additionally, let's take some time to install [Anaconda for Python 3.7](https://www.anaconda.com/distribution/) (or [miniconda](https://docs.conda.io/en/latest/miniconda.html) if we want more control over the packages installed and the memory used), which we will be using later during the bootcamp.
 
 To check that our python distribution was correctly installed, let's run the following command in the terminal:
 

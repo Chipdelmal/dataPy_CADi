@@ -93,6 +93,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 ### Books
 
+* [Boehmke, Ph.D., Bradley C. Data Wrangling with R. O’Reilly, 2016. https://doi.org/10.1007/978-3-319-45599-0.](https://www.oreilly.com/library/view/data-wrangling-with/9781491948804/)
 * [Theodore Petrou (2017). Pandas Cookbook.](https://www.packtpub.com/big-data-and-business-intelligence/pandas-cookbook?utm_source=github&utm_medium=repository&utm_campaign=9781784393878)
 * [Scott Chacon and Ben Straub (2019). Pro Git.](https://git-scm.com/book/en/v2)
 * [McKinney, W. Python for Data Analysis - Data Wrangling with Pandas, Numpy and Python. (2018). ISBN-13: 1491957662](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/ref=asc_df_1491957662/?tag=hyprod-20&linkCode=df0&hvadid=312140868236&hvpos=1o1&hvnetw=g&hvrand=6431209822672155744&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032076&hvtargid=pla-396828636441&psc=1)

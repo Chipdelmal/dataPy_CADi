@@ -19,7 +19,7 @@ Because of these, and other reasons, Python is used in companies and application
 * Good code core packages
 * Garbage collection
 * No types definitions
-* Large community
+* Large, friendly, community
   * Wide selection of third-party packages (pip)
   * Lots of online support for almost any kind of programming application
 
