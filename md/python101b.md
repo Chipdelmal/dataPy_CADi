@@ -8,12 +8,18 @@ For the second part of the Python introduction, let's install Python in our syst
 
 Head to the [python downloads website](https://www.python.org/downloads/), and download [version 3.7.3 installer for your operating system](https://www.python.org/downloads/release/python-373/) and follow the instructions.
 
+[<img src="./media/pythonPath.png" width="50%">](https://realpython.com/installing-python/)
+
+In case of trouble, a more detailed instruction guide for each operating system can be found on the following [website](https://realpython.com/installing-python/).
+
+[<img src="./media/pythonInstallation.png" width="50%">](https://realpython.com/installing-python/)
+
 Additionally, let's take some time to install [Anaconda for Python 3.7](https://www.anaconda.com/distribution/) (or [miniconda](https://docs.conda.io/en/latest/miniconda.html) if we want more control over the packages installed and the memory used), which we will be using later during the bootcamp.
 
 To check that our python distribution was correctly installed, let's run the following command in the terminal:
 
 ```bash
-python --version
+python3 --version
 ```
 
 It should return **Python 3.7.x**.
@@ -127,6 +133,17 @@ A dictionary is not a sequence of elements, but rather a "mapping". This means t
 dictEx = {"age": 10 , "name": "Pusheen", "animal": "cat"}
 dictEx = dict(name="Pusheen", animal="cat", age=10)
 dictEx = dict(zip(["name","age","animal"],["Pusheen",10,"cat"]))
+```
+
+In case we forget, we can always retrieve the names of our keys with the following method:
+
+```python
+dictEx.keys()
+```
+
+
+
+```python
 dictEx["age"]
 # We can also add a new element by key, or replace an existing one
 dictEx["age"] = 11
@@ -135,7 +152,6 @@ dictEx
 # We could print the contents of the dictionary by sorted key using a list comprehension:
 [i + " is " + str(dictEx[i]) for i in sorted(dictEx.keys())]
 ```
-
 
 ### Tuples
 
@@ -176,9 +192,21 @@ File objects are interfaces to files in Python. Reading and writing files in Pyt
 ```python
 f = open("../data/extracted/1984/1984.txt")
 text = f.read()
-text.count('\n')
+lines = text.count('\n')
+print(lines)
+f.close()
 ```
 
+Alternatively, files can be opened within contexts in the following way:
+
+```python
+with open("../data/extracted/1984/1984.txt") as f:
+  text = f.read()
+  lines = text.count('\n')
+print(lines)
+```
+
+and python closes the file connection automatically once we exit the "with" scope.
 
 <hr>
 
@@ -186,3 +214,5 @@ text.count('\n')
 
 * [McKinney, W. Python for Data Analysis - Data Wrangling with Pandas, Numpy and Python. (2018). ISBN-13: 1491957662](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/ref=asc_df_1491957662/?tag=hyprod-20&linkCode=df0&hvadid=312140868236&hvpos=1o1&hvnetw=g&hvrand=6431209822672155744&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032076&hvtargid=pla-396828636441&psc=1)
 * [Lutz, Mark, and David Ascher (2004). Learning Python. Learning. ISBN-13: 978-9351102014](http://books.google.com/books?hl=en&amp;lr=&amp;id=ftA0yk1Z92wC&amp;oi=fnd&amp;pg=PT16&amp;dq=Learning+Python&amp;ots=FzKMS8tOZC&amp;sig=2ZEqAODN6tUtsrczbwbqKeTSp60)
+* https://lerner.co.il/2015/01/18/dont-use-python-close-files-answer-depends/
+* [Boehmke, Ph.D., Bradley C. Data Wrangling with R. O’Reilly, 2016. https://doi.org/10.1007/978-3-319-45599-0.](https://www.oreilly.com/library/view/data-wrangling-with/9781491948804/)

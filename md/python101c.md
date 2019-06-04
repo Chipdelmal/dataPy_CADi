@@ -53,7 +53,7 @@ pip list
 
 <hr>
 
-## Functions
+## Defining Functions
 
 ```python
 def sumTwoValues(a, b=0):
@@ -86,6 +86,49 @@ clean_ops = [str.strip, remove_punctuation, str.title]
 clean_strings(states, clean_ops)
 ```
 
+<hr>
+
+## Useful auxiliary functions
+
+### type
+
+As projects become larger, it is easy to lose track of the types of variables we are storing. For those situations, we have the **type** function:
+
+```python
+type("test")
+type(1)
+type(1.0)
+type("1.0")
+```
+
+### dir
+
+Forgot the methods a particular type? Just use the **dir** function:
+
+```python
+dir("sampleString")
+dir({})
+```
+
+Let's try it out:
+
+```python
+sampleList = ["cat", "frog", "dog"]
+dir(sampleList)
+sampleList.sort()
+print(sampleList)
+```
+
+### help
+
+Finally, we can get the documentation string from our functions easily with the **help** command:
+
+```python
+stringToSplit = "dog,cat,frog"
+stringToSplit.split()
+help(stringToSplit.split)
+stringToSplit.split(",")
+```
 
 <hr>
 
@@ -174,7 +217,19 @@ list(zipped)
 
 <hr>
 
+##  Cheat Sheets
+
+A great reference resource for learning python quickly is the following book (click on the images for the websites):
+
+[<img src="./media/crashCourse.jpg" height="300px">](https://www.amazon.com/Python-Crash-Course-Project-Based-Introduction/dp/1593276036)[<img src="./media/cheatSheet.png" height="300px">](https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_all.pdf)
+
+
+along with its freely available [cheat sheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html).
+
+<hr>
+
 ##  Resources
 
 * [McKinney, W. Python for Data Analysis - Data Wrangling with Pandas, Numpy and Python. (2018). ISBN-13: 1491957662](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/ref=asc_df_1491957662/?tag=hyprod-20&linkCode=df0&hvadid=312140868236&hvpos=1o1&hvnetw=g&hvrand=6431209822672155744&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032076&hvtargid=pla-396828636441&psc=1)
 * [Lutz, Mark, and David Ascher (2004). Learning Python. Learning. ISBN-13: 978-9351102014](http://books.google.com/books?hl=en&amp;lr=&amp;id=ftA0yk1Z92wC&amp;oi=fnd&amp;pg=PT16&amp;dq=Learning+Python&amp;ots=FzKMS8tOZC&amp;sig=2ZEqAODN6tUtsrczbwbqKeTSp60)
+* [Boehmke, Ph.D., Bradley C. Data Wrangling with R. O’Reilly, 2016. https://doi.org/10.1007/978-3-319-45599-0.](https://www.oreilly.com/library/view/data-wrangling-with/9781491948804/)

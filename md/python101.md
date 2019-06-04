@@ -20,7 +20,7 @@ Core types are the most fundamental units of programming in python. They represe
 
 ### Numeric
 
-**Integers** and **floating-point numbers** are fundamental types in Python. Integers can store arbitrarily long numbers, and floats are, by default 64 bits (usually).
+**Integers** and **floating-point numbers** are fundamental types in Python. Integers can store arbitrarily long numbers, and floats are, by default 64 bits.
 
 ```python
 iValue = 1384891
@@ -33,6 +33,8 @@ Just as a note, in python 3.x we can perform the division between integers as we
 print(3/2)
 print(3//2)
 ```
+
+Additionally, we can handle decimals in a more traditional "math" way with the [**decimal**](https://docs.python.org/2/library/decimal.html) class (albeit with some computational cost) or handle floating-point numbers with arbitrary precision with the [mpmath](http://mpmath.org/) module (and [sympy](https://docs.sympy.org/latest/index.html) for symbolic mathematics).
 
 ###  Strings
 
@@ -70,6 +72,20 @@ We can also format strings in complex ways:
 ```python
 template = '{0:.2f} {1:s} are worth US${2:d}'
 template.format(4.5560, 'Argentine Pesos', 1)
+```
+
+Strings also have associated methods that make our lives easier:
+
+```python
+rawString = "   this string has whitespaces around it     "
+cleanString = rawString.strip()
+cleanString.upper()
+```
+
+And they can be easily appended:
+
+```python
+"this is the first part of the string " + "and this is the second"
 ```
 
 ###  Booleans
@@ -218,13 +234,13 @@ for num, name in enumerate(numbers, start=0):
 **While** loops are the most general ways to cycle a piece of code. In **while** loops, we set a condition to be met at the point we want to exit the loop:
 
 ```python
-x=256
+x = 256
 total = 0
 while x > 0:
   if total > 500:
     break
   total = total + x
-  x=x//2
+  x = x//2
 ```
 
 ###  pass
@@ -248,3 +264,4 @@ else:
 * https://pyeda.readthedocs.io/en/latest/boolalg.html
 * [McKinney, W. Python for Data Analysis - Data Wrangling with Pandas, Numpy and Python. (2018). ISBN-13: 1491957662](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662/ref=asc_df_1491957662/?tag=hyprod-20&linkCode=df0&hvadid=312140868236&hvpos=1o1&hvnetw=g&hvrand=6431209822672155744&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032076&hvtargid=pla-396828636441&psc=1)
 * [Lutz, Mark, and David Ascher (2004). Learning Python. Learning. ISBN-13: 978-9351102014](http://books.google.com/books?hl=en&amp;lr=&amp;id=ftA0yk1Z92wC&amp;oi=fnd&amp;pg=PT16&amp;dq=Learning+Python&amp;ots=FzKMS8tOZC&amp;sig=2ZEqAODN6tUtsrczbwbqKeTSp60)
+* [Boehmke, Ph.D., Bradley C. Data Wrangling with R. O’Reilly, 2016. https://doi.org/10.1007/978-3-319-45599-0.](https://www.oreilly.com/library/view/data-wrangling-with/9781491948804/)

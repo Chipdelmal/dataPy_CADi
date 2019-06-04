@@ -90,6 +90,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [Virtualenv documentation](https://virtualenv.pypa.io/en/latest/): Tutorials and documentation for python's built-in environment manager.
 * [DataCamp](https://www.datacamp.com/): Online courses on data analysis.
 * [Towards Data Science](https://towardsdatascience.com/): Hub with interesting blog posts on data science with code and datasets.
+* [Python Cheat Sheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html): A compendium of python useful cheat sheets.
 
 ### Books
 
@@ -109,6 +110,8 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [Yau, N. (2011). Visualize this : the FlowingData guide to design, visualization, and statistics. Wiley Pub. ISBN-13: 978-0470944882](https://flowingdata.com/books/)
 * [Yau, N. (2013). Data points: visualization that means something. ISBN-13: 978-1118462195](https://flowingdata.com/books/)
 * [Lutz, Mark, and David Ascher (2004). Learning Python. Learning. ISBN-13: 978-9351102014](http://books.google.com/books?hl=en&amp;lr=&amp;id=ftA0yk1Z92wC&amp;oi=fnd&amp;pg=PT16&amp;dq=Learning+Python&amp;ots=FzKMS8tOZC&amp;sig=2ZEqAODN6tUtsrczbwbqKeTSp60)
+* [Matthes, E. (2016). Python Crash Course - A Hands-On, Project-Based Introduction to Programming. No Starch Press.](https://www.amazon.com/Python-Crash-Course-Project-Based-Introduction/dp/1593276036)
+
 
 <img src="./md/media/flow.jpg" width="100%" height=7.5px>
 
