@@ -18,26 +18,16 @@ Due to the explosion of interest in machine learning and data science in general
 ##  Examples and Exercises
 
 In this bootcamp, we are gonna be looking at exercises for the following sources:
-* [Google Trends](./googleTrends.md)
-* [Twitter](./twitter.md)
-* [Web Scraping](./scraping.md)
-* [Geographic](./geographic.md)
+* [Google Trends](./googleTrends.md): Parsing data from google trends with community API's or downloading directly from the website.
+* [Twitter](./twitter.md): Several examples with a couple of API's
+* [Web Scraping](./scraping.md): An example of how to do webscraping using [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
+* [Geographic](./geographic.md): Example on how to load and plot geographic datasets on Python.
+* [Dropbox](./dropbox.md): Reading and writing files to dropbox through the official API.
 
 [<img src="./media/osm.png" width="100%">](https://www.openstreetmap.org)
 
 <hr>
 
-## Connecting to Dropbox and Google Drive
-
-### Dropbox
-
-* https://www.dropbox.com/developers-v1/core/start/python
-  https://www.dropbox.com/developers/apps/create
-
-### Google Drive
-* https://developers.google.com/drive/api/v3/quickstart/python
-
-<hr>
 
 ##  Resources
 

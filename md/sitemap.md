@@ -61,6 +61,8 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
       * ["spaCy1984"](../scripts/spaCy1984.py)
   * [Geographic](./geographic.md)
     * ["Game of Thrones"](../scripts/got.py)
+  * [Dropbox](./dropbox.md)
+    * ["Dropbox API"](../scripts/dropboxConnection.py)
 * [Data Visualization](./dataViz.md)*
   * [seaborn](./seaborn.md)*
   * [matplotlib](./matplotlib.md)*
