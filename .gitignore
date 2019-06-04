@@ -28,8 +28,10 @@ wheels/
 *.egg
 MANIFEST
 
+# Scripts folder
 /scripts/twitterCredentials.py
 /scripts/images
+/scripts/dropboxCredentials.py
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

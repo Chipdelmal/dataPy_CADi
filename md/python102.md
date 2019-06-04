@@ -202,7 +202,7 @@ The most seamless way to store data in python (particularly objects) is through 
 ```python
 import pickle
 objectOut = {"a": 1, "b": 2}
-file = open('../data/extracted/filename_pi.obj', 'wb')
+file = open('../data/extracted/dataDump/filename_pi.obj', 'wb')
 pickle.dump(objectOut, file)
 file_pi.close()
 ```
@@ -210,7 +210,7 @@ file_pi.close()
 we can, in the same or in a different session, load the data without any hassle:
 
 ```python
-file = open('../data/extracted/filename_pi.obj', 'rb')
+file = open('../data/extracted/dataDump/filename_pi.obj', 'rb')
 objectIn = pickle.load(file)
 file.close()
 ```
@@ -229,6 +229,15 @@ help(pickle.load)
 ```
 
 To [R](https://www.r-project.org/) programmers this might seem familiar. This process is similar to storing objects in [**RDS**](http://www.sthda.com/english/wiki/saving-data-into-r-data-format-rds-and-rdata) files.
+
+### [JSON](https://docs.python.org/3/library/json.html)
+
+```python
+import json
+objectOut = {"a": 1, "b": 2}
+parsed = json.dumps(objectOut)
+
+```
 
 <hr>
 

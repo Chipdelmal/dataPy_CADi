@@ -17,9 +17,25 @@ Due to the explosion of interest in machine learning and data science in general
 
 ##  Examples and Exercises
 
-In this bootcamp, we are gonna be looking at exercises for the following sources: [Google Trends](./googleTrends.md), [Twitter](./twitter.md), [Web Scraping](./scraping.md), [Geographic](./geographic.md).
+In this bootcamp, we are gonna be looking at exercises for the following sources:
+* [Google Trends](./googleTrends.md)
+* [Twitter](./twitter.md)
+* [Web Scraping](./scraping.md)
+* [Geographic](./geographic.md)
 
 [<img src="./media/osm.png" width="100%">](https://www.openstreetmap.org)
+
+<hr>
+
+## Connecting to Dropbox and Google Drive
+
+### Dropbox
+
+* https://www.dropbox.com/developers-v1/core/start/python
+  https://www.dropbox.com/developers/apps/create
+
+### Google Drive
+* https://developers.google.com/drive/api/v3/quickstart/python
 
 <hr>
 
