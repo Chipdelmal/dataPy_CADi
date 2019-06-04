@@ -35,6 +35,8 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
     * ["Articles read"](../scripts/articles.py)
     * ["Titanic"](../scripts/titanic.py)
     * ["Flights"](../scripts/flights.py)
+    * ["Baseball"](../scripts/baseball.py)
+    * ["Baseball Efficient"](../scripts/baseballOnLoad.py)
   * [scipy](./scipy.md)*
   * [numpy](./numpy.md)
     * [pgSIT](../scripts/pgSIT.py)*
