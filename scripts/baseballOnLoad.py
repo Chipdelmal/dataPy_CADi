@@ -62,3 +62,20 @@ ax.legend(loc='upper right')
 ax.set_ylim(0, 1)
 plt.show()
 #plt.close()
+
+
+###############################################################################
+# Loading the dataset by chunks
+optimized_gl = pd.read_csv(
+    DATA_PATH,
+    dtype=dataTypes,
+    parse_dates=['date'],
+    infer_datetime_format=True,
+    low_memory=False,
+    chunksize=10000
+)
+df = pd.DataFrame()
+for gm_chunk in optimized_gl:
+    df = pd.concat([df, gm_chunk])
+    print(len(gm_chunk))
+df.head()

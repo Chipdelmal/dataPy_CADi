@@ -12,9 +12,15 @@ The major limitation of numpy is that it requires data to be homogeneous in type
 
 Whenever we have layers of homogeneously-typed data that are gonna remain consistent in shape across arrays, we should use [numpy](https://www.numpy.org/) for the operations. This might sound like a pretty strict requirement, but it's actually pretty common in operations such as linear algebra, image processing, spatial analysis, signal processing, amongst others.
 
-<img src="./media/traces.jpg" width="100%">
+[<img src="./media/array.png" width="100%">](https://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/)
 
-## [Exercise 1: pgSIT](../scripts/pgSIT.py)
+For a more detailed explanation of how Python handles memory click on the image, which has the reference to an interesting [article](https://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/).
+
+<hr>
+
+## Exercises
+
+### [Exercise 1: pgSIT](../scripts/pgSIT.py)
 
 <hr>
 
