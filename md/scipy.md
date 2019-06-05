@@ -5,6 +5,9 @@
 
 [<img src="./media/scipy.png" width="100%">](https://www.scipy.org/)
 
+The distribution is open source and can be extended by the community through their [github repository](https://github.com/scipy/scipy).
+
+<hr>
 
 ##  Reference
 
