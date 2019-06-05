@@ -40,6 +40,7 @@ Some more advanced filtering and grouping on pandas dataframes for statistics an
 
 ##  [Exercise 5: Titanic](../scripts/titanic.py)
 
+Another exercise on filtering and plotting exercise for a simple dataset.
 
 <img src="./media/titanic.png" width="50%">
 

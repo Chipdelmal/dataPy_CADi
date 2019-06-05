@@ -29,7 +29,7 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
   * [nteract](../scripts/nteract.md)
   * [atom](./atom.md)
 * [Data Wrangling](./dataWrangling.md)*
-  * [pandas](./pandas.md)*
+  * [pandas](./pandas.md)
     * ["NFL"](../scripts/nfl.py)
     * ["Zoo"](../scripts/zoo.py)
     * ["Articles read"](../scripts/articles.py)
