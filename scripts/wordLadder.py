@@ -11,13 +11,16 @@
 #   https://www.geeksforgeeks.org/python-string-isalpha-application/
 ###############################################################################
 
+###############################################################################
+# Import libraries
 import numpy as np
 import wordLadderAux as aux
 from scipy.sparse.csgraph import dijkstra
 from scipy.spatial.distance import pdist, squareform
 from scipy.sparse import csr_matrix
 
-
+###############################################################################
+# Import libraries
 word_list = open('/usr/share/dict/words').readlines()
 word_list[:5]
 
