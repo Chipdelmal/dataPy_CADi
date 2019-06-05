@@ -11,7 +11,7 @@ Due to the explosion of interest in machine learning and data science in general
 * https://console.cloud.google.com/
 * http://apps.who.int/gho/data/node.main
 
-[<img src="./media/dataWorld.png" height="275px">](https://data.world/)<img src="./media/titan.jpg" height="275px">
+[<img src="./media/dataWorld.png" width="100%">](https://data.world/)<!--<img src="./media/titan.jpg" height="275px">-->
 
 <hr>
 
@@ -23,6 +23,7 @@ In this bootcamp, we are gonna be looking at exercises for the following sources
 * [Web Scraping](./scraping.md): An example of how to do webscraping using [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
 * [Geographic](./geographic.md): Example on how to load and plot geographic datasets on Python.
 * [Dropbox](./dropbox.md): Reading and writing files to dropbox through the official API.
+* [RSS](./rss.md): An example on how to transform this XML-based news sharing format into CSV form.
 
 [<img src="./media/osm.png" width="100%">](https://www.openstreetmap.org)
 
