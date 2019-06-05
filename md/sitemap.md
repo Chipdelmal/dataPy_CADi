@@ -64,6 +64,8 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
     * ["Game of Thrones"](../scripts/got.py)
   * [Dropbox](./dropbox.md)
     * ["Dropbox API"](../scripts/dropboxConnection.py)
+  * [RSS (XML)](./RSS.md)*
+    * [XML Parser](../scripts/xmlParser.py)
 * [Data Visualization](./dataViz.md)*
   * [seaborn](./seaborn.md)*
   * [matplotlib](./matplotlib.md)*
