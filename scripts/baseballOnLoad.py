@@ -14,7 +14,7 @@
 #   https://docs.scipy.org/doc/numpy/reference/generated/numpy.finfo.html
 #   https://www.programiz.com/python-programming/methods/built-in/isinstance
 #   https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_numeric.html
-#   https://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/
+#   http://acepor.github.io/2017/08/03/using-chunksize/
 ###############################################################################
 
 ###############################################################################
@@ -79,3 +79,9 @@ for gm_chunk in optimized_gl:
     df = pd.concat([df, gm_chunk])
     print(len(gm_chunk))
 df.head()
+
+
+###############################################################################
+# Follow up: filter the loaded dataset to contain only: date and day of
+#   the week and export to a CSV file
+#   (http://acepor.github.io/2017/08/03/using-chunksize/)
