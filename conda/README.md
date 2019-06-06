@@ -48,3 +48,9 @@ Uninstall environment:
 ```bash
 conda env remove -n dataPy
 ```
+
+List environments:
+
+```bash
+conda info --envs
+```

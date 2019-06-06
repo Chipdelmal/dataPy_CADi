@@ -101,6 +101,8 @@ To export our environment to a **YML** file, we can run:
 conda env export > dataPy.yml
 ```
 
+For a list of the most commonly used **anaconda** and **pip** commands please follow [this link](../conda/README.md)
+
 <hr>
 
 ##  Resources

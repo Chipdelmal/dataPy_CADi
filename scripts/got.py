@@ -70,6 +70,7 @@ for i, gi in enumerate(gotCities.geometry):  # Add cities
 
 # Adding a grid
 ax.grid(linestyle='--')
+fig.savefig("./images/got.png",dpi=250)
 
 # Closing the figure ##########################################################
 plt.close()

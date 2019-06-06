@@ -71,7 +71,7 @@ data.plot(
     alpha=.15, s=data["population"]/100, figsize=(10,7),
     c="median_house_value", cmap=plt.get_cmap("RdPu"), colorbar=True
 )
-plt.savefig('california.png',dpi=500)
+plt.savefig('./images/california.png',dpi=500)
 
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
