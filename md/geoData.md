@@ -21,7 +21,7 @@ Throughout this exercise, we will create a map by parsing a community-created da
 
 [<img src="./media/got.png" width="50%">](http://ric70x7.github.io/20190318_got.html)
 
-##  [Exercise 2: OSMNX](../scripts/osmnxDemo.py):
+##  [Exercise 2: OSMNX](../scripts/osmnxDemo.py)
 
 In this example, we will use [osmnx](https://github.com/gboeing/osmnx) to download and analyze road network topologies). Additionally, it is pretty useful to parse geographic data from [openstreetmap](https://www.openstreetmap.org/) as shapefiles.
 
@@ -29,13 +29,13 @@ In this example, we will use [osmnx](https://github.com/gboeing/osmnx) to downlo
 <img src="./media/queretaro.jpg" height="250px">
 
 
-##  [Exercise 3: OSMNX Networks](../scripts/osmnxNetworkMetrics.py):
+##  [Exercise 3: OSMNX Networks](../scripts/osmnxNetworkMetrics.py)
 
 Further exercises with calculating roads networks data.
 
-<img src="./media/berkeleyNet.jpg" height="150px"><img src="./media/berkeleyRoad.jpg" height="150px"><img src="./media/berkeleyCentrality.jpg" height="150px">
+<img src="./media/berkeleyNet.jpg" height="200px"><img src="./media/berkeleyRoad.jpg" height="200px"><img src="./media/berkeleyCentrality.jpg" height="200px">
 
-##  [Exercise 4: OMSNX Buildings](../scripts/osmnxBuildings.py):
+##  [Exercise 4: OMSNX Buildings](../scripts/osmnxBuildings.py)
 
 Downloading a location and saving it to shapefiles.
 
