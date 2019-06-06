@@ -27,7 +27,7 @@
 
 *Lead of Dev team: One postdoc + Four undergraduate students (3 Computer Science & 1 Statistics)*
 
-[<img src="./media/eracr2.jpg" width="33%">](https://youtu.be/ygW_aTDR0sM)[<img src="./media/eracr4.jpg" width="33%">](https://youtu.be/ygW_aTDR0sM)[<img src="./media/eracr3.jpg" width="33%">](https://youtu.be/ygW_aTDR0sM)
+[<img src="./media/eracr2.jpg" width="33%">](https://youtu.be/1A5hIbNVTQY)[<img src="./media/eracr4.jpg" width="33%">](https://youtu.be/1A5hIbNVTQY)[<img src="./media/eracr3.jpg" width="33%">](https://youtu.be/1A5hIbNVTQY)
 [<img src="./media/eracr.jpg" width="100%">](https://pypi.org/project/MoNeT-MGDrivE/)
 
 ###  [MASH](https://smitdave.github.io/MASH-Main/): Modular Analysis & Simulation for Health (University of Washington)
