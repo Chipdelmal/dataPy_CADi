@@ -62,7 +62,7 @@ housingNum = data.drop("ocean_proximity", axis=1)
 imputer.fit(housingNum)
 imputer.statistics_
 housingNum.median().values
-# Impute our dataframe (returns a numpu array)
+# Impute our dataframe (returns a numpy array)
 impArray = imputer.transform(housingNum)
 # Convert back into a dataframe
 colNames = housingNum.columns

@@ -1,12 +1,12 @@
 # dataPy: [numpy](https://www.numpy.org/)
 
-[Numpy](https://www.numpy.org/) is a really powerful package that allows fast scientific computing in [python](https://www.python.org/). It allows the creation and efficient manipulation of multidimensional arrays of data, and it also provides the mathematical functions to operate upon them. [Numpy](https://www.numpy.org/) is usually installed as part of the scipy distribution, which adds functionality that makes it comparable to matlab in terms of coding and operations (both: [matlab](https://www.mathworks.com/products/matlab.html) and numpy rely on [BLAS](http://www.netlib.org/blas/) and [LAPACK](http://www.netlib.org/lapack/) for efficient linear algebra computations).
+[Numpy](https://www.numpy.org/) is a really powerful package that allows fast scientific computing in [python](https://www.python.org/). It allows the creation and efficient manipulation of multidimensional arrays of data, and it also provides the mathematical functions to operate upon them. [Numpy](https://www.numpy.org/) is usually installed as part of the scipy distribution, which adds functionality that makes it comparable to matlab in terms of coding and operations (both: [matlab](https://www.mathworks.com/products/matlab.html) and [numpy](https://www.numpy.org/) rely on [BLAS](http://www.netlib.org/blas/) and [LAPACK](http://www.netlib.org/lapack/) for efficient linear algebra computations).
 
 <img src="./media/numpyCasting.png" width="100%">
 
 ## Limitations
 
-The major limitation of numpy is that it requires data to be homogeneous in type (integers or floats), and that arrays are not flexible in terms of growing or shrinking.
+The major limitation of [numpy](https://www.numpy.org/) is that it requires data to be homogeneous in type (integers or floats), and that arrays are not flexible in terms of growing or shrinking. This is because [numpy](https://www.numpy.org/) maintains information in contiguous blocks of memory, so adding/deleting rows or columns implies moving the location of the whole array.
 
 ## When to use [numpy](https://www.numpy.org/)
 

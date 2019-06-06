@@ -8,7 +8,7 @@ This library is widely used and thoroughly [documented](https://scikit-learn.org
 
 [<img src="./media/scikitlearn2.png" width="100%">](https://scikit-learn.org/stable/documentation.html)
 
-In terms of this bootcamp, however, we will focus on its [data preprocessing capabilities](https://scikit-learn.org/stable/modules/preprocessing.html#preprocessing).
+In terms of this bootcamp, however, we will focus on its [data preprocessing capabilities](https://scikit-learn.org/stable/modules/preprocessing.html#preprocessing). We will use some of the tools available to clean, impute, and create pipelines that allow us to automate much of the pruning of data to a usable state for machine learning applications.
 
 <hr>
 
@@ -24,13 +24,13 @@ In this exercise, we will focus on loading a dataset into a [pandas](./pandas.md
 
 The second part of the exercise involves the use of [scikit-learn](./scikitLearn.md) to impute data and pre process it for machine learning applications.
 
-<img src="./media/scikit04.jpg" width="100%">
+<img src="./media/scikit04.jpg" width="50%">
 
 ### [Exercise 3: "California Housing (Transforming)"](../scripts/housingTransforming.py)
 
 The third part of the exercise will show us how to define classes to work with pipelines in [scikit-learn](https://scikit-learn.org/stable/) so that we can automate the data-cleaning process.
 
-<img src="./media/scikit03.png" width="100%">
+<img src="./media/scikit03.png" width="50%">
 
 <hr>
 
