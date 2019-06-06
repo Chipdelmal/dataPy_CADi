@@ -30,8 +30,9 @@ MANIFEST
 
 # Scripts folder
 /scripts/twitterCredentials.py
-/scripts/images
 /scripts/dropboxCredentials.py
+/scripts/images/
+/scripts/cache/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -110,3 +111,5 @@ celerybeat-schedule
 
 # mypy
 .mypy_cache/
+scripts/cache/7a10ef7f51a32868ea1208e6d6162cd1.json
+scripts/cache/545f450373f228876d2335b3d0b43281.json
