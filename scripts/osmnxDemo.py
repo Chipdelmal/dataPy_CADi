@@ -6,6 +6,7 @@
 
 import networkx as nx
 import osmnx as ox
+from keys import google_elevation_api_key
 import matplotlib.cm as cm
 import matplotlib.colors as colors
 import pyproj
@@ -25,11 +26,8 @@ extended_stats = ox.extended_stats(G)
 print(extended_stats['pagerank_max_node'])
 
 
-
 G = ox.graph_from_place('Piedmont, California, USA', network_type='drive')
 fig, ax = ox.plot_graph(G)
-
-
 
 
 # what sized area does our network cover in square meters?
@@ -39,12 +37,12 @@ graph_area_m = nodes_proj.unary_union.convex_hull.area
 graph_area_m
 
 
-more_stats = ox.extended_stats(G, ecc=True, bc=True, cc=True) #use arguments to turn other toplogical analyses on/off
+# use arguments to turn other toplogical analyses on/off
+more_stats = ox.extended_stats(G, ecc=True, bc=True, cc=True)
 for key in sorted(more_stats.keys()):
     print(key)
 # ox.save_graph_shapefile(G, filename='../data/extracted/OSMNX/mynetwork_shapefile')
 # ox.save_graphml(G, filename='../data/extracted/OSMNX/mynetwork.graphml')
-
 
 
 # edge closeness centrality: convert graph to line graph so edges become nodes and vice versa
@@ -61,3 +59,34 @@ ec = [cmap.to_rgba(cl) for cl in ev]
 # color the edges in the original graph with closeness centralities in the line graph
 fig, ax = ox.plot_graph(G, bgcolor='k', axis_off=True, node_size=0,
                         edge_color=ec, edge_linewidth=1.5, edge_alpha=1)
+
+
+# get the nearest network node to each point
+orig_node = ox.get_nearest_node(G, (37.828903, -122.245846))
+dest_node = ox.get_nearest_node(G, (37.812303, -122.215006))
+
+
+
+# find the route between these nodes then plot it
+route = nx.shortest_path(G, orig_node, dest_node, weight='length')
+fig, ax = ox.plot_graph_route(G, route, node_size=0)
+
+
+
+
+
+# make query an unambiguous dict to help the geocoder find specifically what you're looking for
+place = {
+    'city' : 'San Francisco',
+    'state' : 'California',
+    'country' : 'USA'
+}
+G = ox.graph_from_place(place, network_type='drive')
+fig, ax = ox.plot_graph(G, fig_height=12, node_size=0, edge_linewidth=0.5)
+
+
+address = '2700 Shattuck Ave, Berkeley, CA'
+G = ox.graph_from_address(address, network_type='drive', distance=750)
+G_proj = ox.project_graph(G)
+fig, ax = ox.plot_graph(G_proj, fig_height=10, node_color='orange', node_size=30,
+                        node_zorder=2, node_edgecolor='k')
