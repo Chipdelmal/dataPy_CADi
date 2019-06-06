@@ -66,6 +66,12 @@ pip install jupyter
 conda deactivate
 ```
 
+To upgrade a package to a newer version we just use the following command:
+
+```bash
+pip install --upgrade pandas
+```
+
 We can also launch jupyter from our package:
 
 <img src="./media/anac05b.png" width="100%">
