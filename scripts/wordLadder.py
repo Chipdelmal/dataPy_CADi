@@ -55,7 +55,7 @@ word_bytes = word_bytes[:, ::word_list.itemsize//n]
 ###############################################################################
 # Calculate the Hamming distance between elements
 hamming_dist = pdist(word_bytes, metric='hamming')
-graph = csr_matrix(squareform(hamming_dist < 1.01 / n))
+graph = csr_matrix(squareform(hamming_dist < 1.001 / n))
 
 ###############################################################################
 # Plot the sparse matrix
