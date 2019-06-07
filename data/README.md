@@ -14,3 +14,9 @@ This folder contains the zipped versions of the datasets used throughout the cou
 * Weather: http://forecast.weather.gov/MapClick.php?lat=37.7772&lon=-122.4168
 * pgSIT: Personal research
 * United Airlines: https://gist.github.com/vickyqian/f70e9ab3910c7c290d9d715491cde44c
+* NBA: https://media.geeksforgeeks.org/wp-content/uploads/nba.csv
+* spaCy: Personal data
+* XML: https://www.hindustantimes.com/rss/topnews/rssfeed.xml
+* Trends: Twitter feed
+* Comoros: Personal research
+* OSMNX: https://www.openstreetmap.org/
