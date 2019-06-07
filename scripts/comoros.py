@@ -1,8 +1,26 @@
-# https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.ndarray.html
+# -*- coding: utf-8 -*-
 
-import numpy as np
-import glob
+###############################################################################
+# "Comoros"
+###############################################################################
+#  Objectives:
+#   To show an example of using a custom-made package to do numpy array
+#       manipulations
+#  Source:
+#   https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.ndarray.html
+###############################################################################
+
 import MoNeT_MGDrivE as monet
+colors = [
+    "#090446", "#f20060", "#c6d8ff", "#ff28d4", "#7fff3a", "#7692ff"
+]
+cmaps = monet.generateAlphaColorMapFromColorArray(colors)
+styleS = {
+    "width": 0, "alpha": .85, "dpi": 1024, "legend": True,
+    "aspect": .25, "colors": colors,
+    "xRange": [0, 1000], "yRange": [0, 1000]
+}
+
 
 ###############################################################################
 # Comors Pre-Processing
@@ -10,7 +28,7 @@ import MoNeT_MGDrivE as monet
 
 ###############################################################################
 # Define the experiment's path
-path = "/Users/sanchez.hmsc/Documents/GitHub/dataPy_CADi/data/extracted/pgSIT/"
+path = "/Users/sanchez.hmsc/Documents/GitHub/dataPy_CADi/data/extracted/comoros/"
 
 ###############################################################################
 # Get the filenames lists
@@ -45,6 +63,9 @@ aggData = monet.aggregateGenotypesInNode(
     landscapeSumData,
     aggregationDictionary
 )
+figB = monet.plotMeanGenotypeStack(aggData, styleS)
+figB.get_axes()[0].set_xlim(styleS["xRange"][0], styleS["xRange"][1])
+figB.get_axes()[0].set_ylim(styleS["yRange"][0], styleS["yRange"][1])
 
 ###############################################################################
 # Load the population dynamics data of the whole landscape
@@ -54,59 +75,18 @@ aggregatedNodesData = monet.aggregateGenotypesInLandscape(
     aggregationDictionary
 )
 aggregatedNodesData["landscape"]
+
+
 ###############################################################################
 # Calculate the gene dynamics over the whole landscape
 geneSpatiotemporals = monet.getGenotypeArraysFromLandscape(
     aggregatedNodesData
 )
 
-
-###############################################################################
-###############################################################################
-###############################################################################
-
-experimentPath = path
-sexID = "ADM"
-skipColumns = 1
-type = np.uint16
-
-###############################################################################
-# Loading files
-sortedFilenames = sorted(
-    glob.glob(
-        experimentPath + "/" +
-        sexID + "*.csv"
+overlay = monet.plotGenotypeOverlayFromLandscape(
+    geneSpatiotemporals,
+    style={"aspect": 10, "cmap": cmaps},
+    vmax=monet.maxAlleleInLandscape(
+        geneSpatiotemporals["geneLandscape"]
     )
 )
-
-###############################################################################
-# Load a file to prime the shape of the 3D array
-filename = sortedFilenames[0]
-timeData = np.genfromtxt(
-    filename,
-    dtype=np.uint16,
-    skip_header=True,
-    delimiter=",",
-    invalid_raise=False
-)[:, skipColumns:]
-
-###############################################################################
-# Prime a 3D array
-shp = timeData.shape
-experimentSet = np.empty([len(sortedFilenames), shp[0], shp[1]], dtype=type)
-experimentSet[0] = timeData
-
-
-###############################################################################
-# Fill up the array
-for (i, filename) in enumerate(sortedFilenames[1:]):
-    timeData = np.genfromtxt(
-        filename,
-        dtype=np.uint16,
-        skip_header=True,
-        delimiter=",",
-        invalid_raise=False
-    )[:, skipColumns:]
-    experimentSet[i+1] = timeData
-
-experimentSet.mean(axis=0)
