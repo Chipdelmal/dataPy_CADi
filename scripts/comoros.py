@@ -10,15 +10,19 @@
 #   https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.ndarray.html
 ###############################################################################
 
+###############################################################################
+# Import libraries
+import matplotlib.pyplot as plt
 import MoNeT_MGDrivE as monet
+
 colors = [
     "#090446", "#f20060", "#c6d8ff", "#ff28d4", "#7fff3a", "#7692ff"
 ]
 cmaps = monet.generateAlphaColorMapFromColorArray(colors)
 styleS = {
     "width": 0, "alpha": .85, "dpi": 1024, "legend": True,
-    "aspect": .25, "colors": colors,
-    "xRange": [0, 1000], "yRange": [0, 1000]
+    "aspect": .2, "colors": colors,
+    "xRange": [0, 1090], "yRange": [0, 1750]
 }
 
 
@@ -67,6 +71,7 @@ figB = monet.plotMeanGenotypeStack(aggData, styleS)
 figB.get_axes()[0].set_xlim(styleS["xRange"][0], styleS["xRange"][1])
 figB.get_axes()[0].set_ylim(styleS["yRange"][0], styleS["yRange"][1])
 
+
 ###############################################################################
 # Load the population dynamics data of the whole landscape
 landscapeData = monet.loadLandscapeData(filenames, dataType=float)
@@ -85,8 +90,12 @@ geneSpatiotemporals = monet.getGenotypeArraysFromLandscape(
 
 overlay = monet.plotGenotypeOverlayFromLandscape(
     geneSpatiotemporals,
-    style={"aspect": 10, "cmap": cmaps},
+    style={"aspect": 2, "cmap": cmaps},
     vmax=monet.maxAlleleInLandscape(
         geneSpatiotemporals["geneLandscape"]
     )
 )
+monet.quickSaveFigure(
+    overlay, "./images/heat.png"
+)
+plt.close()

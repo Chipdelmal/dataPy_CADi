@@ -64,3 +64,10 @@ for (i, filename) in enumerate(sortedFilenames[1:]):
 # Do some stats and plot
 stat = experimentSet.var(axis=0)
 plt.plot(stat)
+plt.savefig(
+    "./images/pgSIT.png", dpi=250, facecolor='w',
+    edgecolor='w', orientation='portrait', papertype=None,
+    format=format, transparent=True, bbox_inches='tight',
+    pad_inches=0, frameon=None
+)
+plt.close()

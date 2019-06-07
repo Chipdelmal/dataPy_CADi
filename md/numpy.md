@@ -20,7 +20,17 @@ For a more detailed explanation of how Python handles memory click on the image,
 
 ## Exercises
 
-### [Exercise 1: pgSIT](../scripts/pgSIT.py)
+### [Exercise 1: CRISPR Spread](../scripts/comoros.py)
+
+In this example, we will use the [MoNeT_MGDrivE](https://pypi.org/project/MoNeT-MGDrivE/) package to show how libraries can be built with numpy to manipulate homogeneously dimensional data.
+
+[<img src="./media/heat.png" width="100%">](../scripts/comoros.py)
+
+### [Exercise 2: pgSIT](../scripts/pgSIT.py)
+
+This exercise shows how loading files with time series data into numpy works, and how to make use of it's multidimensional statistical operations.
+
+[<img src="./media/pgSIT.png" width="50%">](../scripts/pgSIT.py)
 
 <hr>
 

@@ -17,7 +17,8 @@ from sklearn.preprocessing import OneHotEncoder
 
 #############################################################################
 # Load dataset from an online source
-titanic = pd.read_csv("https://raw.githubusercontent.com/amueller/scipy-2017-sklearn/master/notebooks/datasets/titanic3.csv")
+dataURL = "https://raw.githubusercontent.com/amueller/scipy-2017-sklearn/master/notebooks/datasets/titanic3.csv"
+titanic = pd.read_csv(dataURL)
 
 #############################################################################
 # Drop rows with NA's from the dataset
@@ -29,3 +30,6 @@ titanic.head()
 encoder = OneHotEncoder(sparse=False)
 encoder.fit_transform(titanic[['sex', 'embarked']])
 print(encoder.categories_)
+
+
+print(encoder)
