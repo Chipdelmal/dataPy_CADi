@@ -37,11 +37,11 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
     * ["Flights"](../scripts/flights.py)
     * ["Baseball"](../scripts/baseball.py)
     * ["Baseball Efficient"](../scripts/baseballOnLoad.py)
-  * [scipy](./scipy.md)*
-    * ["Word-Ladder"](../scripts/wordLadder.py)*
+  * [scipy](./scipy.md)
+    * ["Word-Ladder"](../scripts/wordLadder.py)
   * [numpy](./numpy.md)
-    * [Comoros](../scripts/comoros.py)*
-    * [pgSIT](../scripts/pgSIT.py)*
+    * [Comoros](../scripts/comoros.py)
+    * [pgSIT](../scripts/pgSIT.py)
   * [scikit-learn](./scikitLearn.md)*
     * ["Housing Cleaning"](../scripts/housingCleaning.py)
     * ["Housing Exploring"](../scripts/housingExploring.py)
