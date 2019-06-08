@@ -67,8 +67,9 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
     * ["OSMNX Buildings"](../scripts/osmnxBuildings.py)
   * [Dropbox](./dropbox.md)
     * ["Dropbox API"](../scripts/dropboxConnection.py)
-  * [RSS (XML)](./RSS.md)
-    * [XML Parser](../scripts/xmlParser.py)
+  * [RSS and XML](./RSS.md)
+    * [RSS Parser](../scripts/xmlParser.py)
+    * [iTunes Playlist Copier](../scripts/pyTunesPlaylist.py)
 * [Data Visualization](./dataViz.md)*
   * [seaborn](./seaborn.md)*
   * [matplotlib](./matplotlib.md)*
