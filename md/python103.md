@@ -2,10 +2,7 @@
 
 <hr>
 
-## Other Functions
-
-
-### Timing Execution
+## Timing Execution
 
 As in any other programming language, performance is important. This is specially true when dealing with large datasets.
 
@@ -20,7 +17,9 @@ endTime = time.time()
 print(endTime-startTime)
 ```
 
-###  Map
+<hr>
+
+##  Map
 
 For people used to functional programming, Python's **map** function should be straightforward to apply a function over a collection of elements:
 
@@ -81,10 +80,27 @@ print(timings)
 
 In some situations, the time response of these implementations might be similar, but because of memory and differences in the functions it is worth knowing at least a couple of different ways to iterate and apply functions to elements in a collection.
 
+<hr>
 
-### Lambda Functions
+## Lambda (Anonymous) Functions
 
+Lambda functions are a functions that are created without a name (hence, the "anonymous" part).
 
+```python
+g = lambda x: x*x*x
+g(2)
+```
+
+These can be combined with other functional programming concepts such as **maps**, **filters**
+
+```python
+li = range(10, 50, 5)
+op = map(lambda x: x + 10 , li)
+print(list(op))
+
+filtered = filter(lambda x: (x%2 != 0) , li)
+print(list(filtered))
+```
 
 <hr>
 
@@ -126,7 +142,7 @@ Detecting, and deleting circular references requires calling the garbage collect
 ```python
 import gc
 
-print("Garbage collection thresholds:", gc.get_threshold()) 
+print("Garbage collection thresholds:", gc.get_threshold())
 collected = gc.collect()
 print("Garbage collector: collected", "%d objects." % collected)
 ```
@@ -142,3 +158,5 @@ Python calls the garbage collection automatically based on time, or events.
 * https://stackoverflow.com/questions/1557571/how-do-i-get-time-of-a-python-programs-execution
 * https://rushter.com/blog/python-garbage-collector/
 * https://www.geeksforgeeks.org/garbage-collection-python/
+* https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/
+* http://book.pythontips.com/en/latest/map_filter.html
