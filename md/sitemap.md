@@ -8,7 +8,7 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
   * [Python 101 (part 1): Core Types](./python101.md)
   * [Python 101 (part 2): Data Structures](./python101b.md)
   * [Python 101 (part 3): Functions and Comprehensions](./python101c.md)
-  * [Intermediate Python Concepts](./python102.md)
+  * [Files and Intermediate Python Concepts](./python102.md)
   * [Advanced Python](./python103.md)
 * [Libraries](./libraries.md)
   * [Pypi](./pypi.md)

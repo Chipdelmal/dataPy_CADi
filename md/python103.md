@@ -88,7 +88,50 @@ In some situations, the time response of these implementations might be similar,
 
 <hr>
 
-## Garbage Collection
+## Garbage Collection and Memory Management
+
+Python does not require tracking of pointers and manual memory management, insted it realies on a [garbage collector](https://docs.python.org/3.6/library/gc.html) that takes care of most of those duties. On top of this, python manages the creation of common objects (such as indices) so that there's no additional overhead for objects that are created often (such as int objects with value of 1 or 0).
+
+```python
+# For common integers, python creates one object and
+#   assigns multiple references to it.
+a = 1
+b = 1
+a is b
+
+# If the ints are too long they are probably not indices,
+#   so python creates another object.
+a = 100000
+b = 100000
+a is b
+```
+
+Variables within a scope (such as a function) the references created within that scope are destroyed:
+
+```python
+import sys
+
+foo = []
+print(sys.getrefcount(foo))
+
+def bar(a):
+    print(sys.getrefcount(a))
+
+bar(foo)
+print(sys.getrefcount(foo))
+```
+
+Detecting, and deleting circular references requires calling the garbage collector. The [garbage collector](https://docs.python.org/3.6/library/gc.html) can be manipulated manually through its [API](https://docs.python.org/3.6/library/gc.html):
+
+```python
+import gc
+
+print("Garbage collection thresholds:", gc.get_threshold()) 
+collected = gc.collect()
+print("Garbage collector: collected", "%d objects." % collected)
+```
+
+Python calls the garbage collection automatically based on time, or events.
 
 <hr>
 
@@ -97,3 +140,5 @@ In some situations, the time response of these implementations might be similar,
 * https://howchoo.com/g/mtc4ntzkngi/understand-the-map-function-in-python
 * https://stackoverflow.com/questions/49301880/pass-several-arguments-to-function-from-map
 * https://stackoverflow.com/questions/1557571/how-do-i-get-time-of-a-python-programs-execution
+* https://rushter.com/blog/python-garbage-collector/
+* https://www.geeksforgeeks.org/garbage-collection-python/
