@@ -18,7 +18,7 @@ In terms of this bootcamp, however, we will focus on its [data preprocessing cap
 
 In this exercise, we will focus on loading a dataset into a [pandas](./pandas.md) dataframe, and performing an initial exploration through basic [matplotlib plots](./matplotlib.md).
 
-<img src="./media/california.jpg" width="100%">
+<img src="./media/california.jpg" width="50%">
 
 ### [Exercise 2: "California Housing (Exploring)"](../scripts/housingExploring.py)
 

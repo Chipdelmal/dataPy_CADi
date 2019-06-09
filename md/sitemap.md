@@ -33,7 +33,7 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
     * ["NFL"](../scripts/nfl.py)
     * ["Zoo"](../scripts/zoo.py)
     * ["Articles read"](../scripts/articles.py)
-    * ["Titanic"](../scripts/titanic.py)*
+    * ["Titanic"](../scripts/titanic.py)
     * ["Flights"](../scripts/flights.py)
     * ["Baseball"](../scripts/baseball.py)
     * ["Baseball Efficient"](../scripts/baseballOnLoad.py)
@@ -42,7 +42,7 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
   * [numpy](./numpy.md)
     * [Comoros](../scripts/comoros.py)
     * [pgSIT](../scripts/pgSIT.py)
-  * [scikit-learn](./scikitLearn.md)*
+  * [scikit-learn](./scikitLearn.md)
     * ["Housing Cleaning"](../scripts/housingCleaning.py)
     * ["Housing Exploring"](../scripts/housingExploring.py)
     * ["Housing Transforming"](../scripts/housingTransforming.py)

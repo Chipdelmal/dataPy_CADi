@@ -10,3 +10,11 @@ Because of its relevance in machine learning applications, it is important to ta
 * Rescaling
 * Subsetting
 * Dealing with categorical data
+
+
+In this bootcamp, we will see some examples on how to do data wrangling with the following packages:
+
+* [pandas](./pandas.md)
+* [scipy](./pandas.md)
+* [numpy](./numpy.md)
+* [scikit-learn](./scikitLearn.md)
