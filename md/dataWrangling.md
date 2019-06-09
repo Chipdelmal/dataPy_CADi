@@ -14,7 +14,11 @@ Because of its relevance in machine learning applications, it is important to ta
 
 In this bootcamp, we will see some examples on how to do data wrangling with the following packages:
 
-* [pandas](./pandas.md)
-* [scipy](./pandas.md)
-* [numpy](./numpy.md)
-* [scikit-learn](./scikitLearn.md)
+* [pandas](./pandas.md): For dataframe creation and manipulation.
+* [scipy](./scipy.md): For common scientific applications.
+* [numpy](./numpy.md): For arrays and matrices operations.
+* [scikit-learn](./scikitLearn.md): For machine learning applications.
+
+<br>
+
+[<img src="./media/logoPandas.png" height="75px">](./pandas.md)[<img src="./media/logoScipy.png" height="75px">](./scipy.md)[<img src="./media/logoNumpy.jpeg" height="75px">](./scipy.md)[<img src="./media/logoScipy.png" height="75px">](./scipy.md)
