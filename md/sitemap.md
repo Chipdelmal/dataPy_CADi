@@ -28,7 +28,7 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
     * ["QR Code"](../scripts/jupyterQR.ipynb)
   * [nteract](../scripts/nteract.md)
   * [atom](./atom.md)
-* [Data Wrangling](./dataWrangling.md)*
+* [Data Wrangling](./dataWrangling.md)
   * [pandas](./pandas.md)
     * ["NFL"](../scripts/nfl.py)
     * ["Zoo"](../scripts/zoo.py)
@@ -46,7 +46,7 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
     * ["Housing Cleaning"](../scripts/housingCleaning.py)
     * ["Housing Exploring"](../scripts/housingExploring.py)
     * ["Housing Transforming"](../scripts/housingTransforming.py)
-* [Data Sources](./dataSources.md)*
+* [Data Sources](./dataSources.md)
   * [Scraping](./scraping.md)
     * ["7-Day Forecast"](../scripts/soup.py)
   * [Google Trends](./googleTrends.md)

@@ -15,9 +15,13 @@ As it was mentioned before, data visualization is an area of study in on itself.
 
 ###  [seaborn](https://seaborn.pydata.org/)
 
+Perfect for quick statistical visualizations.
+
 <img src="./media/seaborn.png" width="100%">
 
 ###  [plotly](https://plot.ly/)
+
+Famous for being capable to generate interactive plots that can be embedded in websites.
 
 <img src="./media/plotly.png" width="100%">
 
