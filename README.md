@@ -36,7 +36,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 ### Day 02 (8h)
 
 1. [A Story to Tell](./md/aStoryToTell.md): Data-driven storytelling.
-1. [Intermediate Python](./md/python102.md): Dealing with files and Object-Oriented Programming basics.
+1. [Intermediate Python](./md/python102.md): Dealing with files, serialization and a simple cases of parallel computing.
 1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
 1. [Data Wrangling (part 1)](./md/dataWrangling.md): Using [pandas](./pandas.md) and [matplotlib](./matplotlib.md).
 1. [Twitter](./md/twitter.md): Interfacing with the API to get trends, tweets, tags, etcetera.
@@ -45,7 +45,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 ### Day 03 (8h)
 
-1. [Advanced Python](./md/python103.md): Advanced topics (code efficiency and scopes).
+1. [Advanced Python](./md/python103.md): Advanced topics (garbage collection, lambda functions).
 1. [Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
 1. [Pypi](./md/pypi.md): Installing, browsing, and handling python packages.
 1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.

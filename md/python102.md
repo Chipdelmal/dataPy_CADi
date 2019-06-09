@@ -195,9 +195,11 @@ Throughout this course, however, we are mostly going to use functions that are b
 
 ##  Storing Objects
 
+
 ###	[Pickle](https://docs.python.org/3/library/pickle.html)
 
-The most seamless way to store data in python (particularly objects) is through the  [pickle module](https://docs.python.org/3/library/pickle.html). This package allows us to serialize the data and store it into a **pkl** file:
+[Pickle (pkl)](https://www.datacamp.com/community/tutorials/pickle-python-tutorial) is a serialized data format exclusive to python that is capable of storing objects in a compressed form for sharing or storing. This is useful not only for storage, but for data transmission.
+
 
 ```python
 import pickle
@@ -230,6 +232,10 @@ help(pickle.load)
 
 To [R](https://www.r-project.org/) programmers this might seem familiar. This process is similar to storing objects in [**RDS**](http://www.sthda.com/english/wiki/saving-data-into-r-data-format-rds-and-rdata) files.
 
+
+Whilst extremely useful and simple, pickle has its downsides. Specifically, sharing **pkl** files across programming languages is nor feasible. Additionally using these files across python versions might have unintended behaviours and special care should be taken when loading **pkl** files from untrusted sources, as it can contain malicious code.
+
+
 ### [JSON](https://docs.python.org/3/library/json.html)
 
 ```python
@@ -241,18 +247,26 @@ parsed = json.dumps(objectOut)
 
 <hr>
 
-## OOP
+##	[Parallel Computing (Map)](https://www.datacamp.com/community/tutorials/pickle-python-tutorial)
 
-Object-Oriented programming is a widespread coding paradigm. It is worth noting that we can code in Python without dwelling too much into **OOP** concepts (as we have been doing so far); however, having a basic understanding of these fundamentals can prove useful when moving into more complex applications.
+Whilst it is outside of the scope of this bootcamp to go into the intricacies of parallel computing, it is worth noting that it is possible and simple in most cases paralellize the computation of simple functions:
 
-The basic idea behind OOP is that we can define **classes** that have **attributes** and perform **actions**.
+```python
+import multiprocessing as mp
+from math import cos
 
-###  Basic Object-Oriented Concepts
+p = mp.Pool(2)
+p.map(cos, range(10))
+```
 
-* Classes and Instances
-* Inheritance
-* Composition
-* Overloading
+For lambda (anonymous) functions:
+
+```python
+import pathos.multiprocessing as mp
+
+p = mp.Pool(2)
+p.map(lambda x: 2**x, range(10))
+```
 
 <hr>
 
@@ -260,6 +274,7 @@ The basic idea behind OOP is that we can define **classes** that have **attribut
 
 ##  Resources
 
+* https://www.datacamp.com/community/tutorials/pickle-python-tutorial
 * https://www.geeksforgeeks.org/reading-writing-text-files-python/
 * https://www.thoughtco.com/using-pickle-to-save-objects-2813661
 * https://www.programiz.com/python-programming/file-operation

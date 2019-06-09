@@ -18,6 +18,7 @@
 # Import required libraries
 %matplotlib inline
 import pandas as pd
+import pickle
 import matplotlib.pyplot as plt
 from pytrends.request import TrendReq
 
