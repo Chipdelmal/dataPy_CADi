@@ -70,6 +70,29 @@ Gather the latest tweets with a given hashtag and store them in a CSV file for f
 
 <img src="./media/parser.png" width="50%">
 
+
+### [Exercise 3: spaCy](../scripts/spaCy.py)
+
+In this spaCy demo, we take a look on how to setup the package for basic linguistic analysis.
+
+<img src="./media/spacyDemo.png" width="50%">
+
+### [Exercise 4: Sentiment Analysis](../scripts/sentiment.py)
+
+<img src="./media/sentiment01.png" height="125px"><img src="./media/sentiment02.png" height="125px">
+
+### [Exercise 5: 1984](../scripts/spaCy1984.py)
+
+In this exercise, we will use spaCy to do some basic tokens analyses on George Orwell's "1984" novel.
+
+<img src="./media/1984.png" width="50%">
+
+### [Exercise 5: Tweets Analysis](../scripts/tweetsAnalysis.py)
+
+In this final twitter exercise, we put together the tweets parser and the sentiment analysis into a script that takes a record of tweets and returns us the general tendency of how people feel about a given subject.
+
+<img src="./media/sentiment.png" width="50%">
+
 <hr>
 
 ## Resources

@@ -57,9 +57,8 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
     * ["Tweepy demo"](../scripts/tweepyParser.py)
     * ["Twitter toolkit"](../scripts/twitterDemo.py)
     * ["Tweets analysis"](../scripts/tweetAnalysis.py)
-  * [Natural Language](../md/naturalLanguage.md)*
-      * ["spaCy"](../scripts/spaCy.py)
-      * ["spaCy1984"](../scripts/spaCy1984.py)
+    * ["spaCy"](../scripts/spaCy.py)
+    * ["spaCy1984"](../scripts/spaCy1984.py)
   * [Geographic](./geographic.md)
     * ["Game of Thrones"](../scripts/got.py)
     * ["OSMNX"](../scripts/osmnxDemo.py)
@@ -74,4 +73,4 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
   * [seaborn](./seaborn.md)*
   * [matplotlib](./matplotlib.md)*
   * [plotly](./plotly.md)*
-* [A Story to Tell...](./md/aStoryToTell.md)*
+* [A Story to Tell...](./md/aStoryToTell.md)
