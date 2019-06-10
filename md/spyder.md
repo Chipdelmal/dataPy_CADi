@@ -23,7 +23,7 @@ source activate dataPy
 spyder
 ```
 
-## [Exercise 01: Random Walk in Spyder](../scripts/spyder.py)
+## [Exercise 01: Random Walk in Spyder](../scripts/randomWalk.py)
 
 In this exercise, we will create a two-dimensions random walk in [Spyder](https://www.spyder-ide.org/) to get an idea of how the IDE can be used for scientific applications.
 
