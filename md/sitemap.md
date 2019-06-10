@@ -69,8 +69,5 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
   * [RSS and XML](./RSS.md)
     * [RSS Parser](../scripts/xmlParser.py)
     * [iTunes Playlist Copier](../scripts/pyTunesPlaylist.py)
-* [Data Visualization](./dataViz.md)*
-  * [seaborn](./seaborn.md)*
-  * [matplotlib](./matplotlib.md)*
-  * [plotly](./plotly.md)*
+* [Data Visualization](./dataViz.md)
 * [A Story to Tell...](./md/aStoryToTell.md)
