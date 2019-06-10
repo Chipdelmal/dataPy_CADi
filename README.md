@@ -31,15 +31,15 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Python 101](./md/python.md): Introduction to the programming language: [description](./md/python.md), [core types](./md/python101.md), [collections (data structures)](./md/python101b.md) and [functions](./md/python101c.md).
 1. [Python Environments](./md/environments.md): Using [anaconda](./md/anaconda.md) and [virtualenv](./md/virtualenv.md) for development.
 1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), [nteract](https://nteract.io/), and [Atom](https://ide.atom.io/) to write and launch our code.
-1. [Plotting](./md/plots.md): Using [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) to generate meaningful data representations.
+1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
+
 
 ### Day 02 (8h)
 
 1. [A Story to Tell](./md/aStoryToTell.md): Data-driven storytelling.
 1. [Intermediate Python](./md/python102.md): Dealing with files, serialization and a simple cases of parallel computing.
-1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
-1. [Data Wrangling (part 1)](./md/dataWrangling.md): Using [pandas](./pandas.md) and [matplotlib](./matplotlib.md).
 1. [Twitter](./md/twitter.md): Interfacing with the API to get trends, tweets, tags, etcetera.
+1. [Data Wrangling (part 1)](./md/dataWrangling.md): Using [pandas](./pandas.md) and [matplotlib](./matplotlib.md).
 1. [Data Wrangling (part 2)](./md/dataWrangling.md): Using [scikit-learn](./md/scikitLearn.md) to parse, manipulate, and pre-analyze data.
 
 
@@ -50,7 +50,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Pypi](./md/pypi.md): Installing, browsing, and handling python packages.
 1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.
 1. [GeoData](./md/geoData.md): How to work with geographic datasets.
-1. [Sentiment Analysis](./md/language.md): Basic examples of how to do simple linguistic sentiment analysis in python.
+1. [Plotting](./md/dataViz.md): Using [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) to generate meaningful data representations.
 
 
 <img src="./md/media/flow.jpg" width="100%" height=7.5px>
@@ -70,7 +70,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [repl.it](https://repl.it/languages/python3): Online Python IDE and interpreter (also supports many other languages).
 * [scikit-learn](https://scikit-learn.org/stable/): Data analysis and machine learning platform for python.
 * [sympy](https://www.sympy.org/en/index.html): Symbolic calculus in Python.
-* [Google Earth Studio](https://www.google.com/earth/studio/)
+* [Google Earth Studio](https://www.google.com/earth/studio/): Useful to create geographic visualizations (currently under beta program).
 * [Scrapy](https://scrapy.org/): Web-scrapper application for Python
 * [BeautifulSoup](https://pypi.org/project/beautifulsoup4/): An approachable web scraper application.
 * [Spacy](https://spacy.io/): Advanced natural language analysis library.
