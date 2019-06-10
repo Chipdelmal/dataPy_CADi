@@ -22,8 +22,8 @@ This is an intensive bootcamp designed to teach the fundamentals and tools used 
 * **Python development IDE comparison**: We will touch on some of the most common ways to develop code in Python (Jupyter, Spyder, Atom).
 * **Creating libraries**: How to bundle a python package so that others can install and run it.
 * **Git**: Understanding git, how we can use it for version control, and how to collaborate
-* **Data wrangling**: Using pandas and numpy for data manipulation
-
+* **Data wrangling**: Using pandas, scikit-learn and numpy for data manipulation
+* **Data acquisition**: Twitter, Google Trends, WebScraping, Dropbox, RSS
 
 
 ### This bootcamp is not...
