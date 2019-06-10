@@ -176,9 +176,9 @@ A set is, as its mathematic counterpart, an unordered collection of unique eleme
 a = set([1,3,3,2,2,4,4,4,4,0])
 b = set([2,2,3,3,9])
 # Union
-a & b
-# Intersection
 a | b
+# Intersection
+a & b
 # Difference
 a - b
 ```
