@@ -11,11 +11,13 @@ As it was mentioned before, data visualization is an area of study in on itself.
 
 ###  [matplotlib](https://matplotlib.org/)
 
+The most flexible, and widely used package to generate plots in python.
+
 <img src="./media/matplotlib.png" width="100%">
 
 ###  [seaborn](https://seaborn.pydata.org/)
 
-Perfect for quick statistical visualizations.
+Perfect for quick/fancy statistical visualizations.
 
 <img src="./media/seaborn.png" width="100%">
 

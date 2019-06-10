@@ -21,4 +21,4 @@ In this bootcamp, we will see some examples on how to do data wrangling with the
 
 <br>
 
-[<img src="./media/logoPandas.png" height="75px">](./pandas.md)[<img src="./media/logoScipy.png" height="75px">](./scipy.md)[<img src="./media/logoNumpy.jpeg" height="75px">](./scipy.md)[<img src="./media/logoScipy.png" height="75px">](./scipy.md)
+[<img src="./media/logoPandas.png" height="60px">](./pandas.md)[<img src="./media/logoScipy.png" height="60px">](./scipy.md)[<img src="./media/logoNumpy.jpeg" height="60px">](./scipy.md)[<img src="./media/logoScikitLearn.png" height="60px">](./scikitLearn.md)
