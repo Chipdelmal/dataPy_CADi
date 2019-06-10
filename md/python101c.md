@@ -143,7 +143,7 @@ Comprehensions are one of the most beloved features in python. With them, we can
 ```python
 # Returning a list
 [expr for val in collection if condition]
-# Returning a tuple
+# Returning a generator
 (expr for val in collection if condition)
 # Returning a dictionary
 {key: value for val in collection if condition}
