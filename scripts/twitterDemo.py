@@ -49,16 +49,19 @@ US_WOE_ID = 23424977
 world_trends = twitter_api.trends.place(_id=WORLD_WOE_ID)
 us_trends = twitter_api.trends.place(_id=US_WOE_ID)
 
-print(world_trends)
-print(json.dumps(world_trends, indent=1))
+print(us_trends)
+print(json.dumps(us_trends, indent=1))
 
 # Getting trends information with auto-fetch of WOEID
 client = yweather.Client()
-id = client.fetch_woeid('Mexico')
+id = client.fetch_woeid('Germany')
 MX_WOE_ID = int(id)
+MX_WOE_ID
 mx_trends = twitter_api.trends.place(_id=MX_WOE_ID)
-mxTrends = [trend['name'] for trend in mx_trends[0]["trends"]]
+mxTrends = [(trend['name'], trend["tweet_volume"]) for trend in mx_trends[0]["trends"]]
 print(mxTrends)
+
+
 
 
 ###############################################################################
@@ -78,12 +81,11 @@ t.statuses.home_timeline(count=5)
 # Twitting to my timeline
 # t.statuses.update(status="10001010101110101011010010100101010010101011111")
 
-pyConTag = t.search.tweets(q="#pycon")
+pyConTag = t.search.tweets(q=["#CRISPR", "#CAS9"])
 pyConTag.keys()
 print(pyConTag["statuses"][0])
-
 print(pyConTag["statuses"][0]['user'])
 
 
-pyConTagExt = t.search.tweets(q="#pycon", tweet_mode='extended')
+pyConTagExt = t.search.tweets(q=["#CRISPR", "#CAS9"], tweet_mode='extended')
 [i["full_text"] for i in pyConTagExt["statuses"]]

@@ -27,16 +27,21 @@ import matplotlib.colors as colors
 import matplotlib.pyplot as plt
 %matplotlib inline
 
+help(pd.read_csv)
+help(pd.read_excel)
+
 # Load the dataset
-data = pd.read_csv("../data/extracted/NFL/NFL.csv")
-data.head()
+data = pd.read_csv("../data/extracted/NFL/NFL.csv", sep=",")
+data.head(5)
 list(data.columns)
 
 # Filtering and Selecting
-ageFilterValue = 30
+ageFilterValue = 20
 ageFilter = data["Age"] > ageFilterValue
 aboveAge = data[ageFilter]
 len(aboveAge)
+aboveAge.head()
+
 
 data["Current Status"].unique()
 activeFilter = data["Current Status"] == "Active"

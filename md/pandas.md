@@ -19,19 +19,19 @@ Given a dataset of NFL players containing: Age, Birth Place, Birthday, College, 
 
 <img src="./media/nfl.png" width="50%"><img src="./media/nflScatter.png" width="50%">
 
-### [Exercise 2: Zoo](../scripts/zoo,py)
+### [Exercise 2: Zoo](../scripts/zoo.py)
 
 Another introductory exercise in which we calculate metrics from a pandas dataframe with some grouping functions.
 
 <img src="./media/zoo.jpg" width="50%">
 
-### [Exercise 3: Articles](../scripts/articles,py)
+### [Exercise 3: Articles](../scripts/articles.py)
 
 Multiple level grouping and filtering in a small dataset.
 
 <img src="./media/articles.png" width="35%">
 
-### [Exercise 4: Flights](../scripts/flights,py)
+### [Exercise 4: Flights](../scripts/flights.py)
 
 Some more advanced filtering and grouping on pandas dataframes for statistics and metrics on a large dataset.
 
@@ -46,7 +46,7 @@ Another exercise on filtering and plotting exercise for a simple dataset.
 
 ##  [Exercise 6: Baseball](../scripts/baseball.py)
 
-This exercise shows how to make a more efficient use of memory in pandas, and how data are stored internally by default.
+This exercise shows how to make a more efficient use of memory in pandas, and how data are stored internally by default (https://www.dataquest.io/blog/pandas-big-data/).
 
 [<img src="./media/dataquest.png" width="100%">](https://www.dataquest.io/blog/pandas-big-data/)
 
