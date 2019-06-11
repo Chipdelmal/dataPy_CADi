@@ -37,20 +37,20 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 ### Day 02 (8h)
 
 1. [A Story to Tell](./md/aStoryToTell.md): Data-driven storytelling.
-1. [Intermediate Python](./md/python102.md): Dealing with files, serialization and a simple cases of parallel computing.
 1. [Twitter](./md/twitter.md): Interfacing with the API to get trends, tweets, tags, etcetera.
 1. [Data Wrangling (part 1)](./md/dataWrangling.md): Using [pandas](./pandas.md) and [matplotlib](./matplotlib.md).
-1. [Data Wrangling (part 2)](./md/dataWrangling.md): Using [scikit-learn](./md/scikitLearn.md) to parse, manipulate, and pre-analyze data.
+1. [Intermediate Python](./md/python102.md): Dealing with files, serialization and a simple cases of parallel computing.
+1. [Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
 
 
 ### Day 03 (8h)
 
 1. [Advanced Python](./md/python103.md): Advanced topics (garbage collection, lambda functions).
-1. [Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
 1. [Pypi](./md/pypi.md): Installing, browsing, and handling python packages.
+1. [Data Wrangling (part 2)](./md/dataWrangling.md): Using [scikit-learn](./md/scikitLearn.md) to parse, manipulate, and pre-analyze data.
 1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.
 1. [GeoData](./md/geoData.md): How to work with geographic datasets.
-1. [Plotting](./md/dataViz.md): Using [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/) to generate meaningful data representations.
+1. [Plotting](./md/dataViz.md): [matplotlib](https://matplotlib.org/), [seaborn](https://seaborn.pydata.org/) and [plotly](https://plot.ly/) descriptions and exercises from the [dataViz repo](https://github.com/Chipdelmal/dataViz_CADi).
 
 
 <img src="./md/media/flow.jpg" width="100%" height=7.5px>
