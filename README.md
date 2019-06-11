@@ -27,7 +27,6 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 ### Day 01 (8h)
 
 1. [Introduction](./md/introduction.md): Objectives, scope, requirements and expectations.
-1. [Data Primer](./md/dataPrimer.md): Data science and how does data wrangling fit into it?
 1. [Python 101](./md/python.md): Introduction to the programming language: [description](./md/python.md), [core types](./md/python101.md), [collections (data structures)](./md/python101b.md) and [functions](./md/python101c.md).
 1. [Python Environments](./md/environments.md): Using [anaconda](./md/anaconda.md) and [virtualenv](./md/virtualenv.md) for development.
 1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), [nteract](https://nteract.io/), and [Atom](https://ide.atom.io/) to write and launch our code.
@@ -38,6 +37,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 1. [A Story to Tell](./md/aStoryToTell.md): Data-driven storytelling.
 1. [Twitter](./md/twitter.md): Interfacing with the API to get trends, tweets, tags, etcetera.
+1. [Data Primer](./md/dataPrimer.md): Data science and how does data wrangling fit into it?
 1. [Data Wrangling (part 1)](./md/dataWrangling.md): Using [pandas](./pandas.md) and [matplotlib](./matplotlib.md).
 1. [Intermediate Python](./md/python102.md): Dealing with files, serialization and a simple cases of parallel computing.
 1. [Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
