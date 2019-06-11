@@ -16,7 +16,6 @@ eggs/
 .eggs/
 lib/
 lib64/
-data/extracted/
 parts/
 sdist/
 scripts/keys/
@@ -33,6 +32,7 @@ MANIFEST
 /scripts/dropboxCredentials.py
 /scripts/images/
 /scripts/cache/
+data/extracted/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
