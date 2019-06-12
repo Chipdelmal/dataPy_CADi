@@ -45,7 +45,9 @@ interest_over_time_df["nintendo"].plot()
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Interest by Region
 interest_by_region_df = pytrends.interest_by_region()
-interest_by_region_df.sort_values(by=["nintendo"], ascending=False, inplace=True)
+interest_by_region_df.sort_values(
+    by=["nintendo"], ascending=False, inplace=True
+)
 interest_by_region_df.iloc[:20].plot.bar()
 # fig = interest_by_region_df.iloc[:20].plot.bar()
 # fig.get_figure().savefig('trends.png',dpi=500)

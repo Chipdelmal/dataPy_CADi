@@ -23,12 +23,14 @@
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Import required libraries
-import matplotlib as plt
+# import matplotlib as plt
 # import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.impute import SimpleImputer
+from sklearn.experimental import enable_iterative_imputer
+from sklearn.impute import IterativeImputer
 from sklearn.preprocessing import OneHotEncoder
-#%matplotlib inline
+%matplotlib inline
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Setup data path and read data
@@ -36,6 +38,8 @@ DATA_PATH = "../data/extracted/housing/"
 DATA_FILE = "housing.csv"
 FULL_PATH = DATA_PATH + DATA_FILE
 data = pd.read_csv(FULL_PATH)
+data.head()
+
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Get information about our dataframe
@@ -45,23 +49,34 @@ data.isna().sum()
 data["total_bedrooms"].isna()
 data["total_bedrooms"].isna().sum()
 
-data.dropna(subset=["total_bedrooms"])
-data.drop("total_bedrooms", axis=1)
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# Droping NA's
+
+# Drops rows with NA entries
+# data.dropna(subset=["total_bedrooms"], inplace=True)
+
+# Delete a column (axis=1)
+# data.drop("total_bedrooms", axis=1, inplace=True)
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Imputing data
+#   median could be replaced with any other operation/value
+#   (mean, min, max, etc)
 median = data["total_bedrooms"].median()
 print(median)
-data["total_bedrooms"].fillna(median, inplace=True)
+data["total_bedrooms"].fillna(median, inplace=False)
+sum(data["total_bedrooms"] == median)
 
-# Create Imputer Object
-imputer = SimpleImputer(strategy="median")
+
 # Create a dataframe without the categorical column
 housingNum = data.drop("ocean_proximity", axis=1)
+# Create Imputer Object
+imputer = SimpleImputer()
+# imputer = IterativeImputer()
 # Fit the imputer to the new dataframe
 imputer.fit(housingNum)
-imputer.statistics_
-housingNum.median().values
+# imputer.statistics_
+# housingNum.median().values
 # Impute our dataframe (returns a numpy array)
 impArray = imputer.transform(housingNum)
 # Convert back into a dataframe
@@ -73,11 +88,23 @@ housingTr
 # Categorical
 housingCat = data["ocean_proximity"]
 housingCat.head(10)
-(housingCatEncoded, housingCatCategories) = housingCat.factorize()
-housingCatCategories
+data["ocean_proximity"].unique()
 
+help(housingCat.factorize)
+(housingCatEncoded, housingCatCategories) = housingCat.factorize()
 encoder = OneHotEncoder(categories="auto", sparse=False)
 housingCatT = housingCat.values.reshape(-1, 1)
 housingCatOne = encoder.fit_transform(housingCatT)
 housingCatOne
-encoder.categories_
+
+list(encoder.categories_[0])
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# Put DF together
+cleanDataset = housingTr
+encodedDataframe = pd.DataFrame(
+    housingCatOne,
+    columns=list(encoder.categories_[0])
+)
+cleanDataset = cleanDataset.join(encodedDataframe)
+cleanDataset.to_csv("../data/extracted/housing/cleanDataset.csv")
