@@ -14,7 +14,7 @@
 #   https://www.analyticsvidhya.com/blog/2018/02/natural-language-processing-for-beginners-using-textblob/
 ###############################################################################
 #   Instructions:
-#   
+#
 # pip install spacy
 # pip install nltk
 # pip install textblob
@@ -22,13 +22,12 @@
 # python -m spacy download en_core_web_sm
 # python -m textblob.download_corpora
 
+# python import nltk
+# nltk.download("stopwords")
 
 ###############################################################################
 # Import libraries
 # import nltk
-# nltk.download("stopwords")
-
-
 from textblob import TextBlob
 import pandas as pd
 import preprocessor as p
@@ -44,7 +43,7 @@ nlp = spacy.load("en_core_web_sm")
 ###############################################################################
 # Load data
 twitterFeed = pd.read_csv(
-    "../data/extracted/tweepy/nintendoe3.csv",
+    "../data/extracted/tweepy/crispr.csv",
     header=None,
     names=["datetime", "tweet"],
     encoding="utf-8"
