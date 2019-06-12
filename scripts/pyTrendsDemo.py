@@ -25,18 +25,25 @@ rcParams.update({'figure.autolayout': True})
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Defining the trends request
 #   https://trends.google.com/trends/explore?q=blockchain&geo=US
-kw_list = ["nintendo"]
-pytrends = TrendReq(hl='en-US', tz=360)
-pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
+kw_list = ["nintendo", "e3"]
+pytrends = TrendReq(
+    hl='en-US', tz=360
+)
+# https://pypi.org/project/pytrends/
+pytrends.build_payload(
+    kw_list, cat=0, timeframe='today 5-y',
+    geo='US', gprop=''
+)
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Interest Over Time
 interest_over_time_df = pytrends.interest_over_time()
+interest_over_time_df.head()
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # "Dumping" the dataframe to pkl
 dataDumpPath = "../data/extracted/Trends/dataDump.pkl"
-interest_over_time_df.to_pickle(dataDumpPath)
+# interest_over_time_df.to_pickle(dataDumpPath)
 interest_over_time_df = pd.read_pickle(dataDumpPath)
 # interest_over_time_df.loc['2017-10-26']
 print(interest_over_time_df.head())
@@ -69,5 +76,5 @@ print(trending_searches_df.head())
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Get Google Top Charts
-top_charts_df = pytrends.top_charts(cid='actors', date=201611)
+top_charts_df = pytrends.top_charts(cid='basketball_players', date=201901)
 print(top_charts_df.head())

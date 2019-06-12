@@ -18,10 +18,11 @@
 #       pip install spacy
 #       pip install nltk
 #       pip install textblob
-#       pip install preprocessor
+#       pip uninstall preprocessor
+#       pip install tweet-preprocessor
 #       python -m spacy download en_core_web_sm
 #       python -m textblob.download_corpora
-#       python -c 'import nltk; nltk.download("stopwords")'
+#       python -c "import nltk; nltk.download('stopwords')"
 
 ###############################################################################
 # Import libraries
@@ -31,6 +32,7 @@ import pandas as pd
 import preprocessor as p
 import statistics
 from nltk.corpus import stopwords
+import spacy
 import csv
 import numpy as np
 import seaborn as sns
@@ -41,7 +43,7 @@ nlp = spacy.load("en_core_web_sm")
 ###############################################################################
 # Load data
 twitterFeed = pd.read_csv(
-    "../data/extracted/tweepy/crispr.csv",
+    "../data/extracted/tweepy/malaria.csv",
     header=None,
     names=["datetime", "tweet"],
     encoding="utf-8"
@@ -51,7 +53,8 @@ twitterFeed.dtypes
 ###############################################################################
 # Correct date to datetime type
 twitterFeed["datetime"] = pd.to_datetime(twitterFeed["datetime"])
-twt = twitterFeed["tweet"].iloc[0]
+twt = twitterFeed[["tweet"]].iloc[0]
+twt
 twitterFeed.dtypes
 
 ###############################################################################
@@ -62,13 +65,13 @@ uniqueTweets[0]
 
 ###############################################################################
 # Deleting RTs
-isRT = [txt[0:3]!="RT " for txt in uniqueTweets]
+isRT = [txt[0:3] != "RT " for txt in uniqueTweets]
 uniqueNonRT = uniqueTweets[isRT]
 
 ###############################################################################
 # Get the noun-phrases
 p.set_options()
-twt = p.clean(uniqueNonRT[1])
+twt = p.clean(uniqueNonRT[10])
 doc = nlp(twt)
 nouns = [chunk.text for chunk in doc.noun_chunks]
 verbs = [token.lemma_ for token in doc if token.pos_ == "VERB"]
@@ -85,7 +88,7 @@ print(
 #   Subjective sentences generally refer to personal opinion, emotion or
 #       judgment whereas objective refers to factual information. Subjectivity
 #       is also a float which lies in the range of [0,1].
-twt = p.clean(uniqueNonRT[0])
+twt = p.clean(uniqueNonRT[1])
 blob = TextBlob(twt)
 (polarity, subjectivity) = blob.sentiment
 print(

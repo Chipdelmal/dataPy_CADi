@@ -29,6 +29,17 @@ pytrends = TrendReq(hl='en-US', tz=360)
 pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# Getting related queries
+related_queries_dict = pytrends.related_queries()
+print(related_queries_dict)
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# Updating request with manually selected related query
+kw_list = ["how to breakup", "how to cope with breakup"]
+pytrends = TrendReq(hl='en-US', tz=360)
+pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Interest Over Time
 trends = pytrends.interest_over_time()
 trendsTime = pytrends.get_historical_interest(
@@ -36,7 +47,12 @@ trendsTime = pytrends.get_historical_interest(
     year_end=2018, month_end=2, day_end=1, hour_end=0, cat=0, geo='', gprop='',
     sleep=0
 )
-trendsTime.plot(y=["how to breakup"])
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# Agreggating columns
+trendsTime["Total"] = trendsTime["how to breakup"] + trendsTime["how to cope with breakup"]
+trendsTime.plot(y=["Total"])
+trendsTime.head()
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Interest by Month
