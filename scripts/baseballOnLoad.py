@@ -45,7 +45,7 @@ optimized_gl = pd.read_csv(
     dtype=dataTypes,
     parse_dates=['date'],
     infer_datetime_format=True,
-    low_memory=False
+    low_memory=True
 )
 print(aux.mem_usage(optimized_gl))
 

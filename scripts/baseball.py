@@ -108,7 +108,7 @@ optimized_gl[converted_obj.columns] = converted_obj
 print(aux.stringMemoryComparison(gl, optimized_gl))
 
 ###############################################################################
-# Optimizing the date
+# "Optimizing" the date
 date = optimized_gl.date
 optimized_gl['date'] = pd.to_datetime(date, format='%Y%m%d')
 print(aux.stringMemoryComparison(gl, optimized_gl))
