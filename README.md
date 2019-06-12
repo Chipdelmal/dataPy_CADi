@@ -30,6 +30,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Python 101](./md/python.md): Introduction to the programming language: [description](./md/python.md), [core types](./md/python101.md), [collections (data structures)](./md/python101b.md) and [functions](./md/python101c.md).
 1. [Python Environments](./md/environments.md): Using [anaconda](./md/anaconda.md) and [virtualenv](./md/virtualenv.md) for development.
 1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), [nteract](https://nteract.io/), and [Atom](https://ide.atom.io/) to write and launch our code.
+1. [Pypi](./md/pypi.md): Installing, browsing, and handling python packages.
 1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
 
 
@@ -45,7 +46,6 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 ### Day 03 (8h)
 
 1. [Advanced Python](./md/python103.md): Advanced topics (garbage collection, lambda functions).
-1. [Pypi](./md/pypi.md): Installing, browsing, and handling python packages.
 1. [Data Wrangling (part 2)](./md/dataWrangling.md): Using [scikit-learn](./md/scikitLearn.md) to parse, manipulate, and pre-analyze data.
 1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.
 1. [GeoData](./md/geoData.md): How to work with geographic datasets.
