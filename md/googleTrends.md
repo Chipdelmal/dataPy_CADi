@@ -14,13 +14,13 @@ This package is an unofficial [google Trends](https://trends.google.com/trends/)
 
 [<img src="./media/pytrends.png" width="75%">](https://github.com/GeneralMills/pytrends)
 
-### [Exercise 1: Using pytrends](../scripts/pyTrends.py)
+### [Exercise 1: Using pytrends](../scripts/pyTrendsDemo.py)
 
 This exercise is an introduction on how to use google trends with the pytrends python package. With it, we will learn how to make requests to the google trends server, and plot their frequencies using matplotlib.
 
 <img src="./media/blockchain.jpg" width="50%">
 
-### [Exercise 2: "How to Breakup"](../scripts/pyTrends.py)
+### [Exercise 2: "How to Breakup"](../scripts/breakup.py)
 
 In this second exercise, we will see how we can extract more "knowledge" on a google trends series by restricting time samples, and ploting at different timescales.
 
