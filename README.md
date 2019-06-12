@@ -47,7 +47,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Data Wrangling (part 2)](./md/dataWrangling.md): Using [scikit-learn](./md/scikitLearn.md) to parse, manipulate, and pre-analyze data.
 1. [Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
 1. [Twitter](./md/twitter.md): Tweets and text sentiment analysis.
-1. [Data Sources](./md/dataSources.md): [RSS](https://en.wikipedia.org/wiki/RSS), [Web Scraping (beautifulsoup)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [Dropbox API](https://www.dropbox.com/developers/documentation/python).
+1. [Other Data Sources/Sinks](./md/dataSources.md): Obtaining data from [Web Scraping (beautifulsoup)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [RSS (XML)](https://en.wikipedia.org/wiki/RSS), [Dropbox API](https://www.dropbox.com/developers/documentation/python).
 
 ### Extras
 
