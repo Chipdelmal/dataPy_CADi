@@ -47,14 +47,15 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Data Wrangling (part 2)](./md/dataWrangling.md): Using [scikit-learn](./md/scikitLearn.md) to parse, manipulate, and pre-analyze data.
 1. [Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
 1. [Twitter](./md/twitter.md): Tweets and text sentiment analysis.
-1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.
-1. [GeoData](./md/geoData.md): How to work with geographic datasets with [geopandas](http://geopandas.org/) and [osmnx](https://github.com/gboeing/osmnx).
+1. [Data Sources](./md/dataSources.md): [RSS](https://en.wikipedia.org/wiki/RSS), [Web Scraping (beautifulsoup)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [Dropbox API](https://www.dropbox.com/developers/documentation/python).
 
-
-### Extra
+### Extras
 
 1. [A Story to Tell](./md/aStoryToTell.md): Data-driven storytelling.
+1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.
 1. [Advanced Python](./md/python103.md): Advanced topics (garbage collection, lambda functions).
+1. [GeoData](./md/geoData.md): How to work with geographic datasets with [geopandas](http://geopandas.org/) and [osmnx](https://github.com/gboeing/osmnx).
+
 
 <img src="./md/media/flow.jpg" width="100%" height=7.5px>
 
