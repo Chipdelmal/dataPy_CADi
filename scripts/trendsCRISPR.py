@@ -31,7 +31,6 @@ data.rename(
 )
 data["US"].unique()
 data.replace("<1", 0, inplace=True)
-data["US"].unique()
 data["US"] = data["US"].astype(int)
 
 ###############################################################################
@@ -48,7 +47,6 @@ dataW.rename(
 dataW.dtypes
 dataW["World"].unique()
 dataW.replace("<1", 0, inplace=True)
-dataW["World"].unique()
 dataW["World"] = dataW["World"].astype(int)
 
 pd.concat([data, dataW], axis=1)

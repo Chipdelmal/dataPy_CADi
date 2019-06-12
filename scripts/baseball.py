@@ -59,15 +59,19 @@ float_types = ["float16", "float32", "float64"]
 for it in float_types:
     print(np.finfo(it))
 
-
+###############################################################################
+# Auto-optimizing int columns
 gl_int = gl.select_dtypes(include=['int'])
 converted_int = gl_int.apply(pd.to_numeric, downcast='unsigned')
 print(aux.stringMemoryComparison(gl_int, converted_int))
-
+###############################################################################
+# Auto-optimizing float columns
 gl_float = gl.select_dtypes(include=['float'])
 converted_float = gl_float.apply(pd.to_numeric, downcast='float')
 print(aux.stringMemoryComparison(gl_float, converted_float))
 
+###############################################################################
+# Comparing initial df with the optimized version
 optimized_gl = gl.copy()
 optimized_gl[converted_int.columns] = converted_int
 optimized_gl[converted_float.columns] = converted_float
