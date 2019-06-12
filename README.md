@@ -1,4 +1,4 @@
-dataPy CADi
+# dataPy CADi
 
 This repository contains the materials for the **Data acquisition, wrangling and exploratory analysis in Python**, three days intensive [CADi](http://sitios.itesm.mx/va/capacitacion/1_2.html) (["Cursos de Actualización en las Disciplinas"](http://sitios.itesm.mx/va/capacitacion/1_2.html)) for faculty members at ["Tecnológico de Monterrey"](https://tec.mx/es) Institute.
 
@@ -30,27 +30,26 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Python 101](./md/python.md): Introduction to the programming language: [description](./md/python.md), [core types](./md/python101.md), [collections (data structures)](./md/python101b.md) and [functions](./md/python101c.md).
 1. [Python Environments](./md/environments.md): Using [anaconda](./md/anaconda.md) and [virtualenv](./md/virtualenv.md) for development.
 1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), [nteract](https://nteract.io/), and [Atom](https://ide.atom.io/) to write and launch our code.
+1. [Pypi](./md/pypi.md): Installing, browsing, and handling python packages.
 1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
 
 
 ### Day 02 (8h)
 
 
-1. [Data Primer](./md/dataPrimer.md): Data science and how does data wrangling fit into it?
+1. [Data Primer](./md/dataPrimer.md): Data science and how does data wrangling fit into it.
 1. [Twitter](./md/twitter.md): Interfacing with the API to get trends, tweets, tags, etcetera.
 1. [Data Wrangling (part 1)](./md/dataWrangling.md): Using [pandas](./md/pandas.md) and [matplotlib](./matplotlib.md).
 1. [Intermediate Python](./md/python102.md): Dealing with files, serialization and a simple cases of parallel computing.
 1. [Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
-1. [A Story to Tell](./md/aStoryToTell.md): Data-driven storytelling.
 
 ### Day 03 (8h)
 
 1. [Advanced Python](./md/python103.md): Advanced topics (garbage collection, lambda functions).
-1. [Pypi](./md/pypi.md): Installing, browsing, and handling python packages.
 1. [Data Wrangling (part 2)](./md/dataWrangling.md): Using [scikit-learn](./md/scikitLearn.md) to parse, manipulate, and pre-analyze data.
 1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.
 1. [GeoData](./md/geoData.md): How to work with geographic datasets.
-1. [Plotting](./md/dataViz.md): [matplotlib](https://matplotlib.org/), [seaborn](https://seaborn.pydata.org/) and [plotly](https://plot.ly/) descriptions and exercises from the [dataViz repo](https://github.com/Chipdelmal/dataViz_CADi).
+1. [A Story to Tell](./md/aStoryToTell.md): Data-driven storytelling.
 
 
 <img src="./md/media/flow.jpg" width="100%" height=7.5px>
