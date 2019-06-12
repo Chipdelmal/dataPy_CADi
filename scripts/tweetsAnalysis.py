@@ -29,11 +29,12 @@ import spacy
 import numpy as np
 import seaborn as sns
 nlp = spacy.load("en_core_web_sm")
+%matplotlib inline
 
 ###############################################################################
 # Load data
 twitterFeed = pd.read_csv(
-    "../data/extracted/tweepy/gameofthrones.csv",
+    "../data/extracted/tweepy/nintendoe3.csv",
     header=None,
     names=["datetime", "tweet"],
     encoding="utf-8"

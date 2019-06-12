@@ -25,7 +25,7 @@ rcParams.update({'figure.autolayout': True})
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Defining the trends request
 #   https://trends.google.com/trends/explore?q=blockchain&geo=US
-kw_list = ["data"]
+kw_list = ["nintendo"]
 pytrends = TrendReq(hl='en-US', tz=360)
 pytrends.build_payload(kw_list, cat=0, timeframe='today 5-y', geo='', gprop='')
 
@@ -40,12 +40,12 @@ interest_over_time_df.to_pickle(dataDumpPath)
 interest_over_time_df = pd.read_pickle(dataDumpPath)
 # interest_over_time_df.loc['2017-10-26']
 print(interest_over_time_df.head())
-interest_over_time_df["data"].plot()
+interest_over_time_df["nintendo"].plot()
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Interest by Region
 interest_by_region_df = pytrends.interest_by_region()
-interest_by_region_df.sort_values(by=["data"], ascending=False, inplace=True)
+interest_by_region_df.sort_values(by=["nintendo"], ascending=False, inplace=True)
 interest_by_region_df.iloc[:20].plot.bar()
 # fig = interest_by_region_df.iloc[:20].plot.bar()
 # fig.get_figure().savefig('trends.png',dpi=500)

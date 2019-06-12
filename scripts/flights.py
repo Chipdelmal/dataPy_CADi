@@ -26,6 +26,7 @@ flights.head()
 # Querying with specific constrains
 flights.query("month == 1 & day == 1")
 flights[(flights.month == 1) & (flights.day == 1)]
+flights[(flights["month"] == 1) & (flights["day"] == 1)]
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Querying by location
@@ -57,7 +58,11 @@ flights.loc[selection]
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Aggregated statistics
-planes = flights.groupby("tailnum")
+len(flights)
+flights.head()
+planes = flights.groupby(["tailnum"], axis=0).mean()
+len(planes)
+planes.head()
 delay = planes.agg({
     "year": "count",
     "distance": "median",

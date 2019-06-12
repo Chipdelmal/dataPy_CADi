@@ -44,9 +44,9 @@ user = api.me()
 
 ###############################################################################
 # Using a cursor to get tags from twitter
-maxTweets = 10000
-tagText = "#dataanalysis"
-sinceDate = "2017-04-03"
+maxTweets = 50000
+tagText = "#nintendoe3"
+sinceDate = "2019-01-01"
 
 ###############################################################################
 # Open/Create a file to append data

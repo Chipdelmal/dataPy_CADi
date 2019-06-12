@@ -25,6 +25,7 @@ article_read = pd.read_csv(
     delimiter=';',
     names=['my_datetime', 'event', 'country', 'user_id', 'source', 'topic']
 )
+article_read
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # A little exploration

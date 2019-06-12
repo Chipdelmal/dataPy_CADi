@@ -25,7 +25,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.colors as colors
 import matplotlib.pyplot as plt
-%matplotlib inline
+
 
 help(pd.read_csv)
 help(pd.read_excel)
@@ -37,13 +37,13 @@ list(data.columns)
 
 # Filtering and Selecting
 ageFilterValue = 20
-ageFilter = data["Age"] > ageFilterValue
+ageFilter = (data["Age"] > ageFilterValue) & (data["Current Status"] == "Active")
 aboveAge = data[ageFilter]
 len(aboveAge)
 aboveAge.head()
 
 
-data["Current Status"].unique()
+type(list(data["Current Status"].unique())[0])
 activeFilter = data["Current Status"] == "Active"
 
 aboveAndActive = data[ageFilter & activeFilter]
@@ -53,9 +53,7 @@ len(aboveAndActive)
 frequencies = aboveAndActive["Position"].value_counts()
 frequencies.plot.bar(
     title=(
-        "Active players above  " +
-        str(ageFilterValue) +
-        "grouped by position"
+        f"Active players above  {ageFilterValue} grouped by position"
     )
 )
 
@@ -64,13 +62,12 @@ color = cm.inferno_r(np.linspace(.4, .8, 30))
 frequencies.plot(
     kind="bar",
     title=(
-        "Active NFL players above " +
-        str(ageFilterValue) +
-        "y grouped by position"
+        f"Active NFL players above {ageFilterValue} grouped by position"
     ),
     color=color
 )
 plt.savefig('./images/nflBar.png', dpi=500)
+plt.close()
 
 # Scatter plot
 sns.lmplot(
