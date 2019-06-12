@@ -81,7 +81,7 @@ In this spaCy demo, we take a look on how to setup the package for basic linguis
 
 <img src="./media/sentiment01.png" height="125px"><img src="./media/sentiment02.png" height="125px">
 
-### [Exercise 5: 1984](../scripts/spaCy1984.py)
+### [Exercise 4: 1984](../scripts/spaCy1984.py)
 
 In this exercise, we will use spaCy to do some basic tokens analyses on George Orwell's "1984" novel.
 

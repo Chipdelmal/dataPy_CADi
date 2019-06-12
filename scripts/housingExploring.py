@@ -16,7 +16,6 @@
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Import required libraries
-import matplotlib as plt
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -47,8 +46,10 @@ data["ocean_proximity"].value_counts()
 # Get some basic statistics and plots
 data.describe()
 data.hist(bins=50, figsize=(20, 15))
-plt.show()
-# plt.savefig('./images/scikit04.png',dpi=500)
+# plt.show()
+plt.savefig('./images/scikit04.png', dpi=500)
+plt.close()
+
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Create a test set
@@ -59,13 +60,14 @@ def splitTrain(data, ratio):
     ixTrain = ixShuffle[testSetSize:]
     return (data.iloc[ixTrain], data.iloc[ixTest])
 
-(train,test) = splitTrain(data, .05)
+
+(train,test) = splitTrain(data, .1)
 test
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Plotting
 data.plot(kind="scatter", x="longitude", y="latitude")
-data.plot(kind="scatter", x="longitude", y="latitude", alpha=.2)
+data.plot(kind="scatter", x="longitude", y="latitude", alpha=.1)
 data.plot(
     kind="scatter", x="longitude", y="latitude",
     alpha=.15, s=data["population"]/100, figsize=(10,7),

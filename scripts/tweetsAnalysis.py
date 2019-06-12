@@ -13,23 +13,33 @@
 #   https://textblob.readthedocs.io/en/dev/quickstart.html
 #   https://www.analyticsvidhya.com/blog/2018/02/natural-language-processing-for-beginners-using-textblob/
 ###############################################################################
+#   Instructions:
+#   
+# pip install spacy
+# pip install nltk
+# pip install textblob
+# pip install preprocessor
+# python -m spacy download en_core_web_sm
+# python -m textblob.download_corpora
 
 
 ###############################################################################
 # Import libraries
 # import nltk
 # nltk.download("stopwords")
+
+
 from textblob import TextBlob
 import pandas as pd
 import preprocessor as p
 import statistics
 from nltk.corpus import stopwords
 import csv
-import spacy
 import numpy as np
 import seaborn as sns
 nlp = spacy.load("en_core_web_sm")
 %matplotlib inline
+
 
 ###############################################################################
 # Load data
