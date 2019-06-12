@@ -15,15 +15,13 @@
 ###############################################################################
 #   Instructions:
 #
-# pip install spacy
-# pip install nltk
-# pip install textblob
-# pip install preprocessor
-# python -m spacy download en_core_web_sm
-# python -m textblob.download_corpora
-
-# python import nltk
-# nltk.download("stopwords")
+#       pip install spacy
+#       pip install nltk
+#       pip install textblob
+#       pip install preprocessor
+#       python -m spacy download en_core_web_sm
+#       python -m textblob.download_corpora
+#       python -c 'import nltk; nltk.download("stopwords")'
 
 ###############################################################################
 # Import libraries
