@@ -37,7 +37,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
 1. [Data Primer](./md/dataPrimer.md): Data science and how does data wrangling fit into it.
-1. [Twitter](./md/twitter.md): Interfacing with the API to get trends, tweets, tags, etcetera.
+1. [Twitter](./md/twitter.md): Interfacing with the API to get trends, tweets, and tags.
 1. [Data Wrangling (part 1)](./md/dataWrangling.md): Using [pandas](./md/pandas.md) and [matplotlib](./matplotlib.md).
 1. [Intermediate Python](./md/python102.md): Dealing with files, serialization and a simple cases of parallel computing.
 
@@ -46,8 +46,9 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 1. [Data Wrangling (part 2)](./md/dataWrangling.md): Using [scikit-learn](./md/scikitLearn.md) to parse, manipulate, and pre-analyze data.
 1. [Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
+1. [Twitter](./md/twitter.md): Tweets and text sentiment analysis.
 1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.
-1. [GeoData](./md/geoData.md): How to work with geographic datasets.
+1. [GeoData](./md/geoData.md): How to work with geographic datasets with [geopandas](http://geopandas.org/) and [osmnx](https://github.com/gboeing/osmnx).
 
 
 ### Extra
