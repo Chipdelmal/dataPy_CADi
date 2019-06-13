@@ -47,7 +47,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Data Sources: Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
 1. [Twitter](./md/twitter.md): Tweets and text sentiment analysis.
 1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.
-1. [Advanced Python](./md/python103.md): Advanced topics (garbage collection, lambda functions).
+1. [Advanced Python](./md/python103.md): Higher-level topics (garbage collection, lambda functions).
 
 
 ### Extras
