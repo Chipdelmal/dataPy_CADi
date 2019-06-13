@@ -16,13 +16,12 @@ For other data-analysis related topics please take a look at the [dataViz_CADi](
 
 [<img src="./md/media/dataPy.jpg" width="50%" height="137.5px">](https://github.com/Chipdelmal/dataPy_CADi)[<img src="./md/media/dataViz.jpg" width="50%" height="137.5px">](https://github.com/Chipdelmal/dataViz_CADi)<br>
 
-<img src="./md/media/flow.jpg" width="100%" height=7.5px>
+<!--<img src="./md/media/flow.jpg" width="100%" height=7.5px>-->
+<hr>
 
 ## Contents
 
-This workshop was created with flexibility in mind. As such, modules are fairly independent and can be followed in a different order than the one suggested here. For a topic-oriented breakdown of the contents, please have a look at the:
-
-[<img src="./md/media/sitemap.png" width="100%">](./md/sitemap.md)
+This workshop was created with flexibility in mind. As such, modules are fairly independent and can be followed in a different order than the one suggested here. For a topic-oriented breakdown of the contents, please have a look at the [sitemap](./md/sitemap.md).
 
 ### Day 01 (8h)
 
@@ -58,7 +57,9 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [GeoData](./md/geoData.md): How to work with geographic datasets with [geopandas](http://geopandas.org/) and [osmnx](https://github.com/gboeing/osmnx).
 
 
-<img src="./md/media/flow.jpg" width="100%" height=7.5px>
+[<img src="./md/media/sitemap.png" width="100%">](./md/sitemap.md)
+
+<hr>
 
 ## Resources
 
@@ -121,7 +122,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [Matthes, E. (2016). Python Crash Course - A Hands-On, Project-Based Introduction to Programming. No Starch Press.](https://www.amazon.com/Python-Crash-Course-Project-Based-Introduction/dp/1593276036)
 
 
-<img src="./md/media/flow.jpg" width="100%" height=7.5px>
+<hr>
 
 ### Alumni
 
@@ -129,7 +130,7 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 
 <p style="font-size:10px">Rick Leigh Swenson Durie • Humberto Cárdenas Anaya • Norma Amanda Elías Solís • Rubén Darío Santiago Acosta • Faustino Yescas Martinez • Raúl Gómez Castillo • Luis Angel Trejo Rodríguez • Jorge Adolfo Ramírez Uresti • Ariel Ortíz Ramírez • Lucio López Cavazos • Pedro Oscar Pérez Murueta • María del Consuelo Serrato Arias • Alfredo Santana Díaz • Roberto Martínez Román • José Luis Gómez Muñoz • Jesús Cuauhtémoc Téllez Gaytán • Manuel Sotelo Duarte • Jorge Sastré Hernández • Ricardo Mendez Hernandez • Luis Enrique Villagómez Guerrero • Francisco Javier Rojas Correa • András Takács • Oriam Renan De Gyves López • Oscar Antonio Osorio Pérez • Miguel Angel Medina Pérez • Yocanxóchitl Perfecto Avalos • Jesús Arturo Escobedo Cabello • Hector Javier Medel Cobaxin </p>
 
-<img src="./md/media/flow.jpg" width="100%" height=7.5px>
+<hr>
 
 ### Author: [Ph.D. Héctor Manuel Sánchez Castellanos](https://chipdelmal.github.io/)
 
