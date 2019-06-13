@@ -20,9 +20,9 @@ For other data-analysis related topics please take a look at the [dataViz_CADi](
 
 ## Contents
 
-This workshop was created with flexibility in mind. As such, modules are fairly independent and can be followed in a different order than the one suggested here. For a topic-oriented breakdown of the contents, please have a look at the [sitemap](./md/sitemap.md).
+This workshop was created with flexibility in mind. As such, modules are fairly independent and can be followed in a different order than the one suggested here. For a topic-oriented breakdown of the contents, please have a look at the:
 
-
+[<img src="./md/media/sitemap.png" width="100%">](./md/sitemap.md)
 
 ### Day 01 (8h)
 
@@ -30,31 +30,33 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Python 101](./md/python.md): Introduction to the programming language ([description](./md/python.md), [core types](./md/python101.md), [collections](./md/python101b.md) and [functions](./md/python101c.md)).
 1. [Python Environments](./md/environments.md): Using [anaconda](./md/anaconda.md) and [virtualenv](./md/virtualenv.md) for development.
 1. [Pypi](./md/pypi.md): Installing, browsing, and handling python packages.
-1. [IDE's](./md/ides.md): Using [Jupyter](https://jupyter.org/), [Spyder](https://www.spyder-ide.org/), [nteract](https://nteract.io/), and [Atom](https://ide.atom.io/) to write and launch our code.
+1. [IDE's](./md/ides.md): Using [IDLE](./md/idle.md), [Jupyter](./md/jupyter.md), [Spyder](./md/spyder.md), [nteract](./md/nteract.md), and [Atom](./md/atom.md) to write and launch our code.
+1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
 
 
 ### Day 02 (8h)
 
-1. [Git](./md/github.md): Version control using [github](https://github.com/) for code development, sharing and collaboration.
-1. [Data Primer](./md/dataPrimer.md): Data science and how does data wrangling fit into it.
-1. [Twitter](./md/twitter.md): Interfacing with the API to get trends, tweets, and tags.
-1. [Data Wrangling (part 1)](./md/dataWrangling.md): Using [pandas](./md/pandas.md) and [matplotlib](./matplotlib.md).
+1. [Data Wrangling: Primer](./md/dataPrimer.md): Data science and how does data wrangling fit into it.
+1. [Data Wrangling: Part 1](./md/dataWrangling.md): Using [pandas](./md/pandas.md) and matplotlib.
+1. [Data Sources: Twitter](./md/twitter.md): Interfacing with the API to get trends, tweets, and tags.
 1. [Intermediate Python](./md/python102.md): Dealing with files, serialization and a simple cases of parallel computing.
 
 
 ### Day 03 (8h)
 
-1. [Data Wrangling (part 2)](./md/dataWrangling.md): Using [scikit-learn](./md/scikitLearn.md) to parse, manipulate, and pre-analyze data.
-1. [Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
+1. [Data Wrangling: Part 2](./md/dataWrangling.md): Using [scikit-learn](./md/scikitLearn.md) to parse, manipulate, and pre-analyze data.
+1. [Data Sources: Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
 1. [Twitter](./md/twitter.md): Tweets and text sentiment analysis.
 1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.
+1. [Advanced Python](./md/python103.md): Advanced topics (garbage collection, lambda functions).
+
 
 ### Extras
 
 1. [A Story to Tell](./md/aStoryToTell.md): Data-driven storytelling.
-1. [Other Data Sources/Sinks](./md/dataSources.md): Obtaining data from [Web Scraping (beautifulsoup)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [RSS (XML)](https://en.wikipedia.org/wiki/RSS), [Dropbox API](https://www.dropbox.com/developers/documentation/python).
+1. [Data Sources: Part 3](./md/dataSources.md): Obtaining data from [Web Scraping (beautifulsoup)](./md/scraping.md), [RSS (XML)](./md/RSS.md), [Dropbox API](./md/dropbox.md).
 1. [GeoData](./md/geoData.md): How to work with geographic datasets with [geopandas](http://geopandas.org/) and [osmnx](https://github.com/gboeing/osmnx).
-1. [Advanced Python](./md/python103.md): Advanced topics (garbage collection, lambda functions).
+
 
 <img src="./md/media/flow.jpg" width="100%" height=7.5px>
 
