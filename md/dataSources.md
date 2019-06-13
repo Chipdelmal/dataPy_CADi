@@ -21,7 +21,7 @@ In this bootcamp, we are gonna be looking at exercises for the following sources
 * [Google Trends](./googleTrends.md): Parsing data from google trends with community API's or downloading directly from the website.
 * [Twitter](./twitter.md): Several examples with a couple of API's
 * [Web Scraping](./scraping.md): An example of how to do webscraping using [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).
-* [Geographic](./geographic.md): Example on how to load and plot geographic datasets on Python.
+* [Geographic](./geoData.md): Example on how to load and plot geographic datasets on Python.
 * [Dropbox](./dropbox.md): Reading and writing files to dropbox through the official API.
 * [RSS](./rss.md): An example on how to transform this XML-based news sharing format into CSV form.
 
