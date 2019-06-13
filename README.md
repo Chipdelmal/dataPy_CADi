@@ -47,12 +47,12 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 1. [Data Wrangling (part 2)](./md/dataWrangling.md): Using [scikit-learn](./md/scikitLearn.md) to parse, manipulate, and pre-analyze data.
 1. [Google Trends](./md/googleTrends.md): Retrieving trends from google searches.
 1. [Twitter](./md/twitter.md): Tweets and text sentiment analysis.
-1. [Other Data Sources/Sinks](./md/dataSources.md): Obtaining data from [Web Scraping (beautifulsoup)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [RSS (XML)](https://en.wikipedia.org/wiki/RSS), [Dropbox API](https://www.dropbox.com/developers/documentation/python).
+1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.
 
 ### Extras
 
 1. [A Story to Tell](./md/aStoryToTell.md): Data-driven storytelling.
-1. [Python pkg](./md/pypi.md): Creating and installing a custom python package.
+1. [Other Data Sources/Sinks](./md/dataSources.md): Obtaining data from [Web Scraping (beautifulsoup)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), [RSS (XML)](https://en.wikipedia.org/wiki/RSS), [Dropbox API](https://www.dropbox.com/developers/documentation/python).
 1. [GeoData](./md/geoData.md): How to work with geographic datasets with [geopandas](http://geopandas.org/) and [osmnx](https://github.com/gboeing/osmnx).
 1. [Advanced Python](./md/python103.md): Advanced topics (garbage collection, lambda functions).
 
@@ -118,6 +118,14 @@ This workshop was created with flexibility in mind. As such, modules are fairly 
 * [Lutz, Mark, and David Ascher (2004). Learning Python. Learning. ISBN-13: 978-9351102014](http://books.google.com/books?hl=en&amp;lr=&amp;id=ftA0yk1Z92wC&amp;oi=fnd&amp;pg=PT16&amp;dq=Learning+Python&amp;ots=FzKMS8tOZC&amp;sig=2ZEqAODN6tUtsrczbwbqKeTSp60)
 * [Matthes, E. (2016). Python Crash Course - A Hands-On, Project-Based Introduction to Programming. No Starch Press.](https://www.amazon.com/Python-Crash-Course-Project-Based-Introduction/dp/1593276036)
 
+
+<img src="./md/media/flow.jpg" width="100%" height=7.5px>
+
+### Alumni
+
+####  Faculty
+
+<p style="font-size:10px">Rick Leigh Swenson Durie • Humberto Cárdenas Anaya • Norma Amanda Elías Solís • Rubén Darío Santiago Acosta • Faustino Yescas Martinez • Raúl Gómez Castillo • Luis Angel Trejo Rodríguez • Jorge Adolfo Ramírez Uresti • Ariel Ortíz Ramírez • Lucio López Cavazos • Pedro Oscar Pérez Murueta • María del Consuelo Serrato Arias • Alfredo Santana Díaz • Roberto Martínez Román • José Luis Gómez Muñoz • Jesús Cuauhtémoc Téllez Gaytán • Manuel Sotelo Duarte • Jorge Sastré Hernández • Ricardo Mendez Hernandez • Luis Enrique Villagómez Guerrero • Francisco Javier Rojas Correa • András Takács • Oriam Renan De Gyves López • Oscar Antonio Osorio Pérez • Miguel Angel Medina Pérez • Yocanxóchitl Perfecto Avalos • Jesús Arturo Escobedo Cabello • Hector Javier Medel Cobaxin </p>
 
 <img src="./md/media/flow.jpg" width="100%" height=7.5px>
 
