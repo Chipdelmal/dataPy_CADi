@@ -66,7 +66,7 @@ print(related_queries_dict)
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Get Google Keyword Suggestions
-suggestions_dict = pytrends.suggestions(keyword='pizza')
+suggestions_dict = pytrends.suggestions(keyword='CRISPR')
 print(suggestions_dict)
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

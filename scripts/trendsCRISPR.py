@@ -51,6 +51,7 @@ dataW["World"] = dataW["World"].astype(int)
 
 pd.concat([data, dataW], axis=1)
 dataFull = pd.merge(data, dataW, how="inner", on="month")
+help(pd.merge)
 
 ###############################################################################
 # Loading the Mexican trends for CRISPR with a reduced timespan

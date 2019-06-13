@@ -72,7 +72,7 @@ optimized_gl = pd.read_csv(
     parse_dates=['date'],
     infer_datetime_format=True,
     low_memory=False,
-    chunksize=10000
+    chunksize=5000
 )
 df = pd.DataFrame()
 for gm_chunk in optimized_gl:
