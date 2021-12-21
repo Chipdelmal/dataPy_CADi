@@ -70,4 +70,4 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
     * [RSS Parser](../scripts/xmlParser.py)
     * [iTunes Playlist Copier](../scripts/pyTunesPlaylist.py)
 * [Data Visualization](./dataViz.md)
-* [A Story to Tell...](./md/aStoryToTell.md)
+* [A Story to Tell...](./aStoryToTell.md)
