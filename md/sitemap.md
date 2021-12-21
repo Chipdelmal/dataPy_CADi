@@ -59,7 +59,7 @@ The material was divided throughout the bootcamp to be dynamic and to provide va
     * ["Tweets analysis"](../scripts/tweetAnalysis.py)
     * ["spaCy"](../scripts/spaCy.py)
     * ["spaCy1984"](../scripts/spaCy1984.py)
-  * [Geographic](./geographic.md)
+  * [Geographic](./geoData.md)
     * ["Game of Thrones"](../scripts/got.py)
     * ["OSMNX"](../scripts/osmnxDemo.py)
     * ["OSMNX Networks"](../scripts/osmnxNetworkMetrics.py)
