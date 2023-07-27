@@ -7,7 +7,7 @@
 #   To show some of scipy capabilites and do a basic "data-cleaning" exercise
 #  Source:
 #   https://docs.scipy.org/doc/scipy/reference/tutorial/csgraph.html
-#   https://sudonull.com/posts/756-SciPy-graph-algorithms
+#   https://sudonull.com/post/1231-SciPy-graph-algorithms
 #   https://www.geeksforgeeks.org/python-string-isalpha-application/
 ###############################################################################
 
